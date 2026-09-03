@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "m_1",
+    "subject": "Türkçe",
+    "number": 1,
+    "text": "1. Aşağıdaki cümlelerin hangisinde 'açık' sözcüğü 'gizliliği olmayan, herkesçe bilinen' anlamında kullanılmıştır?",
+    "options": [
+      "A) Açık pencerelerden içeri tatlı bir rüzgar giriyordu.",
+      "B) Bu konuda açık bir tavır alması herkesi rahatlattı.",
+      "C) Açık kapı politikası izleyen kurum takdir topladı.",
+      "D) Mavi gökyüzünde tek bir açık bulut yoktu.",
+      "E) Renginin açık olması elbiseye çok yakışmıştı."
+    ],
+    "correct": 1,
+    "solution": "B şıkkında 'açık tavır' ifadesi net, gizliliği olmayan anlamındadır."
+  },
+  {
+    "id": "m_2",
+    "subject": "Türkçe",
+    "number": 2,
+    "text": "2. Aşağıdaki cümlelerin hangisinde deyim açıklamasıyla birlikte verilmiştir?",
+    "options": [
+      "A) Ne yapsa da göze giremiyor, yöneticinin ilgisini çekemiyordu.",
+      "B) İğne ile kuyu kazmak gibi iğneyle uğraşıyordu.",
+      "C) Sınavı kazanınca etrafındaki herkese caka sattı.",
+      "D) O kadar sinirlendi ki gözü hiçbir şeyi görmez oldu.",
+      "E) Çam devirdiğinin farkında bile değildi."
+    ],
+    "correct": 0,
+    "solution": "'Göze giremiyor' deyimi 'ilgisini çekemiyordu' açıklamasıyla birlikte verilmiştir."
+  },
+  {
+    "id": "m_3",
+    "subject": "Türkçe",
+    "number": 3,
+    "text": "3. Aşağıdaki cümlelerin hangisinde nesnel bir anlatım söz konusudur?",
+    "options": [
+      "A) Şairin son şiir kitabı okuyucuyu derinden büyülüyor.",
+      "B) Eser 1923 yılında İstanbul'daki Matbaa-i Amire'de basılmıştır.",
+      "C) Romanın dili insanın ruhunu dinlendirecek kadar tatlıdır.",
+      "D) Yazar en sürükleyici öykülerini bu küçük kasabada yazdı.",
+      "E) Resimdeki canlı renkler tabloya eşsiz bir hava katmış."
+    ],
+    "correct": 1,
+    "solution": "B seçeneği kanıtlanabilir, kişisel yorum içermeyen nesnel bir veridir."
+  },
+  {
+    "id": "m_4",
+    "subject": "Türkçe",
+    "number": 4,
+    "text": "4. Aşağıdaki cümlelerin hangisinde neden-sonuç ilişkisi vardır?",
+    "options": [
+      "A) Sınavı kazanmak için gece gündüz aralıksız çalışıyor.",
+      "B) Yoğun kar yağışı nedeniyle köylerle ulaşım tamamen kesildi.",
+      "C) Erken yatarsan sabah dinamik bir şekilde uyanabilirsin.",
+      "D) Kitap okumak üzere kütüphanedeki sessiz masaya geçti.",
+      "E) Hızlı yürüdüğünden otobüse zamanında yetişebildi."
+    ],
+    "correct": 1,
+    "solution": "'Yoğun kar yağışı nedeniyle...' ifadesinde kar yağışı gerçekleşmiş ve ulaşımın kesilmesine neden olmuştur."
+  },
+  {
+    "id": "m_5",
+    "subject": "Türkçe",
+    "number": 5,
+    "text": "5. Aşağıdaki sözcüklerden hangisi kökü bakımından diğerlerinden farklıdır?",
+    "options": [
+      "A) Yazarlık",
+      "B) Görsel",
+      "C) İyilik",
+      "D) Sevgisiz",
+      "E) Koşucu"
+    ],
+    "correct": 2,
+    "solution": "'İyilik' kelimesinin kökü 'iyi' isim köküdür. Diğer kelimeler ise yaz-, gör-, sev-, koş- fiil kökleridir."
+  },
+  {
+    "id": "m_6",
+    "subject": "Türkçe",
+    "number": 6,
+    "text": "6. Aşağıdaki cümlelerin hangisinde bir yazım yanlışı yapılmıştır?",
+    "options": [
+      "A) Türk Dil Kurumu'nun yeni binasını ziyaret ettik.",
+      "B) 15 Kasım 1983'te yeni devlet kuruldu.",
+      "C) Herşey yolunda giderse yarın yola çıkacağız.",
+      "D) TBMM'nin aldığı kararlar yayımlandı.",
+      "E) Güneydoğu Anadolu'da tarım gelişim gösterdi."
+    ],
+    "correct": 2,
+    "solution": "'Herşey' değil 'Her şey' şeklinde ayrı yazılmalıdır."
+  },
+  {
+    "id": "m_7",
+    "subject": "Türkçe",
+    "number": 7,
+    "text": "7. Aşağıdaki cümlelerin hangisinde noktalama işareti yanlış kullanılmıştır?",
+    "options": [
+      "A) Ya bu deveyi gütmeli, ya bu diyardan gitmeli.",
+      "B) Ahmet, Mehmet ve Ali yarın buraya gelecek.",
+      "C) 'Yarın sınav var mı?' diye sordu.",
+      "D) Eyvah, evde anahtarı unuttum!",
+      "E) Kitaplarını, defterlerini çantaya koydu."
+    ],
+    "correct": 0,
+    "solution": "Tekrarlı bağlaçlardan (ya... ya...) önce ve sonra virgül konulmaz."
+  },
+  {
+    "id": "m_8",
+    "subject": "Türkçe",
+    "number": 8,
+    "text": "8. Aşağıdaki cümlelerin hangisinde 'üretkenlik' kelimesi anlamca yerinde kullanılmamıştır?",
+    "options": [
+      "A) Sanatçının son dönemdeki üretkenliği takdire şayandır.",
+      "B) Toprağın üretkenliğini artırmak için nadas yerine nöbetleşe ekim yapılır.",
+      "C) Fabrikanın üretkenliği sayesinde ihracat rekoru kırıldı.",
+      "D) Yazarın uzun yıllar sessiz kalması onun üretkenliğini gösterir.",
+      "E) Zihinsel üretkenlik projelerde yeni fikirler doğurur."
+    ],
+    "correct": 3,
+    "solution": "Sessiz kalmak üretkenliği değil durağanlığı gösterir."
+  },
+  {
+    "id": "m_9",
+    "subject": "Türkçe",
+    "number": 9,
+    "text": "9. Paragrafta akışı bozan cümleyi bulma sorularında aşağıdakilerden hangisi temel kriterdir?",
+    "options": [
+      "A) Cümlenin en kısa olması",
+      "B) Cümlenin konudan veya bakış açısından sapması",
+      "C) Cümlede yazım hatası olması",
+      "D) Cümlenin soru cümlesi olması",
+      "E) Cümlede zarf bulunması"
+    ],
+    "correct": 1,
+    "solution": "Akışı bozan cümle genel konu ve düşünce zincirinden sapan cümledir."
+  },
+  {
+    "id": "m_10",
+    "subject": "Türkçe",
+    "number": 10,
+    "text": "10. Aşağıdaki cümlelerin hangisinde ünlü düşmesi vardır?",
+    "options": [
+      "A) Onun fikri bizim için çok değerliydi.",
+      "B) Kitabı masanın üzerine bıraktı.",
+      "C) Okula zamanında varmak için koştu.",
+      "D) Yavaşça kapıyı aralayıp içeri girdi.",
+      "E) Yağmur akşama doğru etkisini artırdı."
+    ],
+    "correct": 0,
+    "solution": "'Fikir-i' -> 'Fikri' sözcüğünde ünlü düşmesi gerçekleşmiştir."
+  },
+  {
+    "id": "m_11",
+    "subject": "Türkçe",
+    "number": 11,
+    "text": "11. Aşağıdakilerin hangisinde türemiş sözcük yer almamaktadır?",
+    "options": [
+      "A) Bilgin",
+      "B) Yolcu",
+      "C) Evlerimiz",
+      "D) Sınav",
+      "E) Gözlük"
+    ],
+    "correct": 2,
+    "solution": "'Evler-imiz' çekim ekleri almıştır; yapım eki almadığı için basittir."
+  },
+  {
+    "id": "m_12",
+    "subject": "Türkçe",
+    "number": 12,
+    "text": "12. Aşağıdaki cümlelerin hangisinde ünsüz sertleşmesi (benzeşmesi) vardır?",
+    "options": [
+      "A) Kitapta ilginç bilgiler yer alıyordu.",
+      "B) Ağacın dalları rüzgarda sallandı.",
+      "C) Bebeğin gözleri neşeyle bakıyordu.",
+      "D) Sokağın başında bekliyordu.",
+      "E) Denizin mavi suları sakindi."
+    ],
+    "correct": 0,
+    "solution": "'Kitap-da' -> 'Kitapta' sözcüğünde f,s,t,k,ç,ş,h,p sesinden sonra gelen -da eki -ta olmuştur."
+  },
+  {
+    "id": "m_13",
+    "subject": "Türkçe",
+    "number": 13,
+    "text": "13. Aşağıdakilerin hangisinde kaynaştırma harfi (n, s, ş, y) yoktur?",
+    "options": [
+      "A) Onun arabası buradaydı.",
+      "B) İkişer elma dağıtıldı.",
+      "C) Kapının kolı kırıldı.",
+      "D) Masayı temizledi.",
+      "E) Okuldan eve yürüyerek döndü."
+    ],
+    "correct": 4,
+    "solution": "'Okuldan eve yürüyerek döndü' cümlesinde kaynaştırma harfi yoktur."
+  },
+  {
+    "id": "m_14",
+    "subject": "Türkçe",
+    "number": 14,
+    "text": "14. Aşağıdaki cümlelerin hangisinde amaç-sonuç ilişkisi kurulmuştur?",
+    "options": [
+      "A) Yağmur yağdığı için ıslandık.",
+      "B) Uykusuz kaldığından gözleri kızarmıştı.",
+      "C) Başarılı olmak için gece gündüz ders çalışıyor.",
+      "D) Soğuk havada yürüyünce hastalandı.",
+      "E) Elektrikler kesildiği için karanlıkta kaldık."
+    ],
+    "correct": 2,
+    "solution": "'Başarılı olmak için...' eylemin hedeflenen amacını gösterir."
+  },
+  {
+    "id": "m_15",
+    "subject": "Türkçe",
+    "number": 15,
+    "text": "15. Aşağıdakilerden hangisi bir öznel yargı cümlesidir?",
+    "options": [
+      "A) Türkiye'nin başkenti Ankara'dır.",
+      "B) Romandaki karakterlerin betimlemesi harikuladedir.",
+      "C) Kitap toplam 240 sayfadan oluşmaktadır.",
+      "D) Türkiye üç tarafı denizlerle çevrili bir ülkedir.",
+      "E) Sınav saat 10:15'te başlayacaktır."
+    ],
+    "correct": 1,
+    "solution": "Harikulade tespiti kişiden kişiye değişen öznel bir beğenidir."
+  },
+  {
+    "id": "m_16",
+    "subject": "Türkçe",
+    "number": 16,
+    "text": "16. Aşağıdaki birleşik sözcüklerden hangisinin yazımı DOĞRUDUR?",
+    "options": [
+      "A) Terketmek",
+      "B) Farketmek",
+      "C) Kaybolmak",
+      "D) Şaka yapmak",
+      "E) İlla ki"
+    ],
+    "correct": 2,
+    "solution": "Kaybolmak ses düşmesine uğradığı için bitişik yazılır. (Kayip + olmak -> kaybolmak)"
+  },
+  {
+    "id": "m_17",
+    "subject": "Türkçe",
+    "number": 17,
+    "text": "17. Aşağıdaki cümlelerin hangisinde yüklem yüklem türemiş bir eylemdir?",
+    "options": [
+      "A) Çocuk bahçede koşuyordu.",
+      "B) Karşıki ev yeniden boyandı.",
+      "C) Masadaki kalemi aldı.",
+      "D) Dışarıda soğuk rüzgar esiyor.",
+      "E) Arkadaşını kütüphanede gördü."
+    ],
+    "correct": 1,
+    "solution": "'Boyandı' eylemi 'boya-n-dı' yapım eki almıştır."
+  },
+  {
+    "id": "m_18",
+    "subject": "Türkçe",
+    "number": 18,
+    "text": "18. Aşağıdaki cümlelerin hangisinde zıt anlamlı kelimeler bir arada kullanılmıştır?",
+    "options": [
+      "A) İyi günde kötü günde yanımdaydı.",
+      "B) Yavaş yavaş merdivenleri çıktı.",
+      "C) Gece gündüz demeden çalıştı.",
+      "D) Hem A hem C şıkkı doğru.",
+      "E) Ses soluk çıkmıyordu."
+    ],
+    "correct": 3,
+    "solution": "Hem 'iyi-kötü' hem 'gece-gündüz' zıt anlamlıdır."
+  },
+  {
+    "id": "m_19",
+    "subject": "Türkçe",
+    "number": 19,
+    "text": "19. Aşağıdaki sözcüklerin hangisinde büyük ünlü uyumu KURALINA UYULMAMIŞTIR?",
+    "options": [
+      "A) İnsanlık",
+      "B) Karadeniz",
+      "C) Tiyatro",
+      "D) Çiçekçi",
+      "E) Kitaplık"
+    ],
+    "correct": 2,
+    "solution": "'Tiyatro' (i-a-o) ince ve kalın ünlüler karıştığı için uymaz."
+  },
+  {
+    "id": "m_20",
+    "subject": "Türkçe",
+    "number": 20,
+    "text": "20. Aşağıdakilerden hangisinde ikileme oluşturulurken zıt anlamlı sözcükler kullanılmıştır?",
+    "options": [
+      "A) Az çok",
+      "B) Yavaş yavaş",
+      "C) Ses soluk",
+      "D) Çoluk çocuk",
+      "E) Eğri büğrü"
+    ],
+    "correct": 0,
+    "solution": "'Az' ve 'Çok' zıt anlamlı kelimelerle kurulmuş ikilemedir."
+  },
+  {
+    "id": "m_21",
+    "subject": "Türkçe",
+    "number": 21,
+    "text": "21. Aşağıdaki cümlelerin hangisinde dolaylama vardır?",
+    "options": [
+      "A) File bekçisi takımı kalede yalnız bırakmadı.",
+      "B) Öğretmen derste yeni konuyu anlattı.",
+      "C) Doktor hastasını muayene etti.",
+      "D) Şair yeni şiirini okudu.",
+      "E) Mimar projeyi çizdi."
+    ],
+    "correct": 0,
+    "solution": "'File bekçisi' kaleci için kullanılan bir dolaylamadır."
+  },
+  {
+    "id": "m_22",
+    "subject": "Türkçe",
+    "number": 22,
+    "text": "22. Aşağıdaki cümlelerin hangisinde kinayeli anlatım vardır?",
+    "options": [
+      "A) O kadar zeki ki sınıfın en sonuncusu oldu.",
+      "B) Ankara Türkiye'nin kalbidir.",
+      "C) Rüzgar şiddetle esiyordu.",
+      "D) Kitabını evde unutmuş.",
+      "E) Güneş doğudan doğar."
+    ],
+    "correct": 0,
+    "solution": "Zeki diyerek sonuncu olmasını kastetmek kinayedir."
+  },
+  {
+    "id": "m_23",
+    "subject": "Türkçe",
+    "number": 23,
+    "text": "23. Aşağıdaki kelimelerin hangisinde ki'nin yazımı YANLIŞTIR?",
+    "options": [
+      "A) Evdeki hesap",
+      "B) Seninki geldi",
+      "C) Oysaki",
+      "D) Mademki",
+      "E) Masada ki kitap"
+    ],
+    "correct": 4,
+    "solution": "Sıfat yapan -ki ekidir, 'Masadaki kitap' şeklinde bitişik yazılmalıdır."
+  },
+  {
+    "id": "m_24",
+    "subject": "Türkçe",
+    "number": 24,
+    "text": "24. Aşağıdaki kelimelerin hangisinde de'nin yazımı YANLIŞTIR?",
+    "options": [
+      "A) Evde oturuyor.",
+      "B) Sen de gel.",
+      "C) Durum da vahim.",
+      "D) Yolda bekledim.",
+      "E) Evde ki eşyalar"
+    ],
+    "correct": 4,
+    "solution": "Bulunma hal eki olan de/da ile sıfat yapan ki birleşince 'Evdeki' yazılmalıdır."
+  },
+  {
+    "id": "m_25",
+    "subject": "Türkçe",
+    "number": 25,
+    "text": "25. Aşağıdaki cümlelerin hangisinde belgisiz zamir kullanılmıştır?",
+    "options": [
+      "A) Herkes toplantı salonunda toplandı.",
+      "B) Bu kitabı dün aldım.",
+      "C) Hangi soruyu çözemedin?",
+      "D) Kırmızı arabayı çok beğendim.",
+      "E) Kendi işini kendi yapar."
+    ],
+    "correct": 0,
+    "solution": "'Herkes' belgisiz zamirdir."
+  },
+  {
+    "id": "m_26",
+    "subject": "Türkçe",
+    "number": 26,
+    "text": "26. Aşağıdaki cümlelerin hangisinde soru anlamı soru edatıyla sağlanmıştır?",
+    "options": [
+      "A) Dün nereye gittiniz?",
+      "B) Bu işi kim yapacak?",
+      "C) Yarın sinemaya gelecek misin?",
+      "D) Kaç kitap okudun?",
+      "E) Ne zaman buluşacağız?"
+    ],
+    "correct": 2,
+    "solution": "'misin' soru edatıdır."
+  },
+  {
+    "id": "m_27",
+    "subject": "Türkçe",
+    "number": 27,
+    "text": "27. Aşağıdaki cümlelerin hangisinde tamlayanı düşmüş isim tamlaması vardır?",
+    "options": [
+      "A) Evi çok geniş ve ferahtı.",
+      "B) Kapının kolı bozulmuş.",
+      "C) Okul müdürü konuşma yaptı.",
+      "D) Masanın üstü tozlanmış.",
+      "E) Bahçenin kapısı açıktı."
+    ],
+    "correct": 0,
+    "solution": "'(Onun) Evi' tamlayanı düşmüş isim tamlamasıdır."
+  },
+  {
+    "id": "m_28",
+    "subject": "Türkçe",
+    "number": 28,
+    "text": "28. Sözel Mantık: Ahmet, Burak, Ceyda ve Deniz A ve B sinemalarına gitmişlerdir. Ahmet A'ya gittiyse Burak nerede olabilir?",
+    "options": [
+      "A) Sadece A",
+      "B) Sadece B",
+      "C) A veya B",
+      "D) Hiçbiri",
+      "E) Kesinlikle B"
+    ],
+    "correct": 2,
+    "solution": "Ahmet'in seçimi Burak'ı kısıtlamadığı için A veya B olabilir."
+  },
+  {
+    "id": "m_29",
+    "subject": "Türkçe",
+    "number": 29,
+    "text": "29. Paragrafta hangisi yardımcı düşüncelerden biridir sorusunda neye bakılır?",
+    "options": [
+      "A) Paragrafta değinilen yan fikirlere",
+      "B) Ana düşünceye",
+      "C) Başlığa",
+      "D) Yazarın adına",
+      "E) Yayın evine"
+    ],
+    "correct": 0,
+    "solution": "Yardımcı düşünceler paragrafta geçen detaylı yan yargılardır."
+  },
+  {
+    "id": "m_30",
+    "subject": "Türkçe",
+    "number": 30,
+    "text": "30. Aşağıdakilerden hangisi Türkçede eylemsi (fiilimsi) çeşitlerinden biri DEĞİLDİR?",
+    "options": [
+      "A) İsim-Fiil",
+      "B) Sıfat-Fiil",
+      "C) Zarf-Fiil",
+      "D) Çekimli Fiil",
+      "E) B bağlama fiili"
+    ],
+    "correct": 3,
+    "solution": "Çekimli fiil kip ve şahıs eki almış fiildir, fiilimsi değildir."
+  },
+  {
+    "id": "m_31",
+    "subject": "Matematik",
+    "number": 31,
+    "text": "31. a ve b pozitif tam sayılar olmak üzere a · b = 24 olduğuna göre a + b toplamının EN BÜYÜK değeri kaçtır?",
+    "options": [
+      "A) 10",
+      "B) 11",
+      "C) 14",
+      "D) 25",
+      "E) 26"
+    ],
+    "correct": 3,
+    "solution": "Toplamın en büyük olması için sayılar birbirine en uzak seçilmelidir: 1 ve 24 -> 1 + 24 = 25."
+  },
+  {
+    "id": "m_32",
+    "subject": "Matematik",
+    "number": 32,
+    "text": "32. 3 basamaklı 4a2 sayısı 3 ile tam bölünebildiğine göre a'nın alabileceği farklı değerler toplamı kaçtır?",
+    "options": [
+      "A) 9",
+      "B) 12",
+      "C) 15",
+      "D) 18",
+      "E) 21"
+    ],
+    "correct": 2,
+    "solution": "Rakamlar toplamı: 4 + a + 2 = 6 + a. 3'ün katı olması için a = 0, 3, 6, 9 olabilir. Toplam: 0+3+6+9 = 18 (402 sayısı 3 basamaklıdır a=0 olabilir). Toplam: 18."
+  },
+  {
+    "id": "m_33",
+    "subject": "Matematik",
+    "number": 33,
+    "text": "33. (3/4 - 1/2) : (1/4 + 1/8) işleminin sonucu kaçtır?",
+    "options": [
+      "A) 1/3",
+      "B) 2/3",
+      "C) 1/2",
+      "D) 3/4",
+      "E) 1"
+    ],
+    "correct": 1,
+    "solution": "Pay: 3/4 - 2/4 = 1/4. Payda: 2/8 + 1/8 = 3/8. (1/4) : (3/8) = 1/4 · 8/3 = 2/3."
+  },
+  {
+    "id": "m_34",
+    "subject": "Matematik",
+    "number": 34,
+    "text": "34. 2^(x+1) = 16 olduğuna göre x kaçtır?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5",
+      "E) 6"
+    ],
+    "correct": 1,
+    "solution": "16 = 2^4. 2^(x+1) = 2^4 => x + 1 = 4 => x = 3."
+  },
+  {
+    "id": "m_35",
+    "subject": "Matematik",
+    "number": 35,
+    "text": "35. √50 - √18 + √8 işleminin sonucu kaçtır?",
+    "options": [
+      "A) 2√2",
+      "B) 3√2",
+      "C) 4√2",
+      "D) 5√2",
+      "E) 6√2"
+    ],
+    "correct": 2,
+    "solution": "5√2 - 3√2 + 2√2 = 4√2."
+  },
+  {
+    "id": "m_36",
+    "subject": "Matematik",
+    "number": 36,
+    "text": "36. Bir sayının 4 katının 5 fazlası 37 ise bu sayı kaçtır?",
+    "options": [
+      "A) 7",
+      "B) 8",
+      "C) 9",
+      "D) 10",
+      "E) 11"
+    ],
+    "correct": 1,
+    "solution": "4x + 5 = 37 => 4x = 32 => x = 8."
+  },
+  {
+    "id": "m_37",
+    "subject": "Matematik",
+    "number": 37,
+    "text": "37. Hangi sayının 1/3'ünün 4 fazlası 10 eder?",
+    "options": [
+      "A) 12",
+      "B) 15",
+      "C) 18",
+      "D) 21",
+      "E) 24"
+    ],
+    "correct": 2,
+    "solution": "x/3 + 4 = 10 => x/3 = 6 => x = 18."
+  },
+  {
+    "id": "m_38",
+    "subject": "Matematik",
+    "number": 38,
+    "text": "38. Bir baba 40, oğlu 10 yaşındadır. Kaç yıl sonra babanın yaşı oğlunun yaşının 3 katı olur?",
+    "options": [
+      "A) 3",
+      "B) 4",
+      "C) 5",
+      "D) 6",
+      "E) 7"
+    ],
+    "correct": 2,
+    "solution": "40 + t = 3(10 + t) => 40 + t = 30 + 3t => 2t = 10 => t = 5."
+  },
+  {
+    "id": "m_39",
+    "subject": "Matematik",
+    "number": 39,
+    "text": "39. Saatteki hızı 80 km olan bir araç 4 saatte kaç km yol gider?",
+    "options": [
+      "A) 240",
+      "B) 280",
+      "C) 320",
+      "D) 360",
+      "E) 400"
+    ],
+    "correct": 2,
+    "solution": "Yol = Hız x Zaman = 80 x 4 = 320 km."
+  },
+  {
+    "id": "m_40",
+    "subject": "Matematik",
+    "number": 40,
+    "text": "40. Maliyeti 200 TL olan bir ürün %30 kârla kaç TL'ye satılır?",
+    "options": [
+      "A) 230",
+      "B) 240",
+      "C) 250",
+      "D) 260",
+      "E) 270"
+    ],
+    "correct": 3,
+    "solution": "Kâr = 200 x 30/100 = 60 TL. Satış = 200 + 60 = 260 TL."
+  },
+  {
+    "id": "m_41",
+    "subject": "Matematik",
+    "number": 41,
+    "text": "41. Hangi sayının %20'si 15 eder?",
+    "options": [
+      "A) 60",
+      "B) 75",
+      "C) 80",
+      "D) 90",
+      "E) 100"
+    ],
+    "correct": 1,
+    "solution": "x · 20/100 = 15 => x/5 = 15 => x = 75."
+  },
+  {
+    "id": "m_42",
+    "subject": "Matematik",
+    "number": 42,
+    "text": "42. İki sayının oranı 3/5'tir. Bu iki sayının toplamı 64 ise küçük sayı kaçtır?",
+    "options": [
+      "A) 18",
+      "B) 24",
+      "C) 30",
+      "D) 36",
+      "E) 40"
+    ],
+    "correct": 1,
+    "solution": "3k + 5k = 8k = 64 => k = 8. Küçük sayı = 3 x 8 = 24."
+  },
+  {
+    "id": "m_43",
+    "subject": "Matematik",
+    "number": 43,
+    "text": "43. EBOB(12, 18) kaçtır?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 6",
+      "D) 12",
+      "E) 36"
+    ],
+    "correct": 2,
+    "solution": "12 ve 18'in en büyük ortak böleni 6'dır."
+  },
+  {
+    "id": "m_44",
+    "subject": "Matematik",
+    "number": 44,
+    "text": "44. EKOK(15, 20) kaçtır?",
+    "options": [
+      "A) 30",
+      "B) 45",
+      "C) 60",
+      "D) 90",
+      "E) 120"
+    ],
+    "correct": 2,
+    "solution": "15 ve 20'nin en küçük ortak katı 60'tır."
+  },
+  {
+    "id": "m_45",
+    "subject": "Matematik",
+    "number": 45,
+    "text": "45. |x - 3| = 5 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "options": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 10",
+      "E) 12"
+    ],
+    "correct": 1,
+    "solution": "x - 3 = 5 => x = 8 veya x - 3 = -5 => x = -2. Toplam: 8 + (-2) = 6."
+  },
+  {
+    "id": "m_46",
+    "subject": "Matematik",
+    "number": 46,
+    "text": "46. x² - 9 = 0 denkleminin pozitif kökü kaçtır?",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4",
+      "E) 9"
+    ],
+    "correct": 2,
+    "solution": "x² = 9 => x = 3 veya x = -3. Pozitif kök 3'tür."
+  },
+  {
+    "id": "m_47",
+    "subject": "Matematik",
+    "number": 47,
+    "text": "47. Ardışık 3 çift sayının toplamı 42 ise en büyük sayı kaçtır?",
+    "options": [
+      "A) 12",
+      "B) 14",
+      "C) 16",
+      "D) 18",
+      "E) 20"
+    ],
+    "correct": 2,
+    "solution": "Ortadaki sayı = 42 / 3 = 14. Sayılar: 12, 14, 16. En büyük sayı 16'dır."
+  },
+  {
+    "id": "m_48",
+    "subject": "Matematik",
+    "number": 48,
+    "text": "48. 5! (Faktöriyel) değeri kaçtır?",
+    "options": [
+      "A) 24",
+      "B) 60",
+      "C) 120",
+      "D) 240",
+      "E) 720"
+    ],
+    "correct": 2,
+    "solution": "5! = 5 x 4 x 3 x 2 x 1 = 120."
+  },
+  {
+    "id": "m_49",
+    "subject": "Matematik",
+    "number": 49,
+    "text": "49. 0,04 sayısının karekökü kaçtır?",
+    "options": [
+      "A) 0,02",
+      "B) 0,1",
+      "C) 0,2",
+      "D) 0,4",
+      "E) 2"
+    ],
+    "correct": 2,
+    "solution": "√(4/100) = 2/10 = 0,2."
+  },
+  {
+    "id": "m_50",
+    "subject": "Matematik",
+    "number": 50,
+    "text": "50. (a + b)² - (a - b)² ifadesinin sadeleştirilmiş şekli nedir?",
+    "options": [
+      "A) 2ab",
+      "B) 4ab",
+      "C) 2a²",
+      "D) 2b²",
+      "E) a² + b²"
+    ],
+    "correct": 1,
+    "solution": "(a² + 2ab + b²) - (a² - 2ab + b²) = 4ab."
+  },
+  {
+    "id": "m_51",
+    "subject": "Matematik",
+    "number": 51,
+    "text": "51. Bir sınıftaki kızların erkeklere oranı 2/3'tür. Sınıf mevcudu 25 ise kız sayısı kaçtır?",
+    "options": [
+      "A) 8",
+      "B) 10",
+      "C) 12",
+      "D) 15",
+      "E) 18"
+    ],
+    "correct": 1,
+    "solution": "2k + 3k = 5k = 25 => k = 5. Kız sayısı = 2 x 5 = 10."
+  },
+  {
+    "id": "m_52",
+    "subject": "Matematik",
+    "number": 52,
+    "text": "52. %40'ı su olan 50 litrelik karışımdaki su miktarı kaç litredir?",
+    "options": [
+      "A) 15",
+      "B) 20",
+      "C) 25",
+      "D) 30",
+      "E) 35"
+    ],
+    "correct": 1,
+    "solution": "50 x 40/100 = 20 litre."
+  },
+  {
+    "id": "m_53",
+    "subject": "Matematik",
+    "number": 53,
+    "text": "53. Bir dik üçgenin dik kenarları 6 cm ve 8 cm ise hipotenüsü kaç cm'dir?",
+    "options": [
+      "A) 9",
+      "B) 10",
+      "C) 12",
+      "D) 14",
+      "E) 15"
+    ],
+    "correct": 1,
+    "solution": "6-8-10 özel dik üçgenidir (6² + 8² = 36 + 64 = 100 => 10)."
+  },
+  {
+    "id": "m_54",
+    "subject": "Matematik",
+    "number": 54,
+    "text": "54. İç açıları toplamı 180° olan geometrik şekil hangisidir?",
+    "options": [
+      "A) Üçgen",
+      "B) Dörtgen",
+      "C) Beşgen",
+      "D) Altıgen",
+      "E) Kare"
+    ],
+    "correct": 0,
+    "solution": "Üçgenin iç açıları toplamı 180 derecedir."
+  },
+  {
+    "id": "m_55",
+    "subject": "Matematik",
+    "number": 55,
+    "text": "55. Çevresi 32 cm olan karenin bir kenarı kaç cm'dir?",
+    "options": [
+      "A) 4",
+      "B) 6",
+      "C) 8",
+      "D) 10",
+      "E) 12"
+    ],
+    "correct": 2,
+    "solution": "32 / 4 = 8 cm."
+  },
+  {
+    "id": "m_56",
+    "subject": "Matematik",
+    "number": 56,
+    "text": "56. Alanı 49 cm² olan karenin çevresi kaç cm'dir?",
+    "options": [
+      "A) 14",
+      "B) 21",
+      "C) 28",
+      "D) 35",
+      "E) 42"
+    ],
+    "correct": 2,
+    "solution": "Kenar = √49 = 7 cm. Çevre = 4 x 7 = 28 cm."
+  },
+  {
+    "id": "m_57",
+    "subject": "Matematik",
+    "number": 57,
+    "text": "57. Bir dairenin yarıçapı 3 cm ise alanı kaç π cm²'dir?",
+    "options": [
+      "A) 3π",
+      "B) 6π",
+      "C) 9π",
+      "D) 12π",
+      "E) 18π"
+    ],
+    "correct": 2,
+    "solution": "Alan = π · r² = π · 3² = 9π."
+  },
+  {
+    "id": "m_58",
+    "subject": "Matematik",
+    "number": 58,
+    "text": "58. Bir küpün bir kenarı 3 cm ise hacmi kaç cm³'tür?",
+    "options": [
+      "A) 9",
+      "B) 18",
+      "C) 27",
+      "D) 36",
+      "E) 54"
+    ],
+    "correct": 2,
+    "solution": "Hacim = a³ = 3³ = 27 cm³."
+  },
+  {
+    "id": "m_59",
+    "subject": "Matematik",
+    "number": 59,
+    "text": "59. Bir açının tümleri 30° ise bu açının bütünleyicisi kaç derecedir?",
+    "options": [
+      "A) 60°",
+      "B) 90°",
+      "C) 120°",
+      "D) 150°",
+      "E) 160°"
+    ],
+    "correct": 3,
+    "solution": "Açı = 90 - 30 = 60°. Bütünleyicisi = 180 - 60 = 120°."
+  },
+  {
+    "id": "m_60",
+    "subject": "Matematik",
+    "number": 60,
+    "text": "60. Koordinat sisteminde (3, 4) noktasının orijine olan uzaklığı kaç birimdir?",
+    "options": [
+      "A) 4",
+      "B) 5",
+      "C) 6",
+      "D) 7",
+      "E) 8"
+    ],
+    "correct": 1,
+    "solution": "Uzaklık = √(3² + 4²) = √(9 + 16) = √25 = 5 birim."
+  },
+  {
+    "id": "m_61",
+    "subject": "Tarih",
+    "number": 61,
+    "text": "61. İslamiyet öncesi Türk devletlerinde 'veraset anlayışı' sonucunda hangisi yaşanmıştır?",
+    "options": [
+      "A) Taht kavgalarının çıkması ve devletlerin kısa sürede yıkılması",
+      "B) Yerleşik hayata geçilmesi",
+      "C) Yazılı hukuka geçilmesi",
+      "D) Din değiştirilmesi",
+      "E) Sınıflı toplum yapısı oluşması"
+    ],
+    "correct": 0,
+    "solution": "Kut anlayışı nedeniyle hanedanın her erkek üyesinin taht hakkı vardır; taht kavgaları ve bölünmeler kaçınılmaz olmuştur."
+  },
+  {
+    "id": "m_62",
+    "subject": "Tarih",
+    "number": 62,
+    "text": "62. Türk adıyla kurulan İLK Türk devleti hangisidir?",
+    "options": [
+      "A) Asya Hun",
+      "B) Göktürkler",
+      "C) Uygurlar",
+      "D) Hazarlar",
+      "E) Avarlar"
+    ],
+    "correct": 1,
+    "solution": "Göktürkler (Köktürkler) Türk adını devlet adı olarak kullanan ilk devlettir."
+  },
+  {
+    "id": "m_63",
+    "subject": "Tarih",
+    "number": 63,
+    "text": "63. Maniheizm dinini kabul ederek YERLEŞİK HAYATA geçen ilk Türk devleti hangisidir?",
+    "options": [
+      "A) Uygurlar",
+      "B) Göktürkler",
+      "C) Kıpçaklar",
+      "D) Kırgızlar",
+      "E) Türgişler"
+    ],
+    "correct": 0,
+    "solution": "Uygurlar Maniheizm dinini benimseyerek tarım ve mimariye başlamıştır."
+  },
+  {
+    "id": "m_64",
+    "subject": "Tarih",
+    "number": 64,
+    "text": "64. 1071 Malazgirt Savaşı hangi Selçuklu hükümdarı döneminde kazanılmıştır?",
+    "options": [
+      "A) Tuğrul Bey",
+      "B) Alparslan",
+      "C) Melikşah",
+      "D) Sencer",
+      "E) Çağrı Bey"
+    ],
+    "correct": 1,
+    "solution": "Malazgirt Zaferi Sultan Alparslan komutasında Bizans'a karşı kazanılmıştır."
+  },
+  {
+    "id": "m_65",
+    "subject": "Tarih",
+    "number": 65,
+    "text": "65. Osmanlı Devleti'nde ilk altın para hangi padişah döneminde bastırılmıştır?",
+    "options": [
+      "A) Osman Bey",
+      "B) Orhan Bey",
+      "C) Fatih Sultan Mehmet",
+      "D) Kanuni Sultan Süleyman",
+      "E) Yavuz Sultan Selim"
+    ],
+    "correct": 2,
+    "solution": "İlk altın para (Sikke-i Hasene) Fatih Sultan Mehmet döneminde basılmıştır."
+  },
+  {
+    "id": "m_66",
+    "subject": "Tarih",
+    "number": 66,
+    "text": "66. Osmanlı Devleti'nde bütçe ve mali işlerden sorumlu Divan üyesi kimdir?",
+    "options": [
+      "A) Sadrazam",
+      "B) Defterdar",
+      "C) Kazasker",
+      "D) Nişancı",
+      "E) Reisülküttab"
+    ],
+    "correct": 1,
+    "solution": "Defterdar maliye ve hazineden sorumlu divan üyesidir."
+  },
+  {
+    "id": "m_67",
+    "subject": "Tarih",
+    "number": 67,
+    "text": "67. Osmanlı Devleti'nde kadı ve müderris atamalarını yapan Divan üyesi hangisidir?",
+    "options": [
+      "A) Nişancı",
+      "B) Kazasker",
+      "C) Defterdar",
+      "D) Sadrazam",
+      "E) Kaptan-ı Derya"
+    ],
+    "correct": 1,
+    "solution": "Kazasker adalet ve eğitim işlerinden sorumludur."
+  },
+  {
+    "id": "m_68",
+    "subject": "Tarih",
+    "number": 68,
+    "text": "68. Tımar sisteminin Osmanlı Devleti'ne sağladığı faydalardan biri DEĞİLDİR?",
+    "options": [
+      "A) Tarımsal üretimin sürekliliği",
+      "B) Devlete yük olmadan ordu beslenmesi",
+      "C) Taşrada asayişin sağlanması",
+      "D) Hazineye doğrudan nakit para akışı sağlaması",
+      "E) Vergilerin düzenli toplanması"
+    ],
+    "correct": 3,
+    "solution": "Tımar sisteminde vergiler nakit olarak merkeze gelmez, arazide asker beslemek için kullanılır."
+  },
+  {
+    "id": "m_69",
+    "subject": "Tarih",
+    "number": 69,
+    "text": "69. 1839 yılında ilan edilen Tanzimat Fermanı'nın temel amacı nedir?",
+    "options": [
+      "A) Rejimi değiştirmek",
+      "B) Kanun gücünün üstünlüğünü kabul etmek ve devleti çöküşten kurtarmak",
+      "C) Halifeliği kaldırmak",
+      "D) Cumhuriyet ilan etmek",
+      "E) Dış borçları silmek"
+    ],
+    "correct": 1,
+    "solution": "Tanzimat Fermanı ile padişah ilk kez kendi gücünün üstünde kanun gücü olduğunu kabul etmiştir."
+  },
+  {
+    "id": "m_70",
+    "subject": "Tarih",
+    "number": 70,
+    "text": "70. II. Meşrutiyet'in ilanı ile kurulan ve Türk tarihinin İLK SİYASİ PARTİSİ kabul edilen cemiyet hangisidir?",
+    "options": [
+      "A) İttihat ve Terakki Fırkası",
+      "B) Ahrar Fırkası",
+      "C) Hürriyet ve İtilaf Fırkası",
+      "D) Serbest Cumhuriyet Fırkası",
+      "E) Vatan ve Hürriyet"
+    ],
+    "correct": 0,
+    "solution": "İttihat ve Terakki Türk tarihinin ilk siyasi partisidir."
+  },
+  {
+    "id": "m_71",
+    "subject": "Tarih",
+    "number": 71,
+    "text": "71. Mustafa Kemal Paşa'nın Milli Mücadeledeki İLK KİŞİSEL TEPKİSİ kabul edilen genelge hangisidir?",
+    "options": [
+      "A) Amasya Genelgesi",
+      "B) Havza Genelgesi",
+      "C) Erzurum Kongresi",
+      "D) Sivas Kongresi",
+      "E) Amasya Görüşmeleri"
+    ],
+    "correct": 1,
+    "solution": "Havza Genelgesi işgallere karşı ilk kişisel tepkisidir ve mitingler düzenlenmesini istemiştir."
+  },
+  {
+    "id": "m_72",
+    "subject": "Tarih",
+    "number": 72,
+    "text": "72. Milli Mücadelenin Amacı, Gerekçesi ve Yöntemi İLK KEZ nerede belirtilmiştir?",
+    "options": [
+      "A) Samsun Raporu",
+      "B) Amasya Genelgesi",
+      "C) Erzurum Kongresi",
+      "D) Misak-ı Milli",
+      "E) Sivas Kongresi"
+    ],
+    "correct": 1,
+    "solution": "Amasya Genelgesi Milli Mücadelenin ihtilal beyannamesidir."
+  },
+  {
+    "id": "m_73",
+    "subject": "Tarih",
+    "number": 73,
+    "text": "73. 'Manda ve Himaye kabul edilemez' kararı İLK KEZ nerede alınmıştır?",
+    "options": [
+      "A) Amasya Genelgesi",
+      "B) Erzurum Kongresi",
+      "C) Sivas Kongresi",
+      "D) Son Osmanlı Mebusan Meclisi",
+      "E) Amasya Görüşmeleri"
+    ],
+    "correct": 1,
+    "solution": "İlk kez Erzurum Kongresi'nde reddedilmiştir."
+  },
+  {
+    "id": "m_74",
+    "subject": "Tarih",
+    "number": 74,
+    "text": "74. Manda ve Himaye bir daha gündeme gelmemek üzere KESİN OLARAK nerede reddedilmiştir?",
+    "options": [
+      "A) Erzurum",
+      "B) Sivas Kongresi",
+      "C) Amasya",
+      "D) Ankara",
+      "E) Lozan"
+    ],
+    "correct": 1,
+    "solution": "Sivas Kongresi'nde kesin olarak reddedilmiştir."
+  },
+  {
+    "id": "m_75",
+    "subject": "Tarih",
+    "number": 75,
+    "text": "75. Tüm yararlı cemiyetler hangi kongrede 'Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti' adı altında birleştirilmiştir?",
+    "options": [
+      "A) Erzurum",
+      "B) Sivas Kongresi",
+      "C) Alaşehir",
+      "D) Balıkesir",
+      "E) Pozantı"
+    ],
+    "correct": 1,
+    "solution": "Sivas Kongresi'nde tüm cemiyetler tek çatı altında toplanmıştır."
+  },
+  {
+    "id": "m_76",
+    "subject": "Tarih",
+    "number": 76,
+    "text": "76. TBMM Hükümetinin kurduğu düzenli ordunun Batı Cephesi'ndeki İLK ZAFERİ hangisidir?",
+    "options": [
+      "A) I. İnönü Zaferi",
+      "B) II. İnönü Zaferi",
+      "C) Sakarya Meydan Muharebesi",
+      "D) Büyük Taarruz",
+      "E) Kütahya-Eskişehir"
+    ],
+    "correct": 0,
+    "solution": "I. İnönü Zaferi düzenli ordunun ilk askeri başarısıdır."
+  },
+  {
+    "id": "m_77",
+    "subject": "Tarih",
+    "number": 77,
+    "text": "77. Mustafa Kemal Paşa'ya 'Gazilik' unvanı ve 'Mareşallik' rütbesi hangi savaştan sonra verilmiştir?",
+    "options": [
+      "A) I. İnönü",
+      "B) II. İnönü",
+      "C) Sakarya Meydan Muharebesi",
+      "D) Büyük Taarruz",
+      "E) Çanakkale"
+    ],
+    "correct": 2,
+    "solution": "Sakarya Meydan Muharebesi sonrası TBMM tarafından verilmiştir."
+  },
+  {
+    "id": "m_78",
+    "subject": "Tarih",
+    "number": 78,
+    "text": "78. Doğu sınırımızın KESİN OLARAK çizildiği antlaşma hangisidir?",
+    "options": [
+      "A) Gümrü Antlaşması",
+      "B) Moskova Antlaşması",
+      "C) Kars Antlaşması",
+      "D) Ankara Antlaşması",
+      "E) Mudanya"
+    ],
+    "correct": 2,
+    "solution": "Kars Antlaşması (13 Ekim 1921) Doğu sınırımızı kesinleştirmiştir."
+  },
+  {
+    "id": "m_79",
+    "subject": "Tarih",
+    "number": 79,
+    "text": "79. Saltanat hangi tarihte kaldırılmıştır?",
+    "options": [
+      "A) 23 Nisan 1920",
+      "B) 1 Kasım 1922",
+      "C) 29 Ekim 1923",
+      "D) 3 Mart 1924",
+      "E) 1 Kasım 1928"
+    ],
+    "correct": 1,
+    "solution": "1 Kasım 1922'de TBMM kararıyla kaldırılmıştır."
+  },
+  {
+    "id": "m_80",
+    "subject": "Tarih",
+    "number": 80,
+    "text": "80. Atatürk'ün 'Milli İrade, Seçim, Meclis ve Çok Partili Hayat' ilkeleriyle doğrudan ilgili ilkesi hangisidir?",
+    "options": [
+      "A) Milliyetçilik",
+      "B) Cumhuriyetçilik",
+      "C) Halkçılık",
+      "D) Laiklik",
+      "E) Devletçilik"
+    ],
+    "correct": 1,
+    "solution": "Cumhuriyetçilik milli egemenlik ve demokrasiyi esas alır."
+  },
+  {
+    "id": "m_81",
+    "subject": "Tarih",
+    "number": 81,
+    "text": "81. Toplumsal eşitliği savunan, ayrıcalıkları reddeden ve Aşar vergisini kaldıran Atatürk ilkesi hangisidir?",
+    "options": [
+      "A) Halkçılık",
+      "B) Devletçilik",
+      "C) İnkılapçılık",
+      "D) Laiklik",
+      "E) Milliyetçilik"
+    ],
+    "correct": 0,
+    "solution": "Halkçılık toplumda eşitliği ve sosyal devleti savunur."
+  },
+  {
+    "id": "m_82",
+    "subject": "Tarih",
+    "number": 82,
+    "text": "82. Türk Tarih Kurumu ve Türk Dil Kurumu'nun kurulması doğrudan hangi Atatürk ilkesiyle ilgilidir?",
+    "options": [
+      "A) Cumhuriyetçilik",
+      "B) Milliyetçilik",
+      "C) Halkçılık",
+      "D) Devletçilik",
+      "E) Laiklik"
+    ],
+    "correct": 1,
+    "solution": "Milli kültür, dil ve tarih çalışmaları Milliyetçilik ilkesine dayanır."
+  },
+  {
+    "id": "m_83",
+    "subject": "Tarih",
+    "number": 83,
+    "text": "83. 1926 yılında kabul edilen ve kadın-erkek hukuki eşitliğini sağlayan kanun hangisidir?",
+    "options": [
+      "A) Tevhid-i Tedrisat",
+      "B) Türk Medeni Kanunu",
+      "C) Kabotaj Kanunu",
+      "D) Soyadı Kanunu",
+      "E) Teşvik-i Sanayi"
+    ],
+    "correct": 1,
+    "solution": "İsviçre'den uyarlanan Türk Medeni Kanunu hukuki eşitliği sağlamıştır."
+  },
+  {
+    "id": "m_84",
+    "subject": "Tarih",
+    "number": 84,
+    "text": "84. Eğitimde birliği sağlayan ve tüm okulları Milli Eğitim Bakanlığı'na bağlayan kanun hangisidir?",
+    "options": [
+      "A) Tevhid-i Tedrisat Kanunu",
+      "B) Takrir-i Sükun",
+      "C) Şapka Kanunu",
+      "D) Harf İnkılabı",
+      "E) Maarif Teşkilatı"
+    ],
+    "correct": 0,
+    "solution": "3 Mart 1924 tarihli Tevhid-i Tedrisat Kanunu eğitimde birliği sağlamıştır."
+  },
+  {
+    "id": "m_85",
+    "subject": "Tarih",
+    "number": 85,
+    "text": "85. Lozan Barış Antlaşması'nda çözülemeyip sonraya bırakılan ve 1926'da İngiltere ile yapılan Ankara Antlaşması ile çözülen konu hangisidir?",
+    "options": [
+      "A) Kapitülasyonlar",
+      "B) Musul Sorunu",
+      "C) Boğazlar",
+      "D) Hatay Sorunu",
+      "E) Dış Borçlar"
+    ],
+    "correct": 1,
+    "solution": "Musul konusu Lozan'da çözülememiş, sonradan İngiltere lehine çözülmüştür."
+  },
+  {
+    "id": "m_86",
+    "subject": "Tarih",
+    "number": 86,
+    "text": "86. Türkiye'nin 1932 yılında üye olduğu uluslararası barış örgütü hangisidir?",
+    "options": [
+      "A) Birleşmiş Milletler",
+      "B) Milletler Cemiyeti (Cemiyet-i Akvam)",
+      "C) Balkan Antantı",
+      "D) Sadabad Paktı",
+      "E) NATO"
+    ],
+    "correct": 1,
+    "solution": "Türkiye 1932'de Milletler Cemiyeti'ne davet edilerek üye olmuştur."
+  },
+  {
+    "id": "m_87",
+    "subject": "Tarih",
+    "number": 87,
+    "text": "87. Hatay'ın ana vatana katılması hangi yılda gerçekleşmiştir?",
+    "options": [
+      "A) 1936",
+      "B) 1938",
+      "C) 1939",
+      "D) 1940",
+      "E) 1945"
+    ],
+    "correct": 2,
+    "solution": "Hatay 1939 yılında Türkiye'ye katılmıştır."
+  },
+  {
+    "id": "m_88",
+    "subject": "Coğrafya",
+    "number": 88,
+    "text": "88. Türkiye'nin matematiksel (mutlak) konumunun bir sonucu DEĞİLDİR?",
+    "options": [
+      "A) Dört mevsimin belirgin yaşanması",
+      "B) Güneş ışınlarının hiçbir zaman 90° açıyla düşmemesi",
+      "C) Doğuya doğru gidildikçe yükseltinin ve karasallığın artması",
+      "D) Güneye doğru gidildikçe deniz tuzluluğunun artması",
+      "E) Batı rüzgarları kuşağında yer alması"
+    ],
+    "correct": 2,
+    "solution": "Doğuya doğru yükseltinin artması özel (göreceli) konumun sonucudur."
+  },
+  {
+    "id": "m_89",
+    "subject": "Coğrafya",
+    "number": 89,
+    "text": "89. Ege Bölgesi'nde dağların denize dik uzanmasının bir sonucu DEĞİLDİR?",
+    "options": [
+      "A) Kıyı ile iç kesimler arasında ulaşımın kolay olması",
+      "B) Denizel iklimin iç kesimlere kadar sokulabilmesi",
+      "C) Kıyıda girinti, çıkıntı ve koy sayısının fazla olması",
+      "D) Kıyı ile iç kesimler arasında belirgin iklim ve bitki örtüsü farkı olması",
+      "E) Enine kıyı tipinin görülmesi"
+    ],
+    "correct": 3,
+    "solution": "Dağlar dik uzandığı için denizel etki içeri girer, belirgin fark oluşmaz."
+  },
+  {
+    "id": "m_90",
+    "subject": "Coğrafya",
+    "number": 90,
+    "text": "90. Aşağıdaki dağlardan hangisi oluşum bakımından 'Kırık Dağ (Horst)' özelliğine sahiptir?",
+    "options": [
+      "A) Kaçkar Dağları",
+      "B) Erciyes Dağı",
+      "C) Kaz Dağları",
+      "D) Ağrı Dağı",
+      "E) Bolkar Dağları"
+    ],
+    "correct": 2,
+    "solution": "Kaz Dağları Ege Bölgesi'ndeki kırık dağ sistemine ait bir horsttur."
+  },
+  {
+    "id": "m_91",
+    "subject": "Coğrafya",
+    "number": 91,
+    "text": "91. Türkiye'nin en yüksek dağı aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Süphan Dağı",
+      "B) Cilo Dağı",
+      "C) Büyük Ağrı Dağı",
+      "D) Erciyes Dağı",
+      "E) Kaçkar Dağı"
+    ],
+    "correct": 2,
+    "solution": "Büyük Ağrı Dağı 5137 metre ile Türkiye'nin en yüksek zirvesidir."
+  },
+  {
+    "id": "m_92",
+    "subject": "Coğrafya",
+    "number": 92,
+    "text": "92. Erimeli kireç taşı (kalker) arazilerinde oluşan Karstik Platolara hangisi örnektir?",
+    "options": [
+      "A) Erzurum-Kars Platosu",
+      "B) Çatalca-Kocaeli Platosu",
+      "C) Teke Platosu",
+      "D) Cihanbeyli Platosu",
+      "E) Bozok Platosu"
+    ],
+    "correct": 2,
+    "solution": "Teke ve Taşeli platoları karstik yapıdadır."
+  },
+  {
+    "id": "m_93",
+    "subject": "Coğrafya",
+    "number": 93,
+    "text": "93. Büyükbaş mera hayvancılığının en yaygın yapıldığı lav örtülü yüksek plato hangisidir?",
+    "options": [
+      "A) Haymana",
+      "B) Erzurum-Kars Platosu",
+      "C) Gaziantep",
+      "D) Çatalca",
+      "E) Yazılıkaya"
+    ],
+    "correct": 1,
+    "solution": "Erzurum-Kars platosunda alpin çayırları ve büyükbaş hayvancılık gelişmiştir."
+  },
+  {
+    "id": "m_94",
+    "subject": "Coğrafya",
+    "number": 94,
+    "text": "94. Türkiye'nin yüzölçümü en büyük gölü aşağıdakilerden hangisidir?",
+    "options": [
+      "A) Tuz Gölü",
+      "B) Beyşehir Gölü",
+      "C) Van Gölü",
+      "D) Eğirdir Gölü",
+      "E) İznik Gölü"
+    ],
+    "correct": 2,
+    "solution": "Van Gölü Türkiye'nin en büyük gölüdür ve sodalıdır."
+  },
+  {
+    "id": "m_95",
+    "subject": "Coğrafya",
+    "number": 95,
+    "text": "95. Beyaz kumsalları ve magnezyumlu kayaç yapısıyla 'Türkiye'nin Maldivleri' olarak bilinen karstik göl hangisidir?",
+    "options": [
+      "A) Salda Gölü",
+      "B) Abant Gölü",
+      "C) Sera Gölü",
+      "D) Çıldır Gölü",
+      "E) Mogan Gölü"
+    ],
+    "correct": 0,
+    "solution": "Burdur'daki Salda Gölü Maldivler benzetmesiyle ünlüdür."
+  },
+  {
+    "id": "m_96",
+    "subject": "Coğrafya",
+    "number": 96,
+    "text": "96. Tortum, Abant, Yedigöller ve Sera göllerinin ortak oluşum özelliği nedir?",
+    "options": [
+      "A) Tektonik olmaları",
+      "B) Karstik olmaları",
+      "C) Heyelan Set Gölleri olmaları",
+      "D) Volkanik krater olmaları",
+      "E) Kıyı set olmaları"
+    ],
+    "correct": 2,
+    "solution": "Karadeniz'deki bu göller heyelan set gölleridir."
+  },
+  {
+    "id": "m_97",
+    "subject": "Coğrafya",
+    "number": 97,
+    "text": "97. Türkiye'de yıllık yağış miktarının EN FAZLA olduğu iklim ve bölge hangisidir?",
+    "options": [
+      "A) Akdeniz İklimi - Antalya",
+      "B) Karadeniz İklimi - Doğu Karadeniz (Rize)",
+      "C) Sert Karasal - Erzurum",
+      "D) Step İklimi - Konya",
+      "E) Ege Kıyıları - Muğla"
+    ],
+    "correct": 1,
+    "solution": "Doğu Karadeniz (Rize çevresi) yıllık 2400 mm üzeri yağışla en çok yağış alan yerdir."
+  },
+  {
+    "id": "m_98",
+    "subject": "Coğrafya",
+    "number": 98,
+    "text": "98. Dünya toplam Bor minerali rezervinin yaklaşık %72'sine sahip olan ülkemizde bor çıkarılan yerlerden biri DEĞİLDİR?",
+    "options": [
+      "A) Balıkesir (Bigadiç, Susurluk)",
+      "B) Kütahya (Emet)",
+      "C) Eskişehir (Kırka)",
+      "D) Zonguldak (Ereğli)",
+      "E) Bursa (Mustafakemalpaşa)"
+    ],
+    "correct": 3,
+    "solution": "Zonguldak'ta Taş Kömürü çıkarılır, bor bulunmaz."
+  },
+  {
+    "id": "m_99",
+    "subject": "Coğrafya",
+    "number": 99,
+    "text": "99. Türkiye'de Taş Kömürü yataklarının bulunması ülkemizin hangi jeolojik zamanda araziye sahip olduğunu gösterir?",
+    "options": [
+      "A) I. Zaman (Paleozoik)",
+      "B) II. Zaman (Mesozoik)",
+      "C) III. Zaman (Tersiyer)",
+      "D) IV. Zaman (Kuvaterner)",
+      "E) Günümüz"
+    ],
+    "correct": 0,
+    "solution": "Taş kömürü I. Jeolojik Zaman masif oluşumudur."
+  },
+  {
+    "id": "m_100",
+    "subject": "Coğrafya",
+    "number": 100,
+    "text": "100. Akdeniz ikliminin karakteristik doğal bitki örtüsü hangisidir?",
+    "options": [
+      "A) Bozkır",
+      "B) Mazi / Çayır",
+      "C) Maki",
+      "D) Tayga",
+      "E) Tundra"
+    ],
+    "correct": 2,
+    "solution": "Akdeniz ikliminin bitki örtüsü bodur ağaççıklardan oluşan makidir."
+  },
+  {
+    "id": "m_101",
+    "subject": "Coğrafya",
+    "number": 101,
+    "text": "101. Türkiye nüfusunun alansal dağılışında aşağıdakilerden hangisi etkili DEĞİLDİR?",
+    "options": [
+      "A) Yer şekilleri ve yükselti",
+      "B) İklim koşulları",
+      "C) Sanayi ve ulaşım imkanları",
+      "D) Saat dilimi farkları",
+      "E) İş imkanları"
+    ],
+    "correct": 3,
+    "solution": "Saat dilimi nüfus dağılışını etkilemez."
+  },
+  {
+    "id": "m_102",
+    "subject": "Coğrafya",
+    "number": 102,
+    "text": "102. Türkiye'de en çok yetiştirilen ve iç tüketimde ilk sırada yer alan tahıl ürünü hangisidir?",
+    "options": [
+      "A) Pirinç",
+      "B) Buğday",
+      "C) Mısır",
+      "D) Arpa",
+      "E) Yulaf"
+    ],
+    "correct": 1,
+    "solution": "Buğday Türkiye'de en yaygın ekilen ve tüketilen tahıldır."
+  },
+  {
+    "id": "m_103",
+    "subject": "Coğrafya",
+    "number": 103,
+    "text": "103. Türkiye'nin en uzun milli akarsuyu (sadece sınırlarımız içinde doğup dökülen) hangisidir?",
+    "options": [
+      "A) Fırat",
+      "B) Dicle",
+      "C) Kızılırmak",
+      "D) Yeşilırmak",
+      "E) Sakarya"
+    ],
+    "correct": 2,
+    "solution": "Kızılırmak sınırlarımız içindeki en uzun akarsumuzdur."
+  },
+  {
+    "id": "m_104",
+    "subject": "Coğrafya",
+    "number": 104,
+    "text": "104. Mikroklima iklim özelliği sayesinde Rize çevresinde yetiştirilebilen tarım ürünü hangisidir?",
+    "options": [
+      "A) Pamuk",
+      "B) Turunçgiller (Mandalina/Portakal)",
+      "C) Zeytin",
+      "D) İncir",
+      "E) Fındık"
+    ],
+    "correct": 1,
+    "solution": "Rize'de rüzgarların etkisiyle mikroklima olarak turunçgil yetişir."
+  },
+  {
+    "id": "m_105",
+    "subject": "Coğrafya",
+    "number": 105,
+    "text": "105. Güneydoğu Anadolu Projesi (GAP) ile birlikte üretiminde patlama yaşanan ve bölgenin simgesi haline gelen endüstri bitkisi hangisidir?",
+    "options": [
+      "A) Tütün",
+      "B) Pamuk",
+      "C) Çay",
+      "D) Haşhaş",
+      "E) Şekerpancarı"
+    ],
+    "correct": 1,
+    "solution": "GAP sulaması ile Şanlıurfa ve çevresi Pamuk üretiminde 1. sıraya yükselmiştir."
+  },
+  {
+    "id": "m_106",
+    "subject": "Vatandaşlık",
+    "number": 106,
+    "text": "106. Aşağıdakilerden hangisi sosyal hayatı düzenleyen maddi yaptırımlı TEK kural türüdür?",
+    "options": [
+      "A) Din Kuralları",
+      "B) Ahlak Kuralları",
+      "C) Görgü Kuralları",
+      "D) Hukuk Kuralları",
+      "E) Gelenekler"
+    ],
+    "correct": 3,
+    "solution": "Hukuk kuralları devlet gücüyle desteklenmiş tek maddi yaptırımlı kuraldır."
+  },
+  {
+    "id": "m_107",
+    "subject": "Vatandaşlık",
+    "number": 107,
+    "text": "107. Hakların KAZANILMASINDA geçerli olan temel hukuk kuralı hangisidir?",
+    "options": [
+      "A) Dürüstlük Kuralı",
+      "B) İyiniyet (Subjektif İyi Niyet)",
+      "C) Kanunilik",
+      "D) Ahde Vefa",
+      "E) Müktesep Hak"
+    ],
+    "correct": 1,
+    "solution": "Hakların kazanılmasında iyiniyet, kullanılmasında dürüstlük kuralı geçerlidir."
+  },
+  {
+    "id": "m_108",
+    "subject": "Vatandaşlık",
+    "number": 108,
+    "text": "108. 1982 Anayasası'na göre Türk Milleti adına yargı yetkisini hangisi kullanır?",
+    "options": [
+      "A) Cumhurbaşkanı",
+      "B) TBMM",
+      "C) Bağımsız ve Tarafsız Mahkemeler",
+      "D) Yargıtay",
+      "E) Adalet Bakanlığı"
+    ],
+    "correct": 2,
+    "solution": "Yargı yetkisi Türk Milleti adına bağımsız ve tarafsız mahkemelerce kullanılır."
+  },
+  {
+    "id": "m_109",
+    "subject": "Vatandaşlık",
+    "number": 109,
+    "text": "109. TBMM üye tam sayısı kaç milletvekilinden oluşur?",
+    "options": [
+      "A) 450",
+      "B) 500",
+      "C) 550",
+      "D) 600",
+      "E) 650"
+    ],
+    "correct": 3,
+    "solution": "2017 anayasa değişikliği ile milletvekili sayısı 600 olmuştur."
+  },
+  {
+    "id": "m_110",
+    "subject": "Vatandaşlık",
+    "number": 110,
+    "text": "110. Milletvekili seçilebilme yaşı kaç olarak uygulanmaktadır?",
+    "options": [
+      "A) 18",
+      "B) 21",
+      "C) 25",
+      "D) 30",
+      "E) 35"
+    ],
+    "correct": 0,
+    "solution": "Milletvekili seçilme yaşı 18'dir."
+  },
+  {
+    "id": "m_111",
+    "subject": "Vatandaşlık",
+    "number": 111,
+    "text": "111. 1982 Anayasası'na göre Cumhurbaşkanlığı seçimleri kaç yılda bir yapılır?",
+    "options": [
+      "A) 4 yıl",
+      "B) 5 yıl",
+      "C) 6 yıl",
+      "D) 7 yıl",
+      "E) 10 yıl"
+    ],
+    "correct": 1,
+    "solution": "TBMM ve Cumhurbaşkanlığı seçimleri 5 yılda bir birlikte yapılır."
+  },
+  {
+    "id": "m_112",
+    "subject": "Vatandaşlık",
+    "number": 112,
+    "text": "112. Anayasa Mahkemesi kaç üyeden oluşur?",
+    "options": [
+      "A) 11",
+      "B) 15",
+      "C) 17",
+      "D) 21",
+      "E) 25"
+    ],
+    "correct": 1,
+    "solution": "Anayasa Mahkemesi 15 üyeden oluşur."
+  },
+  {
+    "id": "m_113",
+    "subject": "Vatandaşlık",
+    "number": 113,
+    "text": "113. 657 Sayılı Devlet Memurları Kanunu'na göre memurlara verilen en hafif disiplin cezası hangisidir?",
+    "options": [
+      "A) Kınama",
+      "B) Uyarma",
+      "C) Aylıktan Kesme",
+      "D) İkaz",
+      "E) Yevmiye Kesme"
+    ],
+    "correct": 1,
+    "solution": "En hafif disiplin cezası UYARMA cezasıdır."
+  },
+  {
+    "id": "m_114",
+    "subject": "Vatandaşlık",
+    "number": 114,
+    "text": "114. 657 Sayılı Devlet Memurları Kanunu'na göre aday memurluk süresi EN ÇOK kaç yıl olabilir?",
+    "options": [
+      "A) 6 ay",
+      "B) 1 yıl",
+      "C) 2 yıl",
+      "D) 3 yıl",
+      "E) 5 yıl"
+    ],
+    "correct": 2,
+    "solution": "Aday memurluk süresi 1 yıldan az, 2 yıldan çok olamaz."
+  },
+  {
+    "id": "m_115",
+    "subject": "Vatandaşlık",
+    "number": 115,
+    "text": "115. Aşağıdakilerden hangisi yüksek mahkemelerimizden biri DEĞİLDİR?",
+    "options": [
+      "A) Anayasa Mahkemesi",
+      "B) Yargıtay",
+      "C) Danıştay",
+      "D) Uyuşmazlık Mahkemesi",
+      "E) Sayıştay"
+    ],
+    "correct": 4,
+    "solution": "Sayıştay ve İl Seçim Kurulu yüksek mahkeme organı değildir (Mali denetim organıdır)."
+  },
+  {
+    "id": "m_116",
+    "subject": "Vatandaşlık",
+    "number": 116,
+    "text": "116. Siyasi partilerin kapatılması davasını açmaya kim yetkilidir?",
+    "options": [
+      "A) Adalet Bakanı",
+      "B) Yargıtay Cumhuriyet Başsavcısı",
+      "C) İçişleri Bakanı",
+      "D) Cumhurbaşkanı",
+      "E) TBMM Başkanı"
+    ],
+    "correct": 1,
+    "solution": "Yargıtay Cumhuriyet Başsavcısı dahi açar, Anayasa Mahkemesi karara bağlar."
+  },
+  {
+    "id": "m_117",
+    "subject": "Vatandaşlık",
+    "number": 117,
+    "text": "117. Birleşmiş Milletler (BM) Genel Merkezi hangi şehirdedir?",
+    "options": [
+      "A) Cenevre",
+      "B) Brüksel",
+      "C) New York",
+      "D) Paris",
+      "E) Londra"
+    ],
+    "correct": 2,
+    "solution": "Birleşmiş Milletler genel merkezi New York'tadır."
+  },
+  {
+    "id": "m_118",
+    "subject": "Vatandaşlık",
+    "number": 118,
+    "text": "118. UNESCO World Heritage (Dünya Mirası) listesinde yer alan Göbeklitepe hangi ilimizdedir?",
+    "options": [
+      "A) Gaziantep",
+      "B) Şanlıurfa",
+      "C) Mardin",
+      "D) Adıyaman",
+      "E) Diyarbakır"
+    ],
+    "correct": 1,
+    "solution": "Göbeklitepe Şanlıurfa ilimiz sınırları içerisindedir."
+  },
+  {
+    "id": "m_119",
+    "subject": "Vatandaşlık",
+    "number": 119,
+    "text": "119. Avrupa İnsan Hakları Mahkemesi (AİHM) hangi şehirde bulunmaktadır?",
+    "options": [
+      "A) Lahey",
+      "B) Strazburg",
+      "C) Viyana",
+      "D) Berlin",
+      "E) Roma"
+    ],
+    "correct": 1,
+    "solution": "AİHM Fransa'nın Strazburg kentindedir."
+  },
+  {
+    "id": "m_120",
+    "subject": "Vatandaşlık",
+    "number": 120,
+    "text": "120. Türkiye'nin 2026 yılı için belirlenen kültürel ve turizm temaları kapsamında öne çıkan antik kenti hangisidir?",
+    "options": [
+      "A) Efes",
+      "B) Troya",
+      "C) Hierapolis",
+      "D) Pergamon",
+      "E) Çatalhöyük"
+    ],
+    "correct": 0,
+    "solution": "Efes Antik Kenti Türkiye'nin dünyaca ünlü turizm sembollerinden biridir."
+  }
+]

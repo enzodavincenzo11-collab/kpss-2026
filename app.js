@@ -30,31 +30,70 @@ localStorage.removeItem = function(key) {
 };
 
 
+
+// --- PROFESYONEL TOAST BİLDİRİM SİSTEMİ ---
+function showToast(message, type = 'error') {
+  const container = document.getElementById('toast-container');
+  const toast = document.createElement('div');
+  toast.className = `toast ${type}`;
+  
+  const icon = type === 'error' ? '❌' : type === 'success' ? '✅' : 'ℹ️';
+  toast.innerHTML = `<span style="font-size:1.2em;">${icon}</span> <span>${message}</span>`;
+  
+  container.appendChild(toast);
+  
+  // Animasyonu başlat
+  requestAnimationFrame(() => toast.classList.add('show'));
+  
+  // 3 saniye sonra sil
+  setTimeout(() => {
+    toast.classList.remove('show');
+    toast.classList.add('hide');
+    setTimeout(() => toast.remove(), 400);
+  }, 3000);
+}
+
 function attemptLogin() {
   const user = document.getElementById('login-username').value.trim();
   const pass = document.getElementById('login-password').value.trim();
-  const errorLabel = document.getElementById('login-error');
+  const btnText = document.getElementById('btn-text');
+  const btnSpinner = document.getElementById('btn-spinner');
   
   if(!user || !pass) {
-    errorLabel.innerText = "Kullanıcı adı ve şifre boş bırakılamaz!";
-    errorLabel.style.display = "block";
+    showToast("Kullanıcı adı ve şifre zorunludur!", "error");
     return;
   }
   
-  // Local Şifre Kayıt ve Kontrol Sistemi
-  const savedPass = originalGetItem.call(localStorage, 'kpss_pass_' + user);
-  if(savedPass) {
-    if(savedPass !== pass) {
-      errorLabel.innerText = "Hatalı şifre girdiniz!";
-      errorLabel.style.display = "block";
-      return;
-    }
-  } else {
-    originalSetItem.call(localStorage, 'kpss_pass_' + user, pass);
-    alert("İlk girişiniz olduğu için hesabınız oluşturuldu. Bundan sonra bu şifreyle gireceksiniz.");
-  }
+  // Yükleniyor (Ağ gecikmesi simülasyonu) animasyonu
+  btnText.innerText = "Kimlik Doğrulanıyor...";
+  btnSpinner.style.display = "block";
+  document.getElementById('login-btn').style.opacity = "0.8";
+  document.getElementById('login-btn').style.pointerEvents = "none";
   
-  loginUser(user);
+  setTimeout(() => {
+    const savedPass = originalGetItem.call(localStorage, 'kpss_pass_' + user);
+    
+    if(savedPass) {
+      if(savedPass !== pass) {
+        showToast("Hatalı şifre girdiniz!", "error");
+        btnText.innerText = "Sisteme Giriş Yap";
+        btnSpinner.style.display = "none";
+        document.getElementById('login-btn').style.opacity = "1";
+        document.getElementById('login-btn').style.pointerEvents = "auto";
+        return;
+      }
+      showToast("Giriş başarılı, sisteme aktarılıyorsunuz...", "success");
+    } else {
+      originalSetItem.call(localStorage, 'kpss_pass_' + user, pass);
+      showToast("Yeni hesap başarıyla oluşturuldu!", "success");
+    }
+    
+    // Yönlendirme
+    setTimeout(() => {
+      loginUser(user);
+    }, 1200);
+    
+  }, 800); // 800ms sahte sunucu gecikmesi (profesyonel his için)
 }
 
 function loginUser(username) {

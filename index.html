@@ -5,12 +5,104 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>KPSS 2026 Ortaöğretim - Tam Kapsamlı Hazırlık Portalı & Deneme Sınavı</title>
   <meta name="description" content="KPSS 2026 Ortaöğretim sınavına hazırlık için interaktif soru bankası, çözümlü testler, 120 soruluk deneme sınavı ve 12 haftalık kişiselleştirilmiş çalışma programı.">
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=5?v=3">
 
   <!-- PWA ve Mobil Uygulama Kimliği -->
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#0f172a">
   <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+<style id="mobile-emergency-override">
+@media (max-width: 900px) {
+  html,body{overflow-x:hidden!important;width:100%!important;}
+  body{display:block!important;padding-bottom:80px!important;}
+  .app-sidebar{
+    position:fixed!important;bottom:0!important;top:auto!important;
+    left:0!important;right:0!important;width:100%!important;height:68px!important;
+    flex-direction:row!important;padding:0!important;
+    background:#0f172a!important;
+    border-top:1px solid rgba(56,189,248,0.25)!important;
+    border-right:none!important;z-index:99999!important;
+    align-items:stretch!important;
+    box-shadow:0 -4px 20px rgba(0,0,0,0.8)!important;
+    overflow:hidden!important;
+  }
+  .brand-header,.theme-toggle-btn,.profile-box{display:none!important;}
+  .nav-menu{
+    flex-direction:row!important;width:100%!important;height:100%!important;
+    justify-content:stretch!important;align-items:stretch!important;
+    margin:0!important;padding:0!important;gap:0!important;list-style:none!important;
+  }
+  .nav-item{
+    margin:0!important;flex:1!important;display:flex!important;
+    align-items:stretch!important;width:auto!important;
+  }
+  .nav-item button{
+    flex-direction:column!important;padding:5px 2px!important;
+    width:100%!important;height:100%!important;
+    justify-content:center!important;align-items:center!important;gap:2px!important;
+    background:transparent!important;border-radius:0!important;
+    border:none!important;border-top:2px solid transparent!important;
+  }
+  .nav-item.active button{
+    background:rgba(56,189,248,0.12)!important;
+    border-top-color:#38bdf8!important;
+  }
+  .nav-icon{margin-right:0!important;margin-bottom:0!important;font-size:1.2rem!important;color:#475569!important;}
+  .nav-item.active .nav-icon{color:#38bdf8!important;}
+  .nav-text{font-size:0.55rem!important;display:block!important;text-align:center!important;color:#475569!important;font-weight:600!important;white-space:nowrap!important;}
+  .nav-item.active .nav-text{color:#38bdf8!important;}
+
+  .app-main{
+    margin-left:0!important;margin-right:0!important;padding:0!important;
+    width:100%!important;max-width:100%!important;min-width:0!important;
+    box-sizing:border-box!important;overflow-x:hidden!important;display:block!important;
+  }
+  .top-bar{
+    position:sticky!important;top:0!important;z-index:100!important;
+    padding:8px 12px!important;flex-wrap:wrap!important;gap:6px!important;
+  }
+  .countdown-title{display:none!important;}
+  .timer-unit{padding:3px 6px!important;}
+  .timer-unit .val{font-size:0.85rem!important;}
+  .timer-unit .lbl{font-size:0.48rem!important;}
+  .stat-pill{padding:4px 7px!important;font-size:0.7rem!important;}
+
+  .content-wrapper{padding:10px!important;width:100%!important;max-width:100%!important;box-sizing:border-box!important;}
+  .hero-banner{flex-direction:column!important;padding:16px!important;gap:12px!important;margin-bottom:14px!important;}
+  .hero-cta{width:100%!important;box-sizing:border-box!important;}
+  .subjects-grid{grid-template-columns:1fr 1fr!important;gap:10px!important;}
+  .deneme-cards-grid{grid-template-columns:repeat(2,1fr)!important;gap:8px!important;}
+  .deneme-card-btn{padding:10px 6px!important;font-size:0.82rem!important;}
+
+  /* DENEME SINAVI - EN KRİTİK */
+  .mock-arena{
+    display:flex!important;flex-direction:column!important;
+    width:100%!important;gap:0!important;
+  }
+  .mock-question-pane{
+    width:100%!important;padding:12px!important;box-sizing:border-box!important;
+    border-radius:0!important;border-left:none!important;border-right:none!important;border-top:none!important;
+    order:1!important;
+  }
+  .optic-sheet{
+    width:100%!important;padding:12px!important;box-sizing:border-box!important;
+    border-radius:0!important;border-left:none!important;border-right:none!important;border-bottom:none!important;
+    order:2!important;
+  }
+  .mock-timer-bar{flex-direction:column!important;gap:8px!important;padding:10px!important;margin-bottom:10px!important;}
+  .mock-timer-bar>div{justify-content:center!important;flex-wrap:wrap!important;gap:6px!important;}
+  .mock-timer-clock{font-size:1.4rem!important;}
+  .optic-grid{grid-template-columns:repeat(5,1fr)!important;gap:5px!important;max-height:none!important;overflow-y:visible!important;}
+  .optic-num{font-size:0.7rem!important;min-height:34px!important;}
+  .question-card{padding:14px!important;}
+  .question-text{font-size:0.92rem!important;}
+  .option-pill{padding:11px 12px!important;font-size:0.85rem!important;}
+  .topic-tab-btn{padding:7px 11px!important;font-size:0.78rem!important;}
+  #topic-summary-container table{display:block!important;overflow-x:auto!important;}
+  #login-box{width:92%!important;padding:26px 16px!important;}
+}
+</style>
 </head>
 <body>
 
@@ -276,6 +368,7 @@
               <div style="display: flex; gap: 10px;">
                 <button id="btn-start-mock" class="hero-cta" style="padding: 8px 16px; font-size: 0.85rem; background: linear-gradient(135deg, #10b981, #059669);" onclick="startMockExam()">▶️ Sınavı Başlat</button>
                 <button id="btn-pause-mock" class="btn-solution" style="display: none;" onclick="togglePauseMockExam()">⏸️ Duraklat</button>
+                <button id="btn-finish-timer-bar" class="btn-solution" style="background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.4); font-weight: 700;" onclick="finishMockExam()">🏁 Sınavı Bitir</button>
                 <button id="btn-reset-mock" class="btn-solution" style="background: rgba(239, 68, 68, 0.15); color: #f87171; border-color: rgba(239, 68, 68, 0.3);" onclick="resetMockExam()">🔄 Bu Denemeyi Sıfırla</button>
               </div>
             </div>
@@ -294,7 +387,10 @@
               <!-- 120 Optic numbers generated via JS -->
             </div>
 
-            <button class="btn-finish-exam" id="btn-submit-mock">Sınavı Bitir ve Sonucu Gör</button>
+            <button class="btn-finish-exam" id="btn-submit-mock" onclick="finishMockExam()">Sınavı Bitir ve Sonucu Gör</button>
+
+            <!-- SINAV SONUÇ PANELI -->
+            <div id="mock-results" style="display:none; margin-top: 24px;"></div>
           </div>
         </div>
       </section>
@@ -359,8 +455,8 @@
     </div>
   </div>
 
-  <script src="data.js?v=3"></script>
-  <script src="app.js?v=3"></script>
+  <script src="data.js?v=5"></script>
+  <script src="app.js?v=5"></script>
 
   <script>
     if ('serviceWorker' in navigator) {

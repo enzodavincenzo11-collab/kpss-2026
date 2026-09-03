@@ -160,7 +160,7 @@ function loadMockState(examId) {
     isMockSubmitted = state.isSubmitted || false;
   } else {
     mockUserAnswers = {};
-    localStorage.removeItem("kpss_mock_state_" + examId);
+    localStorage.removeItem("kpss_mock_state_" + currentMockExamId);
     mockTimeRemaining = 130 * 60;
     isMockStarted = false;
     isMockSubmitted = false;
@@ -429,35 +429,6 @@ function renderTopicSummary() {
   let svgDiagramHTML = "";
 
   // Worked Examples Section (Örnek Çözümlü Sorular)
-  let workedExamplesHTML = "";
-  if (currentTopic.questions && currentTopic.questions.length > 0) {
-    workedExamplesHTML = `
-      <div style="margin-top: 24px; border-top: 1px dashed var(--border-color); padding-top: 20px;">
-        <h4 style="font-size: 1.15rem; color: #60a5fa; margin-bottom: 14px;">🧠 Konuyu Anlama Rehberi: Örnek Çözümlü Sorular & İnceleme</h4>
-        <div style="display: flex; flex-direction: column; gap: 16px;">
-          ${currentTopic.questions
-            .map(
-              (q, idx) => `
-            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 18px;">
-              <div style="font-weight: 700; color: var(--text-primary); margin-bottom: 8px;">
-                💡 Örnek Rehber Soru ${idx + 1}: ${q.text}
-              </div>
-              <div style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 12px;">
-                <b>Şıklar:</b> ${q.options.join(" | ")}
-              </div>
-              <div style="background: rgba(16, 185, 129, 0.08); border-left: 4px solid var(--accent-emerald); padding: 14px; border-radius: 6px; font-size: 0.92rem; color: #a7f3d0; line-height: 1.7;">
-                <b>✅ Doğru Cevap:</b> ${q.options[q.correct]}<br>
-                <b>📝 Adım Adım Detaylı Konu Anlatımlı Çözüm:</b> ${q.solution}
-              </div>
-            </div>
-          `
-            )
-            .join("")}
-        </div>
-      </div>
-    `;
-  }
-
   summaryBox.innerHTML = `
     <!-- Top Bar with Chapter Tabs -->
     <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 14px; margin-bottom: 20px; flex-wrap: wrap; gap: 12px;">
@@ -512,7 +483,7 @@ function renderTopicSummary() {
       }
     </div>
 
-    ${workedExamplesHTML}
+    
 
     <!-- Page Navigation Prev / Next Buttons -->
     <div style="display: flex; justify-content: space-between; margin-top: 24px;">
@@ -558,7 +529,10 @@ function renderTopicQuestions() {
 
   let filteredQuestions = currentTopic.questions;
   if (currentDifficultyFilter !== "tumu") {
-    filteredQuestions = currentTopic.questions.filter((q) => q.level === currentDifficultyFilter);
+    filteredQuestions = currentTopic.questions.filter((q) => {
+      const qLvl = (q.level || q.difficulty || "orta").toLowerCase();
+      return qLvl === currentDifficultyFilter.toLowerCase();
+    });
   }
 
   if (countLabel) {
@@ -586,7 +560,7 @@ function renderTopicQuestions() {
         <div class="question-card" id="card-${q.id}">
           <div class="question-card-header">
             <span style="font-weight: 700; color: var(--accent-blue);">Soru ${qIdx + 1}</span>
-            <span class="difficulty-badge ${q.level.toLowerCase()}">${q.level}</span>
+            <span class="difficulty-badge ${(q.level || q.difficulty || "orta").toLowerCase()}">${q.level || q.difficulty || "Orta"}</span>
           </div>
 
           <div class="question-text">${q.text}</div>
@@ -688,16 +662,38 @@ function populateMockExamCards() {
 }
 
 function changeMockExam(examId) {
-  if (examId === currentMockExamId) return;
+  if (examId === currentMockExamId && isMockStarted) return;
 
   if (isMockStarted && !isMockSubmitted && Object.keys(mockUserAnswers).length > 0) {
-    if (!confirm("Başka bir deneme sınavına geçmek istediğinize emin misiniz? Mevcut işaretlemeleriniz sıfırlanacaktır.")) {
+    if (!confirm("Başka bir deneme sınavına geçmek istediğinize emin misiniz? Mevcut işaretlemeleriniz kaydedilecektir.")) {
       return;
     }
   }
 
   currentMockExamId = examId;
-  resetMockExam();
+  loadMockState(examId);
+
+  const startBtn = document.getElementById("btn-start-mock");
+  const pauseBtn = document.getElementById("btn-pause-mock");
+
+  if (isMockStarted && !isMockSubmitted) {
+    if (startBtn) startBtn.style.display = "none";
+    if (pauseBtn) pauseBtn.style.display = "inline-block";
+  } else {
+    if (startBtn) startBtn.style.display = "inline-block";
+    if (pauseBtn) pauseBtn.style.display = "none";
+  }
+
+  const revBanner = document.getElementById("review-mode-banner");
+  if (revBanner) revBanner.style.display = isMockSubmitted ? "block" : "none";
+
+  const resultsDiv = document.getElementById("mock-results");
+  if (resultsDiv && !isMockSubmitted) resultsDiv.style.display = "none";
+
+  populateMockExamCards();
+  updateMockTimerDisplay();
+  renderOpticGrid();
+  renderMockQuestion(0);
 }
 
 function initMockExam() {
@@ -762,7 +758,7 @@ function resetMockExam() {
   mockTimerInterval = null;
 
   mockUserAnswers = {};
-    localStorage.removeItem("kpss_mock_state_" + examId);
+    localStorage.removeItem("kpss_mock_state_" + currentMockExamId);
   isMockStarted = false;
   isMockPaused = false;
   isMockSubmitted = false;
@@ -923,115 +919,178 @@ function selectMockOption(qId, optIdx) {
 }
 
 function finishMockExam() {
-  isMockSubmitted = true;
-  isMockStarted = false;
-  clearInterval(mockTimerInterval);
-  if (typeof saveMockState === 'function') saveMockState();
-
-  document.getElementById("btn-start-mock").style.display = "none";
-  document.getElementById("btn-pause-mock").style.display = "none";
-
-  const activeExam = getActiveMockExam();
-  
-  // Branş bazlı analiz nesnesi
-  const stats = {
-    "Türkçe": { d: 0, y: 0, b: 0, net: 0, total: 30 },
-    "Matematik": { d: 0, y: 0, b: 0, net: 0, total: 30 },
-    "Tarih": { d: 0, y: 0, b: 0, net: 0, total: 27 },
-    "Coğrafya": { d: 0, y: 0, b: 0, net: 0, total: 18 },
-    "Vatandaşlık": { d: 0, y: 0, b: 0, net: 0, total: 15 }
-  };
-
-  let totalD = 0, totalY = 0, totalB = 0;
-
-  activeExam.questions.forEach((q) => {
-    const userOpt = mockUserAnswers[q.id];
-    const subj = q.subject;
-    
-    if (userOpt === undefined) {
-      if(stats[subj]) stats[subj].b++;
-      totalB++;
-    } else if (userOpt === q.correct) {
-      if(stats[subj]) stats[subj].d++;
-      totalD++;
-    } else {
-      if(stats[subj]) stats[subj].y++;
-      totalY++;
+  try {
+    isMockSubmitted = true;
+    isMockStarted = false;
+    clearInterval(mockTimerInterval);
+    if (typeof saveMockState === 'function') {
+      try { saveMockState(); } catch(e) { console.warn(e); }
     }
-  });
 
-  let totalNet = 0;
-  let tableHTML = `<table style="width:100%; border-collapse:collapse; margin-top:15px; text-align:center; background:#1e293b; border-radius:8px; overflow:hidden;">
-    <tr style="background:#334155; color:#fff;">
-      <th style="padding:10px;">Ders</th>
-      <th>Soru</th>
-      <th>Doğru</th>
-      <th>Yanlış</th>
-      <th>Boş</th>
-      <th>Net</th>
-    </tr>`;
+    const startBtn = document.getElementById("btn-start-mock");
+    if (startBtn) startBtn.style.display = "none";
+    const pauseBtn = document.getElementById("btn-pause-mock");
+    if (pauseBtn) pauseBtn.style.display = "none";
 
-  Object.keys(stats).forEach(subj => {
-    const s = stats[subj];
-    s.net = s.d - (s.y / 4);
-    totalNet += s.net;
-    tableHTML += `<tr style="border-bottom: 1px solid #334155;">
-      <td style="padding:10px; font-weight:bold; text-align:left;">${subj}</td>
-      <td>${s.total}</td>
-      <td style="color:#4ade80;">${s.d}</td>
-      <td style="color:#f87171;">${s.y}</td>
-      <td style="color:#94a3b8;">${s.b}</td>
-      <td style="color:#38bdf8; font-weight:bold;">${s.net.toFixed(2)}</td>
-    </tr>`;
-  });
-  
-  // P94 Puan Hesaplama (Yaklaşık formül)
-  let p94 = 40 + (totalNet * 0.48);
-  if (totalNet <= 0) p94 = 0;
-  if (p94 > 100) p94 = 100;
+    const activeExam = getActiveMockExam();
+    if (!activeExam || !activeExam.questions) {
+      alert("Deneme sınavı verisi bulunamadı!");
+      return;
+    }
 
-  tableHTML += `<tr style="background:#0f172a; font-size:1.1em;">
-      <td style="padding:12px; font-weight:bold; text-align:left;">TOPLAM</td>
-      <td>120</td>
-      <td style="color:#4ade80;">${totalD}</td>
-      <td style="color:#f87171;">${totalY}</td>
-      <td style="color:#94a3b8;">${totalB}</td>
-      <td style="color:#38bdf8; font-weight:bold;">${totalNet.toFixed(2)}</td>
-    </tr></table>`;
+    // Branş bazlı analiz
+    const stats = {
+      "Türkçe": { d: 0, y: 0, b: 0, net: 0, total: 30 },
+      "Matematik": { d: 0, y: 0, b: 0, net: 0, total: 30 },
+      "Tarih": { d: 0, y: 0, b: 0, net: 0, total: 27 },
+      "Coğrafya": { d: 0, y: 0, b: 0, net: 0, total: 18 },
+      "Vatandaşlık": { d: 0, y: 0, b: 0, net: 0, total: 15 }
+    };
 
-  const resultsDiv = document.getElementById("mock-results");
-  resultsDiv.style.display = "block";
-  
-  resultsDiv.innerHTML = `
-    <div style="text-align:center; margin-bottom:20px;">
-      <h2 style="color:#facc15; font-size:2em; margin-bottom:5px;">Sınav Tamamlandı!</h2>
-      <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; display: inline-block; padding: 15px 30px; border-radius: 50px; font-size: 1.5em; font-weight: bold; box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3); margin-top:10px;">
-        Tahmini KPSS P94 Puanınız: ${p94.toFixed(3)}
-      </div>
-    </div>
-    ${tableHTML}
-    <div style="margin-top:20px; display:flex; gap:10px; justify-content:center;">
-      <button class="btn" onclick="renderMockQuestion()">Yanıtları İncele</button>
-      <button class="btn btn-next-mock-exam" onclick="goToNextMockExam()" id="btn-next-mock">Sıradaki Denemeye Geç</button>
-    </div>
-  `;
+    let totalD = 0, totalY = 0, totalB = 0;
 
-  renderMockGrid();
+    activeExam.questions.forEach((q) => {
+      const userOpt = (typeof mockUserAnswers !== 'undefined') ? mockUserAnswers[q.id] : undefined;
+      const subj = q.subject;
+      
+      if (userOpt === undefined || userOpt === null) {
+        if (stats[subj]) stats[subj].b++;
+        totalB++;
+      } else if (userOpt === q.correct) {
+        if (stats[subj]) stats[subj].d++;
+        totalD++;
+      } else {
+        if (stats[subj]) stats[subj].y++;
+        totalY++;
+      }
+    });
+
+    let totalNet = 0;
+    let tableHTML = `<table style="width:100%; border-collapse:collapse; margin-top:12px; text-align:center; background:rgba(15,23,42,0.6); border-radius:8px; overflow:hidden; font-size:0.85rem;">
+      <tr style="background:#334155; color:#fff;">
+        <th style="padding:8px 6px; text-align:left;">Ders</th>
+        <th style="padding:8px 4px;">Soru</th>
+        <th style="padding:8px 4px;">D</th>
+        <th style="padding:8px 4px;">Y</th>
+        <th style="padding:8px 4px;">B</th>
+        <th style="padding:8px 6px;">Net</th>
+      </tr>`;
+
+    Object.keys(stats).forEach(subj => {
+      const s = stats[subj];
+      s.net = s.d - (s.y / 4);
+      totalNet += s.net;
+      tableHTML += `<tr style="border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <td style="padding:8px 6px; font-weight:600; text-align:left; color:#cbd5e1;">${subj}</td>
+        <td>${s.total}</td>
+        <td style="color:#4ade80; font-weight:700;">${s.d}</td>
+        <td style="color:#f87171; font-weight:700;">${s.y}</td>
+        <td style="color:#94a3b8;">${s.b}</td>
+        <td style="color:#38bdf8; font-weight:bold;">${s.net.toFixed(2)}</td>
+      </tr>`;
+    });
+    
+    // P94 Puan Hesaplama (KPSS Ortaöğretim Formülü)
+    let p94 = 40 + (totalNet * 0.48);
+    if (totalNet <= 0) p94 = 0;
+    if (p94 > 100) p94 = 100;
+
+    tableHTML += `<tr style="background:rgba(30,41,59,0.95); font-weight:bold;">
+        <td style="padding:10px 6px; text-align:left; color:#facc15;">TOPLAM</td>
+        <td>120</td>
+        <td style="color:#4ade80;">${totalD}</td>
+        <td style="color:#f87171;">${totalY}</td>
+        <td style="color:#94a3b8;">${totalB}</td>
+        <td style="color:#38bdf8; font-size:1.05em;">${totalNet.toFixed(2)}</td>
+      </tr></table>`;
+
+    // 1. POPUP MODAL'I AÇ VE VERİLERİ DOLDUR (KULLANICININ DOĞRUDAN ÖNÜNE GELİR)
+    const modalP94 = document.getElementById("modal-p94-score");
+    if (modalP94) modalP94.innerText = p94.toFixed(2);
+    
+    const modalCorr = document.getElementById("modal-correct-count");
+    if (modalCorr) modalCorr.innerText = totalD;
+    
+    const modalWrong = document.getElementById("modal-wrong-count");
+    if (modalWrong) modalWrong.innerText = totalY;
+    
+    const modalNet = document.getElementById("modal-net-score");
+    if (modalNet) modalNet.innerText = totalNet.toFixed(2);
+
+    // Modal içerisindeki detay tablosu alanı
+    let modalDetailArea = document.getElementById("modal-detail-table-area");
+    if (!modalDetailArea) {
+      modalDetailArea = document.createElement("div");
+      modalDetailArea.id = "modal-detail-table-area";
+      const modalBox = document.querySelector("#mock-result-modal .modal-box");
+      if (modalBox) {
+        const btnGroup = modalBox.querySelector("div[style*='flex-direction: column']");
+        if (btnGroup) modalBox.insertBefore(modalDetailArea, btnGroup);
+        else modalBox.appendChild(modalDetailArea);
+      }
+    }
+    if (modalDetailArea) {
+      modalDetailArea.innerHTML = `<div style="max-height: 220px; overflow-y: auto; margin: 12px 0; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px;">${tableHTML}</div>`;
+    }
+
+    const modal = document.getElementById("mock-result-modal");
+    if (modal) {
+      modal.classList.add("active");
+    }
+
+    // 2. Sayfa içi sonuç paneli (varsa orayı da güncelle)
+    const resultsDiv = document.getElementById("mock-results");
+    if (resultsDiv) {
+      resultsDiv.style.display = "block";
+      resultsDiv.innerHTML = `
+        <div style="text-align:center; margin:20px 0;">
+          <h2 style="color:#facc15; font-size:1.6em; margin-bottom:5px;">🎉 Sınav Tamamlandı!</h2>
+          <div style="background: linear-gradient(135deg, #10b981, #059669); color: white; display: inline-block; padding: 12px 25px; border-radius: 50px; font-size: 1.3em; font-weight: bold; box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3); margin-top:8px;">
+            Tahmini KPSS P94 Puanınız: ${p94.toFixed(2)}
+          </div>
+        </div>
+        ${tableHTML}
+        <div style="margin-top:20px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+          <button class="hero-cta" style="padding: 10px 18px; font-size: 0.9rem;" onclick="closeModal()">🔍 Soruları & Çözümleri İncele</button>
+          <button class="btn-solution" style="padding: 10px 18px; font-size: 0.9rem;" onclick="goToNextMockExam()">🚀 Sıradaki Denemeye Geç</button>
+        </div>
+      `;
+    }
+
+    // Optik form butonlarını renklendir
+    if (typeof renderOpticGrid === 'function') {
+      renderOpticGrid();
+    }
+    // İlk soruyu inceleme modunda aç
+    if (typeof renderMockQuestion === 'function') {
+      renderMockQuestion(0);
+    }
+  } catch (err) {
+    console.error("finishMockExam error:", err);
+    alert("Sınav tamamlandı! Net: " + (totalNet ? totalNet.toFixed(2) : "0") + " | Puan: " + (p94 ? p94.toFixed(2) : "0"));
+  }
+}
+
+function closeModal() {
+  const modal = document.getElementById("mock-result-modal");
+  if (modal) modal.classList.remove("active");
+  if (typeof renderMockQuestion === 'function') {
+    renderMockQuestion(typeof currentMockIndex !== 'undefined' ? currentMockIndex : 0);
+  }
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function goToNextMockExam() {
-  document.getElementById("mock-result-modal").classList.remove("active");
+  const modal = document.getElementById("mock-result-modal");
+  if (modal) modal.classList.remove("active");
   const exams = KPSS_DATA.mockExams || [KPSS_DATA.mockExam];
   const currentIdx = exams.findIndex((e) => (e.id || "") === currentMockExamId);
   const nextIdx = (currentIdx + 1) % exams.length;
   const nextExamId = exams[nextIdx].id || `deneme_${nextIdx + 1}`;
-  changeMockExam(nextExamId);
-  startMockExam();
-}
-
-function closeModal() {
-  document.getElementById("mock-result-modal").classList.remove("active");
-  renderMockQuestion(currentMockIndex);
+  if (typeof changeMockExam === 'function') {
+    changeMockExam(nextExamId);
+  }
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 /* 9. Global İstatistikleri Güncelleme */

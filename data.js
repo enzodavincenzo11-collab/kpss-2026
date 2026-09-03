@@ -23,88 +23,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_34047",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 1. Temel Kavramlar & Sayı Kümeleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_1_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "a ve b birer tam sayı olmak üzere, a · b çarpımının tek sayı olduğu bilinmektedir. Buna göre aşağıdakilerden hangisi daima ÇİFT sayıdır?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) a + b",
+                "B) a · b + 2",
+                "C) a² + b",
+                "D) 2a + b",
+                "E) a - b + 1"
+              ],
+              "correct": 0,
+              "solution": "İki tam sayının çarpımı tek sayı ise sayıların her ikisi de mutlaka TEKTİR (a = Tek, b = Tek). Tek + Tek = Çift olduğundan (A) seçeneğindeki a + b ifadesi daima çifttir."
+            },
+            {
+              "id": "mat_1_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "Ardışık 5 tek tam sayının toplamı 85 olduğuna göre, bu sayıların en büyüğü kaçtır?",
+              "options": [
+                "A) 17",
+                "B) 19",
+                "C) 21",
+                "D) 23",
+                "E) 25"
               ],
               "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap C seçeneğidir."
+              "solution": "Ardışık n tane tek sayının toplamı n'e bölündüğünde ortanca sayı bulunur. 85 / 5 = 17 (Ortanca sayı). Sayılar sırasıyla: 13, 15, 17, 19, 21'dir. En büyük sayı 21'dir (Doğru cevap C)."
             },
             {
-              "id": "q_16826",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 1. Temel Kavramlar & Sayı Kümeleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_1_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "x ve y birer pozitif tam sayıdır. (2x - 3) · (y + 4) = 17 olduğuna göre, x + y toplamı kaçtır?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) 14",
+                "B) 15",
+                "C) 16",
+                "D) 17",
+                "E) 18"
               ],
               "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap B seçeneğidir."
-            },
-            {
-              "id": "q_27198",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 1. Temel Kavramlar & Sayı Kümeleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap B seçeneğidir."
-            },
-            {
-              "id": "q_49949",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 1. Temel Kavramlar & Sayı Kümeleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
-            },
-            {
-              "id": "q_21325",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 1. Temel Kavramlar & Sayı Kümeleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
-            },
-            {
-              "id": "q_76508",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 1. Temel Kavramlar & Sayı Kümeleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap E seçeneğidir."
+              "solution": "17 bir asal sayıdır, çarpanları 1 ve 17'dir. y pozitif tam sayı olduğundan (y + 4) > 4 olmalıdır. Dolayısıyla y + 4 = 17 => y = 13 olur. 2x - 3 = 1 => 2x = 4 => x = 2 olur. x + y = 2 + 13 = 15'tir (Cevap B)."
             }
           ]
         },
@@ -122,88 +83,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_55987",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 2. Bölme-Bölünebilme Kuralları & EBOB-EKOK ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_2_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "Dört basamaklı 4A7B sayısı 10 ile tam bölünebilmektedir. Bu sayının 9 ile bölünebilmesi için A rakamı kaç olmalıdır?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) 5",
+                "B) 6",
+                "C) 7",
+                "D) 8",
+                "E) 9"
               ],
               "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap C seçeneğidir."
+              "solution": "10 ile tam bölünüyorsa birler basamağı 0 olmalıdır (B = 0). Sayı 4A70 oldu. 9 ile bölünmesi için rakamlar toplamı 9'un katı olmalıdır: 4 + A + 7 + 0 = 11 + A. Buradan A = 7 bulunur (Doğru cevap C)."
             },
             {
-              "id": "q_95001",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 2. Bölme-Bölünebilme Kuralları & EBOB-EKOK ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_2_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "Boyutları 48 metre ve 60 metre olan dikdörtgen biçimindeki bir bahçenin çevresine ve köşelerine eşit aralıklarla fidan dikilecektir. En az kaç fidana ihtiyaç vardır?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) 16",
+                "B) 18",
+                "C) 20",
+                "D) 22",
+                "E) 24"
               ],
-              "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap A seçeneğidir."
+              "correct": 1,
+              "solution": "Aralıkların en büyük olması için EBOB(48, 60) bulunur. EBOB(48, 60) = 12 metredir. Bahçenin çevresi = 2 · (48 + 60) = 216 metredir. Fidan sayısı = Çevre / EBOB = 216 / 12 = 18 fidan (Doğru cevap B)."
             },
             {
-              "id": "q_50545",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 2. Bölme-Bölünebilme Kuralları & EBOB-EKOK ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_2_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "Üç farklı alarm sırasıyla 12, 15 ve 18 dakikada bir çalmaktadır. Saat 08.00'de birlikte çalan bu üç alarm, bir sonraki kez saat kaçta tekrar birlikte çalar?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) 09.30",
+                "B) 10.00",
+                "C) 11.00",
+                "D) 11.30",
+                "E) 12.00"
               ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
-            },
-            {
-              "id": "q_56465",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 2. Bölme-Bölünebilme Kuralları & EBOB-EKOK ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap A seçeneğidir."
-            },
-            {
-              "id": "q_88211",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 2. Bölme-Bölünebilme Kuralları & EBOB-EKOK ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap A seçeneğidir."
-            },
-            {
-              "id": "q_74898",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 2. Bölme-Bölünebilme Kuralları & EBOB-EKOK ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap E seçeneğidir."
+              "correct": 2,
+              "solution": "Tekrar birlikte çalacakları süre EKOK(12, 15, 18) ile bulunur. 12 = 2²·3, 15 = 3·5, 18 = 2·3² => EKOK = 2²·3²·5 = 180 dakikadır. 180 dakika = 3 saattir. 08.00 + 03.00 = 11.00'de birlikte çalarlar (Doğru cevap C)."
             }
           ]
         },
@@ -221,88 +143,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_81449",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 3. Rasyonel & Ondalık Sayılar ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_3_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "3. Rasyonel & Ondalık Sayılar konusunda temel kurallar uygulandığında aşağıdaki ifadelerden hangisi daima doğrudur?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
-            },
-            {
-              "id": "q_12697",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 3. Rasyonel & Ondalık Sayılar ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap E seçeneğidir."
-            },
-            {
-              "id": "q_32707",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 3. Rasyonel & Ondalık Sayılar ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
-            },
-            {
-              "id": "q_74199",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 3. Rasyonel & Ondalık Sayılar ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) İşlem önceliğinde parantez içi ve üs önce yapılır.",
+                "B) Sıfırın pozitif böleni sonsuzdur.",
+                "C) Negatif sayıların tüm kuvvetleri negatiftir.",
+                "D) İki tek sayının toplamı tektir.",
+                "E) Kesirlerde paydayı sıfır yapmak tanımsızlık yaratmaz."
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap A seçeneğidir."
+              "solution": "Matematikte işlem önceliği kuralına göre öncelikle parantez içleri ve üslü ifadeler hesaplanır (Doğru cevap A)."
             },
             {
-              "id": "q_74253",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 3. Rasyonel & Ondalık Sayılar ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_3_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "3. Rasyonel & Ondalık Sayılar kapsamında ÖSYM tarafından sorulan klasik problemlerde en çok kullanılan strateji hangisidir?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap E seçeneğidir."
-            },
-            {
-              "id": "q_79447",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 3. Rasyonel & Ondalık Sayılar ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) Bilinmeyenlere x ve y verip birinci dereceden denklem kurmak",
+                "B) Formül ezberlemeden rastgele değer denemek",
+                "C) Sorudaki tüm sayıları çarpmak",
+                "D) Pay ve paydayı eşitlemeden işlem yapmak",
+                "E) Sadece şıklardan giderek zaman kaybetmek"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap A seçeneğidir."
+              "solution": "KPSS problemlerinde temel çözüm yaklaşımı, metinde verilen sözel ilişkileri x, y gibi bilinmeyenlerle matematik denklemine dönüştürmektir."
+            },
+            {
+              "id": "mat_3_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "3. Rasyonel & Ondalık Sayılar konusunda adayların en çok düştüğü çeldirici tuzak aşağıdakilerden hangisidir?",
+              "options": [
+                "A) Sayı kümesinde 'reel sayı' dendiğinde tam sayı değerleri vererek çözmek",
+                "B) Paydaları eşitlemeyi unutmak",
+                "C) Eşitsizlik her iki tarafı eksi ile çarpıldığında yön değiştirmesini atlamak",
+                "D) Sadeleştirme yaparken kök kaybetmek",
+                "E) Yukarıdakilerin hepsi kritik birer sınav tuzağıdır."
+              ],
+              "correct": 4,
+              "solution": "ÖSYM matematik testinde reel sayı şartı, negatif sayıyla çarpıldığında eşitsizliğin yön değiştirmesi ve sadeleştirmede kök kaybı en sık yapılan hatalardır (Cevap E)."
             }
           ]
         },
@@ -320,88 +203,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_66497",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 4. Üslü & Köklü İfadeler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_4_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "4. Üslü & Köklü İfadeler konusunda temel kurallar uygulandığında aşağıdaki ifadelerden hangisi daima doğrudur?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) İşlem önceliğinde parantez içi ve üs önce yapılır.",
+                "B) Sıfırın pozitif böleni sonsuzdur.",
+                "C) Negatif sayıların tüm kuvvetleri negatiftir.",
+                "D) İki tek sayının toplamı tektir.",
+                "E) Kesirlerde paydayı sıfır yapmak tanımsızlık yaratmaz."
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap A seçeneğidir."
+              "solution": "Matematikte işlem önceliği kuralına göre öncelikle parantez içleri ve üslü ifadeler hesaplanır (Doğru cevap A)."
             },
             {
-              "id": "q_43909",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 4. Üslü & Köklü İfadeler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_4_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "4. Üslü & Köklü İfadeler kapsamında ÖSYM tarafından sorulan klasik problemlerde en çok kullanılan strateji hangisidir?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) Bilinmeyenlere x ve y verip birinci dereceden denklem kurmak",
+                "B) Formül ezberlemeden rastgele değer denemek",
+                "C) Sorudaki tüm sayıları çarpmak",
+                "D) Pay ve paydayı eşitlemeden işlem yapmak",
+                "E) Sadece şıklardan giderek zaman kaybetmek"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap A seçeneğidir."
+              "solution": "KPSS problemlerinde temel çözüm yaklaşımı, metinde verilen sözel ilişkileri x, y gibi bilinmeyenlerle matematik denklemine dönüştürmektir."
             },
             {
-              "id": "q_39790",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 4. Üslü & Köklü İfadeler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_4_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "4. Üslü & Köklü İfadeler konusunda adayların en çok düştüğü çeldirici tuzak aşağıdakilerden hangisidir?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) Sayı kümesinde 'reel sayı' dendiğinde tam sayı değerleri vererek çözmek",
+                "B) Paydaları eşitlemeyi unutmak",
+                "C) Eşitsizlik her iki tarafı eksi ile çarpıldığında yön değiştirmesini atlamak",
+                "D) Sadeleştirme yaparken kök kaybetmek",
+                "E) Yukarıdakilerin hepsi kritik birer sınav tuzağıdır."
               ],
-              "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap A seçeneğidir."
-            },
-            {
-              "id": "q_10829",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 4. Üslü & Köklü İfadeler ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
-            },
-            {
-              "id": "q_47050",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 4. Üslü & Köklü İfadeler ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
-            },
-            {
-              "id": "q_92835",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 4. Üslü & Köklü İfadeler ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
+              "correct": 4,
+              "solution": "ÖSYM matematik testinde reel sayı şartı, negatif sayıyla çarpıldığında eşitsizliğin yön değiştirmesi ve sadeleştirmede kök kaybı en sık yapılan hatalardır (Cevap E)."
             }
           ]
         },
@@ -419,88 +263,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_40012",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 5. Mutlak Değer & Basit Eşitsizlikler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_5_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "5. Mutlak Değer & Basit Eşitsizlikler konusunda temel kurallar uygulandığında aşağıdaki ifadelerden hangisi daima doğrudur?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) İşlem önceliğinde parantez içi ve üs önce yapılır.",
+                "B) Sıfırın pozitif böleni sonsuzdur.",
+                "C) Negatif sayıların tüm kuvvetleri negatiftir.",
+                "D) İki tek sayının toplamı tektir.",
+                "E) Kesirlerde paydayı sıfır yapmak tanımsızlık yaratmaz."
               ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
+              "correct": 0,
+              "solution": "Matematikte işlem önceliği kuralına göre öncelikle parantez içleri ve üslü ifadeler hesaplanır (Doğru cevap A)."
             },
             {
-              "id": "q_48448",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 5. Mutlak Değer & Basit Eşitsizlikler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_5_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "5. Mutlak Değer & Basit Eşitsizlikler kapsamında ÖSYM tarafından sorulan klasik problemlerde en çok kullanılan strateji hangisidir?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) Bilinmeyenlere x ve y verip birinci dereceden denklem kurmak",
+                "B) Formül ezberlemeden rastgele değer denemek",
+                "C) Sorudaki tüm sayıları çarpmak",
+                "D) Pay ve paydayı eşitlemeden işlem yapmak",
+                "E) Sadece şıklardan giderek zaman kaybetmek"
+              ],
+              "correct": 0,
+              "solution": "KPSS problemlerinde temel çözüm yaklaşımı, metinde verilen sözel ilişkileri x, y gibi bilinmeyenlerle matematik denklemine dönüştürmektir."
+            },
+            {
+              "id": "mat_5_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "5. Mutlak Değer & Basit Eşitsizlikler konusunda adayların en çok düştüğü çeldirici tuzak aşağıdakilerden hangisidir?",
+              "options": [
+                "A) Sayı kümesinde 'reel sayı' dendiğinde tam sayı değerleri vererek çözmek",
+                "B) Paydaları eşitlemeyi unutmak",
+                "C) Eşitsizlik her iki tarafı eksi ile çarpıldığında yön değiştirmesini atlamak",
+                "D) Sadeleştirme yaparken kök kaybetmek",
+                "E) Yukarıdakilerin hepsi kritik birer sınav tuzağıdır."
               ],
               "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap E seçeneğidir."
-            },
-            {
-              "id": "q_18492",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 5. Mutlak Değer & Basit Eşitsizlikler ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap E seçeneğidir."
-            },
-            {
-              "id": "q_44009",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 5. Mutlak Değer & Basit Eşitsizlikler ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap E seçeneğidir."
-            },
-            {
-              "id": "q_79545",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 5. Mutlak Değer & Basit Eşitsizlikler ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap B seçeneğidir."
-            },
-            {
-              "id": "q_97185",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 5. Mutlak Değer & Basit Eşitsizlikler ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap E seçeneğidir."
+              "solution": "ÖSYM matematik testinde reel sayı şartı, negatif sayıyla çarpıldığında eşitsizliğin yön değiştirmesi ve sadeleştirmede kök kaybı en sık yapılan hatalardır (Cevap E)."
             }
           ]
         },
@@ -518,88 +323,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_47300",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 6. Çarpanlara Ayırma & Denklemler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_6_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "6. Çarpanlara Ayırma & Denklemler konusunda temel kurallar uygulandığında aşağıdaki ifadelerden hangisi daima doğrudur?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) İşlem önceliğinde parantez içi ve üs önce yapılır.",
+                "B) Sıfırın pozitif böleni sonsuzdur.",
+                "C) Negatif sayıların tüm kuvvetleri negatiftir.",
+                "D) İki tek sayının toplamı tektir.",
+                "E) Kesirlerde paydayı sıfır yapmak tanımsızlık yaratmaz."
               ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
+              "correct": 0,
+              "solution": "Matematikte işlem önceliği kuralına göre öncelikle parantez içleri ve üslü ifadeler hesaplanır (Doğru cevap A)."
             },
             {
-              "id": "q_28140",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 6. Çarpanlara Ayırma & Denklemler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_6_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "6. Çarpanlara Ayırma & Denklemler kapsamında ÖSYM tarafından sorulan klasik problemlerde en çok kullanılan strateji hangisidir?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) Bilinmeyenlere x ve y verip birinci dereceden denklem kurmak",
+                "B) Formül ezberlemeden rastgele değer denemek",
+                "C) Sorudaki tüm sayıları çarpmak",
+                "D) Pay ve paydayı eşitlemeden işlem yapmak",
+                "E) Sadece şıklardan giderek zaman kaybetmek"
               ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap B seçeneğidir."
+              "correct": 0,
+              "solution": "KPSS problemlerinde temel çözüm yaklaşımı, metinde verilen sözel ilişkileri x, y gibi bilinmeyenlerle matematik denklemine dönüştürmektir."
             },
             {
-              "id": "q_47064",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 6. Çarpanlara Ayırma & Denklemler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_6_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "6. Çarpanlara Ayırma & Denklemler konusunda adayların en çok düştüğü çeldirici tuzak aşağıdakilerden hangisidir?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap B seçeneğidir."
-            },
-            {
-              "id": "q_96147",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 6. Çarpanlara Ayırma & Denklemler ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) Sayı kümesinde 'reel sayı' dendiğinde tam sayı değerleri vererek çözmek",
+                "B) Paydaları eşitlemeyi unutmak",
+                "C) Eşitsizlik her iki tarafı eksi ile çarpıldığında yön değiştirmesini atlamak",
+                "D) Sadeleştirme yaparken kök kaybetmek",
+                "E) Yukarıdakilerin hepsi kritik birer sınav tuzağıdır."
               ],
               "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap E seçeneğidir."
-            },
-            {
-              "id": "q_50002",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 6. Çarpanlara Ayırma & Denklemler ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap B seçeneğidir."
-            },
-            {
-              "id": "q_46127",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 6. Çarpanlara Ayırma & Denklemler ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
+              "solution": "ÖSYM matematik testinde reel sayı şartı, negatif sayıyla çarpıldığında eşitsizliğin yön değiştirmesi ve sadeleştirmede kök kaybı en sık yapılan hatalardır (Cevap E)."
             }
           ]
         },
@@ -617,88 +383,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_11076",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 7. Oran-Orantı & Problemler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_7_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "7. Oran-Orantı & Problemler konusunda temel kurallar uygulandığında aşağıdaki ifadelerden hangisi daima doğrudur?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) İşlem önceliğinde parantez içi ve üs önce yapılır.",
+                "B) Sıfırın pozitif böleni sonsuzdur.",
+                "C) Negatif sayıların tüm kuvvetleri negatiftir.",
+                "D) İki tek sayının toplamı tektir.",
+                "E) Kesirlerde paydayı sıfır yapmak tanımsızlık yaratmaz."
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap A seçeneğidir."
+              "solution": "Matematikte işlem önceliği kuralına göre öncelikle parantez içleri ve üslü ifadeler hesaplanır (Doğru cevap A)."
             },
             {
-              "id": "q_83385",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 7. Oran-Orantı & Problemler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_7_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "7. Oran-Orantı & Problemler kapsamında ÖSYM tarafından sorulan klasik problemlerde en çok kullanılan strateji hangisidir?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) Bilinmeyenlere x ve y verip birinci dereceden denklem kurmak",
+                "B) Formül ezberlemeden rastgele değer denemek",
+                "C) Sorudaki tüm sayıları çarpmak",
+                "D) Pay ve paydayı eşitlemeden işlem yapmak",
+                "E) Sadece şıklardan giderek zaman kaybetmek"
               ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
+              "correct": 0,
+              "solution": "KPSS problemlerinde temel çözüm yaklaşımı, metinde verilen sözel ilişkileri x, y gibi bilinmeyenlerle matematik denklemine dönüştürmektir."
             },
             {
-              "id": "q_27336",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 7. Oran-Orantı & Problemler ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_7_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "7. Oran-Orantı & Problemler konusunda adayların en çok düştüğü çeldirici tuzak aşağıdakilerden hangisidir?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap C seçeneğidir."
-            },
-            {
-              "id": "q_58095",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 7. Oran-Orantı & Problemler ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap B seçeneğidir."
-            },
-            {
-              "id": "q_15135",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 7. Oran-Orantı & Problemler ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap C seçeneğidir."
-            },
-            {
-              "id": "q_31433",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 7. Oran-Orantı & Problemler ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) Sayı kümesinde 'reel sayı' dendiğinde tam sayı değerleri vererek çözmek",
+                "B) Paydaları eşitlemeyi unutmak",
+                "C) Eşitsizlik her iki tarafı eksi ile çarpıldığında yön değiştirmesini atlamak",
+                "D) Sadeleştirme yaparken kök kaybetmek",
+                "E) Yukarıdakilerin hepsi kritik birer sınav tuzağıdır."
               ],
               "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap E seçeneğidir."
+              "solution": "ÖSYM matematik testinde reel sayı şartı, negatif sayıyla çarpıldığında eşitsizliğin yön değiştirmesi ve sadeleştirmede kök kaybı en sık yapılan hatalardır (Cevap E)."
             }
           ]
         },
@@ -716,88 +443,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_91793",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 8. Kümeler & Mantık ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_8_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "8. Kümeler & Mantık konusunda temel kurallar uygulandığında aşağıdaki ifadelerden hangisi daima doğrudur?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
-            },
-            {
-              "id": "q_58881",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 8. Kümeler & Mantık ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap E seçeneğidir."
-            },
-            {
-              "id": "q_37381",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 8. Kümeler & Mantık ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
-            },
-            {
-              "id": "q_72032",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 8. Kümeler & Mantık ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap B seçeneğidir."
-            },
-            {
-              "id": "q_69587",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 8. Kümeler & Mantık ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap E seçeneğidir."
-            },
-            {
-              "id": "q_41104",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 8. Kümeler & Mantık ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) İşlem önceliğinde parantez içi ve üs önce yapılır.",
+                "B) Sıfırın pozitif böleni sonsuzdur.",
+                "C) Negatif sayıların tüm kuvvetleri negatiftir.",
+                "D) İki tek sayının toplamı tektir.",
+                "E) Kesirlerde paydayı sıfır yapmak tanımsızlık yaratmaz."
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap A seçeneğidir."
+              "solution": "Matematikte işlem önceliği kuralına göre öncelikle parantez içleri ve üslü ifadeler hesaplanır (Doğru cevap A)."
+            },
+            {
+              "id": "mat_8_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "8. Kümeler & Mantık kapsamında ÖSYM tarafından sorulan klasik problemlerde en çok kullanılan strateji hangisidir?",
+              "options": [
+                "A) Bilinmeyenlere x ve y verip birinci dereceden denklem kurmak",
+                "B) Formül ezberlemeden rastgele değer denemek",
+                "C) Sorudaki tüm sayıları çarpmak",
+                "D) Pay ve paydayı eşitlemeden işlem yapmak",
+                "E) Sadece şıklardan giderek zaman kaybetmek"
+              ],
+              "correct": 0,
+              "solution": "KPSS problemlerinde temel çözüm yaklaşımı, metinde verilen sözel ilişkileri x, y gibi bilinmeyenlerle matematik denklemine dönüştürmektir."
+            },
+            {
+              "id": "mat_8_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "8. Kümeler & Mantık konusunda adayların en çok düştüğü çeldirici tuzak aşağıdakilerden hangisidir?",
+              "options": [
+                "A) Sayı kümesinde 'reel sayı' dendiğinde tam sayı değerleri vererek çözmek",
+                "B) Paydaları eşitlemeyi unutmak",
+                "C) Eşitsizlik her iki tarafı eksi ile çarpıldığında yön değiştirmesini atlamak",
+                "D) Sadeleştirme yaparken kök kaybetmek",
+                "E) Yukarıdakilerin hepsi kritik birer sınav tuzağıdır."
+              ],
+              "correct": 4,
+              "solution": "ÖSYM matematik testinde reel sayı şartı, negatif sayıyla çarpıldığında eşitsizliğin yön değiştirmesi ve sadeleştirmede kök kaybı en sık yapılan hatalardır (Cevap E)."
             }
           ]
         },
@@ -815,88 +503,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_54032",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 9. Sayısal Mantık & Grafik Okuma ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_9_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "9. Sayısal Mantık & Grafik Okuma konusunda temel kurallar uygulandığında aşağıdaki ifadelerden hangisi daima doğrudur?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap B seçeneğidir."
-            },
-            {
-              "id": "q_79542",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 9. Sayısal Mantık & Grafik Okuma ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap B seçeneğidir."
-            },
-            {
-              "id": "q_95758",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 9. Sayısal Mantık & Grafik Okuma ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) İşlem önceliğinde parantez içi ve üs önce yapılır.",
+                "B) Sıfırın pozitif böleni sonsuzdur.",
+                "C) Negatif sayıların tüm kuvvetleri negatiftir.",
+                "D) İki tek sayının toplamı tektir.",
+                "E) Kesirlerde paydayı sıfır yapmak tanımsızlık yaratmaz."
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap A seçeneğidir."
+              "solution": "Matematikte işlem önceliği kuralına göre öncelikle parantez içleri ve üslü ifadeler hesaplanır (Doğru cevap A)."
             },
             {
-              "id": "q_39766",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 9. Sayısal Mantık & Grafik Okuma ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_9_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "9. Sayısal Mantık & Grafik Okuma kapsamında ÖSYM tarafından sorulan klasik problemlerde en çok kullanılan strateji hangisidir?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) Bilinmeyenlere x ve y verip birinci dereceden denklem kurmak",
+                "B) Formül ezberlemeden rastgele değer denemek",
+                "C) Sorudaki tüm sayıları çarpmak",
+                "D) Pay ve paydayı eşitlemeden işlem yapmak",
+                "E) Sadece şıklardan giderek zaman kaybetmek"
               ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap C seçeneğidir."
+              "correct": 0,
+              "solution": "KPSS problemlerinde temel çözüm yaklaşımı, metinde verilen sözel ilişkileri x, y gibi bilinmeyenlerle matematik denklemine dönüştürmektir."
             },
             {
-              "id": "q_81690",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 9. Sayısal Mantık & Grafik Okuma ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_9_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "9. Sayısal Mantık & Grafik Okuma konusunda adayların en çok düştüğü çeldirici tuzak aşağıdakilerden hangisidir?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) Sayı kümesinde 'reel sayı' dendiğinde tam sayı değerleri vererek çözmek",
+                "B) Paydaları eşitlemeyi unutmak",
+                "C) Eşitsizlik her iki tarafı eksi ile çarpıldığında yön değiştirmesini atlamak",
+                "D) Sadeleştirme yaparken kök kaybetmek",
+                "E) Yukarıdakilerin hepsi kritik birer sınav tuzağıdır."
               ],
               "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap E seçeneğidir."
-            },
-            {
-              "id": "q_87854",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 9. Sayısal Mantık & Grafik Okuma ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap B seçeneğidir."
+              "solution": "ÖSYM matematik testinde reel sayı şartı, negatif sayıyla çarpıldığında eşitsizliğin yön değiştirmesi ve sadeleştirmede kök kaybı en sık yapılan hatalardır (Cevap E)."
             }
           ]
         },
@@ -914,88 +563,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_96049",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 10. Temel Geometri (Açılar, Üçgenler, Çevre-Alan) ile ilgili aşağıdakilerden hangisi yanlıştır?",
+              "id": "mat_10_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "a ve b birer tam sayı olmak üzere, a · b çarpımının tek sayı olduğu bilinmektedir. Buna göre aşağıdakilerden hangisi daima ÇİFT sayıdır?",
               "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap C seçeneğidir."
-            },
-            {
-              "id": "q_53236",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 10. Temel Geometri (Açılar, Üçgenler, Çevre-Alan) ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu kolay seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
-            },
-            {
-              "id": "q_91335",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 10. Temel Geometri (Açılar, Üçgenler, Çevre-Alan) ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
-            },
-            {
-              "id": "q_26352",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 10. Temel Geometri (Açılar, Üçgenler, Çevre-Alan) ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Bu orta seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap C seçeneğidir."
-            },
-            {
-              "id": "q_62582",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 10. Temel Geometri (Açılar, Üçgenler, Çevre-Alan) ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap D seçeneğidir."
-            },
-            {
-              "id": "q_98309",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 10. Temel Geometri (Açılar, Üçgenler, Çevre-Alan) ile ilgili aşağıdakilerden hangisi yanlıştır?",
-              "options": [
-                "A) Pozitif değerler...",
-                "B) Negatif yönde...",
-                "C) İfade tanımsızdır.",
-                "D) Reel kökü yoktur.",
-                "E) Eşitsizlik yön değiştirir."
+                "A) a + b",
+                "B) a · b + 2",
+                "C) a² + b",
+                "D) 2a + b",
+                "E) a - b + 1"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Bu zor seviye soruda dikkat etmeniz gereken yer işaretlerin çarpımıdır. Doğru cevap A seçeneğidir."
+              "solution": "İki tam sayının çarpımı tek sayı ise sayıların her ikisi de mutlaka TEKTİR (a = Tek, b = Tek). Tek + Tek = Çift olduğundan (A) seçeneğindeki a + b ifadesi daima çifttir."
+            },
+            {
+              "id": "mat_10_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "Ardışık 5 tek tam sayının toplamı 85 olduğuna göre, bu sayıların en büyüğü kaçtır?",
+              "options": [
+                "A) 17",
+                "B) 19",
+                "C) 21",
+                "D) 23",
+                "E) 25"
+              ],
+              "correct": 2,
+              "solution": "Ardışık n tane tek sayının toplamı n'e bölündüğünde ortanca sayı bulunur. 85 / 5 = 17 (Ortanca sayı). Sayılar sırasıyla: 13, 15, 17, 19, 21'dir. En büyük sayı 21'dir (Doğru cevap C)."
+            },
+            {
+              "id": "mat_10_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "x ve y birer pozitif tam sayıdır. (2x - 3) · (y + 4) = 17 olduğuna göre, x + y toplamı kaçtır?",
+              "options": [
+                "A) 14",
+                "B) 15",
+                "C) 16",
+                "D) 17",
+                "E) 18"
+              ],
+              "correct": 1,
+              "solution": "17 bir asal sayıdır, çarpanları 1 ve 17'dir. y pozitif tam sayı olduğundan (y + 4) > 4 olmalıdır. Dolayısıyla y + 4 = 17 => y = 13 olur. 2x - 3 = 1 => 2x = 4 => x = 2 olur. x + y = 2 + 13 = 15'tir (Cevap B)."
             }
           ]
         }
@@ -1023,88 +633,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_35743",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (1. Sözcükte Anlam, Mecaz & Deyimler) temel düşünce nedir?",
+              "id": "turk_1_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük MECAZ anlamıyla kullanılmıştır?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap D çıkar."
-            },
-            {
-              "id": "q_58968",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (1. Sözcükte Anlam, Mecaz & Deyimler) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
-            },
-            {
-              "id": "q_71225",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (1. Sözcükte Anlam, Mecaz & Deyimler) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
-            },
-            {
-              "id": "q_74583",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (1. Sözcükte Anlam, Mecaz & Deyimler) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap A çıkar."
-            },
-            {
-              "id": "q_98121",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (1. Sözcükte Anlam, Mecaz & Deyimler) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap D çıkar."
-            },
-            {
-              "id": "q_14856",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (1. Sözcükte Anlam, Mecaz & Deyimler) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Çocuklar bahçedeki kuru yaprakları topladı.",
+                "B) Bu soğuk tavırlarıyla çevresindeki herkesi kendinden uzaklaştırdı.",
+                "C) Kapının kırık kolunu dün tamir ettik.",
+                "D) Akşam fırtına çıkınca pencereleri kapattık.",
+                "E) Masanın üzerindeki sıcak çayı bir dikişte içti."
               ],
               "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap B çıkar."
+              "solution": "'Soğuk' sözcüğü gerçekte ısısı düşük anlamındadır. Burada ise 'ilgisiz, samimiyetsiz' anlamında mecaz olarak kullanılmıştır (Doğru cevap B)."
+            },
+            {
+              "id": "turk_1_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "Aşağıdaki cümlelerin hangisinde 'bir işe gereğinden fazla karışmak' anlamında bir deyim kullanılmıştır?",
+              "options": [
+                "A) Her olaya burnunu sokmaktan bir türlü vazgeçmiyor.",
+                "B) Yeni projede elini taşın altına koydu.",
+                "C) Söylenen sözlere kulak asmadı.",
+                "D) Yaptığı hatayı görünce gözleri fal taşı gibi açıldı.",
+                "E) İşleri yoluna koymak için canla başla çalıştı."
+              ],
+              "correct": 0,
+              "solution": "'Burnunu sokmak' deyimi, kendisini ilgilendirmeyen veya gerek olmayan işlere karışmak anlamında kullanılır (Doğru cevap A)."
+            },
+            {
+              "id": "turk_1_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "'Ağır' sözcüğü aşağıdaki cümlelerin hangisinde 'ağırbaşlı, vakur' anlamında kullanılmıştır?",
+              "options": [
+                "A) Bu kutu o kadar ağır ki tek başıma kaldıramam.",
+                "B) Odada insanı rahatsız eden ağır bir koku vardı.",
+                "C) Davranışlarıyla meclisteki en ağır kişi olduğunu gösterdi.",
+                "D) Yemeğin ardından ağır bir uykuya daldı.",
+                "E) Doktor hastaya ağır bir diyet programı yazdı."
+              ],
+              "correct": 2,
+              "solution": "C seçeneğindeki 'ağır kişi' ifadesi karakter ve tavır olarak 'ağırbaşlı, ciddi ve saygıdeğer' anlamında kullanılmıştır (Doğru cevap C)."
             }
           ]
         },
@@ -1122,88 +693,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_86447",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (2. Cümlede Anlam & Kavramlar) temel düşünce nedir?",
+              "id": "turk_2_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "2. Cümlede Anlam & Kavramlar konusunda ÖSYM'nin en temel değerlendirme kriteri aşağıdakilerden hangisidir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Metindeki duygu ve düşünceleri yazarın bakış açısıyla nesnel yorumlamak",
+                "B) Kendi kişisel fikirlerini metne dahil ederek sonuca varmak",
+                "C) Sadece ilk cümleyi okuyup şıkları işaretlemek",
+                "D) Metinde geçmeyen genellemeleri doğru kabul etmek",
+                "E) Dil kurallarını göz ardı etmek"
               ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
+              "correct": 0,
+              "solution": "Türkçe testinde ana fikir ve anlam sorularında adayın kendi yorumunu değil, parçada yazarın iletmek istediği ana mesajı bulması esastır."
             },
             {
-              "id": "q_94247",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (2. Cümlede Anlam & Kavramlar) temel düşünce nedir?",
+              "id": "turk_2_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "2. Cümlede Anlam & Kavramlar testlerinde hızlı ve doğru sonuca ulaşmak için önerilen taktik hangisidir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Önce soru kökünü okuyup ne istendiğini tespit etmek, ardından metne geçmek",
+                "B) Şıklardan başlayıp metni hiç okumamak",
+                "C) Paragrafı üç kez baştan sona okumak",
+                "D) Noktalama işaretlerine dikkat etmeden okumak",
+                "E) Uzun soruları doğrudan boş bırakmak"
               ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap E çıkar."
+              "correct": 0,
+              "solution": "Soru kökünün önce okunması, beynin parçayı okurken doğrudan hedeflenen bilgiye odaklanmasını sağlar ve zaman kazandırır."
             },
             {
-              "id": "q_81077",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (2. Cümlede Anlam & Kavramlar) temel düşünce nedir?",
+              "id": "turk_2_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "2. Cümlede Anlam & Kavramlar sorularında güçlü çeldiricilerin en belirgin özelliği nedir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Gerçek hayatta doğru olan fakat verilen metinde hiç bahsedilmeyen bilgileri içermesi",
+                "B) Çok kısa seçenekler olması",
+                "C) Sadece devrik cümlelerden oluşması",
+                "D) İçinde sayısal veri barındırmaması",
+                "E) Yabancı kökenli sözcükler içermesi"
               ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
-            },
-            {
-              "id": "q_89093",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (2. Cümlede Anlam & Kavramlar) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
-            },
-            {
-              "id": "q_79662",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (2. Cümlede Anlam & Kavramlar) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap B çıkar."
-            },
-            {
-              "id": "q_51230",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (2. Cümlede Anlam & Kavramlar) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap E çıkar."
+              "correct": 0,
+              "solution": "ÖSYM'nin en tipik çeldiricisi: Günlük hayatta genel kabul gören bir doğruyu seçeneğe koyup parçada geçip geçmediğini adaya test ettirmektir (Cevap A)."
             }
           ]
         },
@@ -1221,88 +753,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_15344",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (3. Paragrafta Anlam & Ana Düşünce) temel düşünce nedir?",
+              "id": "turk_3_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "3. Paragrafta Anlam & Ana Düşünce konusunda ÖSYM'nin en temel değerlendirme kriteri aşağıdakilerden hangisidir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Metindeki duygu ve düşünceleri yazarın bakış açısıyla nesnel yorumlamak",
+                "B) Kendi kişisel fikirlerini metne dahil ederek sonuca varmak",
+                "C) Sadece ilk cümleyi okuyup şıkları işaretlemek",
+                "D) Metinde geçmeyen genellemeleri doğru kabul etmek",
+                "E) Dil kurallarını göz ardı etmek"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap A çıkar."
+              "solution": "Türkçe testinde ana fikir ve anlam sorularında adayın kendi yorumunu değil, parçada yazarın iletmek istediği ana mesajı bulması esastır."
             },
             {
-              "id": "q_24522",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (3. Paragrafta Anlam & Ana Düşünce) temel düşünce nedir?",
+              "id": "turk_3_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "3. Paragrafta Anlam & Ana Düşünce testlerinde hızlı ve doğru sonuca ulaşmak için önerilen taktik hangisidir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Önce soru kökünü okuyup ne istendiğini tespit etmek, ardından metne geçmek",
+                "B) Şıklardan başlayıp metni hiç okumamak",
+                "C) Paragrafı üç kez baştan sona okumak",
+                "D) Noktalama işaretlerine dikkat etmeden okumak",
+                "E) Uzun soruları doğrudan boş bırakmak"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap A çıkar."
+              "solution": "Soru kökünün önce okunması, beynin parçayı okurken doğrudan hedeflenen bilgiye odaklanmasını sağlar ve zaman kazandırır."
             },
             {
-              "id": "q_43514",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (3. Paragrafta Anlam & Ana Düşünce) temel düşünce nedir?",
+              "id": "turk_3_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "3. Paragrafta Anlam & Ana Düşünce sorularında güçlü çeldiricilerin en belirgin özelliği nedir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
-            },
-            {
-              "id": "q_78399",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (3. Paragrafta Anlam & Ana Düşünce) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Gerçek hayatta doğru olan fakat verilen metinde hiç bahsedilmeyen bilgileri içermesi",
+                "B) Çok kısa seçenekler olması",
+                "C) Sadece devrik cümlelerden oluşması",
+                "D) İçinde sayısal veri barındırmaması",
+                "E) Yabancı kökenli sözcükler içermesi"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap A çıkar."
-            },
-            {
-              "id": "q_62878",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (3. Paragrafta Anlam & Ana Düşünce) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
-            },
-            {
-              "id": "q_91648",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (3. Paragrafta Anlam & Ana Düşünce) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap A çıkar."
+              "solution": "ÖSYM'nin en tipik çeldiricisi: Günlük hayatta genel kabul gören bir doğruyu seçeneğe koyup parçada geçip geçmediğini adaya test ettirmektir (Cevap A)."
             }
           ]
         },
@@ -1320,88 +813,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_12043",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (4. Paragraf Yapısı & Akışı Bozan Cümle) temel düşünce nedir?",
+              "id": "turk_4_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "4. Paragraf Yapısı & Akışı Bozan Cümle konusunda ÖSYM'nin en temel değerlendirme kriteri aşağıdakilerden hangisidir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
-            },
-            {
-              "id": "q_17336",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (4. Paragraf Yapısı & Akışı Bozan Cümle) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap D çıkar."
-            },
-            {
-              "id": "q_79081",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (4. Paragraf Yapısı & Akışı Bozan Cümle) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Metindeki duygu ve düşünceleri yazarın bakış açısıyla nesnel yorumlamak",
+                "B) Kendi kişisel fikirlerini metne dahil ederek sonuca varmak",
+                "C) Sadece ilk cümleyi okuyup şıkları işaretlemek",
+                "D) Metinde geçmeyen genellemeleri doğru kabul etmek",
+                "E) Dil kurallarını göz ardı etmek"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap A çıkar."
+              "solution": "Türkçe testinde ana fikir ve anlam sorularında adayın kendi yorumunu değil, parçada yazarın iletmek istediği ana mesajı bulması esastır."
             },
             {
-              "id": "q_10425",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (4. Paragraf Yapısı & Akışı Bozan Cümle) temel düşünce nedir?",
+              "id": "turk_4_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "4. Paragraf Yapısı & Akışı Bozan Cümle testlerinde hızlı ve doğru sonuca ulaşmak için önerilen taktik hangisidir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap B çıkar."
-            },
-            {
-              "id": "q_35365",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (4. Paragraf Yapısı & Akışı Bozan Cümle) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Önce soru kökünü okuyup ne istendiğini tespit etmek, ardından metne geçmek",
+                "B) Şıklardan başlayıp metni hiç okumamak",
+                "C) Paragrafı üç kez baştan sona okumak",
+                "D) Noktalama işaretlerine dikkat etmeden okumak",
+                "E) Uzun soruları doğrudan boş bırakmak"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap A çıkar."
+              "solution": "Soru kökünün önce okunması, beynin parçayı okurken doğrudan hedeflenen bilgiye odaklanmasını sağlar ve zaman kazandırır."
             },
             {
-              "id": "q_66189",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (4. Paragraf Yapısı & Akışı Bozan Cümle) temel düşünce nedir?",
+              "id": "turk_4_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "4. Paragraf Yapısı & Akışı Bozan Cümle sorularında güçlü çeldiricilerin en belirgin özelliği nedir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Gerçek hayatta doğru olan fakat verilen metinde hiç bahsedilmeyen bilgileri içermesi",
+                "B) Çok kısa seçenekler olması",
+                "C) Sadece devrik cümlelerden oluşması",
+                "D) İçinde sayısal veri barındırmaması",
+                "E) Yabancı kökenli sözcükler içermesi"
               ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
+              "correct": 0,
+              "solution": "ÖSYM'nin en tipik çeldiricisi: Günlük hayatta genel kabul gören bir doğruyu seçeneğe koyup parçada geçip geçmediğini adaya test ettirmektir (Cevap A)."
             }
           ]
         },
@@ -1419,88 +873,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_37382",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (5. Ses Bilgisi & TDK Yazım Kuralları) temel düşünce nedir?",
+              "id": "turk_5_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "Aşağıdaki sözcüklerin hangisinde 'ünsüz benzeşmesi (sertleşme)' kuralına uyulmamasından kaynaklanan bir yazım yanlışı vardır?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Sokakta",
+                "B) 1923'de",
+                "C) Sınıftan",
+                "D) Kitapçı",
+                "E) Türkçede"
+              ],
+              "correct": 1,
+              "solution": "1923 sayısı 'üç' ile biter (ç sert ünsüzdür). Gelen ek sertleşerek '1923'te' olmalıdır. '1923'de' yazımı sertleşme kuralına aykırıdır (Doğru cevap B)."
+            },
+            {
+              "id": "turk_5_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "Aşağıdaki cümlelerin hangisinde 'de/da' bağlacının yazımıyla ilgili bir yanlışlık yapılmıştır?",
+              "options": [
+                "A) Sen de bizimle toplantıya katılacak mısın?",
+                "B) Evde kimse olmadığı için kapıyı çilingir açtı.",
+                "C) Kitabında yer alan makaleler oldukça ilgi çekici.",
+                "D) Oraya gitsekte bir şey değişmeyecek.",
+                "E) Sınavı kazanmak da disiplinli çalışma gerektirir."
               ],
               "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap D çıkar."
+              "solution": "Bağlaç olan 'de/da' ayrı yazılır ve asla 'te/ta' şekline dönüşmez. Doğrusu 'gitsek de' şeklinde olmalıdır (Doğru cevap D)."
             },
             {
-              "id": "q_15769",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (5. Ses Bilgisi & TDK Yazım Kuralları) temel düşünce nedir?",
+              "id": "turk_5_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "Aşağıdaki cümlelerin hangisinde büyük harflerin kullanımıyla ilgili bir yazım yanlışı vardır?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Türkiye Büyük Millet Meclisi yeni yasama yılına başladı.",
+                "B) Van kedisi koruma altına alınan endemik bir türdür.",
+                "C) Dicle nehri Mezopotamya havzasını sular.",
+                "D) Türk Dil Kurumu Başkanı önemli açıklamalarda bulundu.",
+                "E) Batı medeniyeti Rönesans ile büyük bir atılım yaptı."
               ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap E çıkar."
-            },
-            {
-              "id": "q_72525",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (5. Ses Bilgisi & TDK Yazım Kuralları) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap E çıkar."
-            },
-            {
-              "id": "q_21836",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (5. Ses Bilgisi & TDK Yazım Kuralları) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap E çıkar."
-            },
-            {
-              "id": "q_99458",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (5. Ses Bilgisi & TDK Yazım Kuralları) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap E çıkar."
-            },
-            {
-              "id": "q_97662",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (5. Ses Bilgisi & TDK Yazım Kuralları) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap D çıkar."
+              "correct": 2,
+              "solution": "Yer adlarında ilk addan sonra gelen deniz, nehir, göl, dağ, boğaz vb. tür bildiren ikinci isimler büyük harfle başlar. Doğrusu 'Dicle Nehri' olmalıdır (Doğru cevap C)."
             }
           ]
         },
@@ -1518,88 +933,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_41253",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (6. Noktalama İşaretleri) temel düşünce nedir?",
+              "id": "turk_6_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "6. Noktalama İşaretleri konusunda ÖSYM'nin en temel değerlendirme kriteri aşağıdakilerden hangisidir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Metindeki duygu ve düşünceleri yazarın bakış açısıyla nesnel yorumlamak",
+                "B) Kendi kişisel fikirlerini metne dahil ederek sonuca varmak",
+                "C) Sadece ilk cümleyi okuyup şıkları işaretlemek",
+                "D) Metinde geçmeyen genellemeleri doğru kabul etmek",
+                "E) Dil kurallarını göz ardı etmek"
               ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap D çıkar."
+              "correct": 0,
+              "solution": "Türkçe testinde ana fikir ve anlam sorularında adayın kendi yorumunu değil, parçada yazarın iletmek istediği ana mesajı bulması esastır."
             },
             {
-              "id": "q_48240",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (6. Noktalama İşaretleri) temel düşünce nedir?",
+              "id": "turk_6_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "6. Noktalama İşaretleri testlerinde hızlı ve doğru sonuca ulaşmak için önerilen taktik hangisidir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Önce soru kökünü okuyup ne istendiğini tespit etmek, ardından metne geçmek",
+                "B) Şıklardan başlayıp metni hiç okumamak",
+                "C) Paragrafı üç kez baştan sona okumak",
+                "D) Noktalama işaretlerine dikkat etmeden okumak",
+                "E) Uzun soruları doğrudan boş bırakmak"
               ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap E çıkar."
+              "correct": 0,
+              "solution": "Soru kökünün önce okunması, beynin parçayı okurken doğrudan hedeflenen bilgiye odaklanmasını sağlar ve zaman kazandırır."
             },
             {
-              "id": "q_20245",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (6. Noktalama İşaretleri) temel düşünce nedir?",
+              "id": "turk_6_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "6. Noktalama İşaretleri sorularında güçlü çeldiricilerin en belirgin özelliği nedir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Gerçek hayatta doğru olan fakat verilen metinde hiç bahsedilmeyen bilgileri içermesi",
+                "B) Çok kısa seçenekler olması",
+                "C) Sadece devrik cümlelerden oluşması",
+                "D) İçinde sayısal veri barındırmaması",
+                "E) Yabancı kökenli sözcükler içermesi"
               ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
-            },
-            {
-              "id": "q_55003",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (6. Noktalama İşaretleri) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap E çıkar."
-            },
-            {
-              "id": "q_55403",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (6. Noktalama İşaretleri) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap E çıkar."
-            },
-            {
-              "id": "q_14524",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (6. Noktalama İşaretleri) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
+              "correct": 0,
+              "solution": "ÖSYM'nin en tipik çeldiricisi: Günlük hayatta genel kabul gören bir doğruyu seçeneğe koyup parçada geçip geçmediğini adaya test ettirmektir (Cevap A)."
             }
           ]
         },
@@ -1617,88 +993,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_74765",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (7. Dil Bilgisi (Sözcük Türleri, Ögeler, Çatı)) temel düşünce nedir?",
+              "id": "turk_7_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "7. Dil Bilgisi (Sözcük Türleri, Ögeler, Çatı) konusunda ÖSYM'nin en temel değerlendirme kriteri aşağıdakilerden hangisidir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
-            },
-            {
-              "id": "q_42755",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (7. Dil Bilgisi (Sözcük Türleri, Ögeler, Çatı)) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
-            },
-            {
-              "id": "q_16673",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (7. Dil Bilgisi (Sözcük Türleri, Ögeler, Çatı)) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap E çıkar."
-            },
-            {
-              "id": "q_25417",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (7. Dil Bilgisi (Sözcük Türleri, Ögeler, Çatı)) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Metindeki duygu ve düşünceleri yazarın bakış açısıyla nesnel yorumlamak",
+                "B) Kendi kişisel fikirlerini metne dahil ederek sonuca varmak",
+                "C) Sadece ilk cümleyi okuyup şıkları işaretlemek",
+                "D) Metinde geçmeyen genellemeleri doğru kabul etmek",
+                "E) Dil kurallarını göz ardı etmek"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap A çıkar."
+              "solution": "Türkçe testinde ana fikir ve anlam sorularında adayın kendi yorumunu değil, parçada yazarın iletmek istediği ana mesajı bulması esastır."
             },
             {
-              "id": "q_96716",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (7. Dil Bilgisi (Sözcük Türleri, Ögeler, Çatı)) temel düşünce nedir?",
+              "id": "turk_7_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "7. Dil Bilgisi (Sözcük Türleri, Ögeler, Çatı) testlerinde hızlı ve doğru sonuca ulaşmak için önerilen taktik hangisidir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap B çıkar."
-            },
-            {
-              "id": "q_85340",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (7. Dil Bilgisi (Sözcük Türleri, Ögeler, Çatı)) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Önce soru kökünü okuyup ne istendiğini tespit etmek, ardından metne geçmek",
+                "B) Şıklardan başlayıp metni hiç okumamak",
+                "C) Paragrafı üç kez baştan sona okumak",
+                "D) Noktalama işaretlerine dikkat etmeden okumak",
+                "E) Uzun soruları doğrudan boş bırakmak"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap A çıkar."
+              "solution": "Soru kökünün önce okunması, beynin parçayı okurken doğrudan hedeflenen bilgiye odaklanmasını sağlar ve zaman kazandırır."
+            },
+            {
+              "id": "turk_7_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "7. Dil Bilgisi (Sözcük Türleri, Ögeler, Çatı) sorularında güçlü çeldiricilerin en belirgin özelliği nedir?",
+              "options": [
+                "A) Gerçek hayatta doğru olan fakat verilen metinde hiç bahsedilmeyen bilgileri içermesi",
+                "B) Çok kısa seçenekler olması",
+                "C) Sadece devrik cümlelerden oluşması",
+                "D) İçinde sayısal veri barındırmaması",
+                "E) Yabancı kökenli sözcükler içermesi"
+              ],
+              "correct": 0,
+              "solution": "ÖSYM'nin en tipik çeldiricisi: Günlük hayatta genel kabul gören bir doğruyu seçeneğe koyup parçada geçip geçmediğini adaya test ettirmektir (Cevap A)."
             }
           ]
         },
@@ -1716,88 +1053,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_49103",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (8. Sözel Mantık Bulmacaları & Tablo Kurma) temel düşünce nedir?",
+              "id": "turk_8_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "8. Sözel Mantık Bulmacaları & Tablo Kurma konusunda ÖSYM'nin en temel değerlendirme kriteri aşağıdakilerden hangisidir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap C çıkar."
-            },
-            {
-              "id": "q_87169",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) Bu parçada anlatılmak istenen (8. Sözel Mantık Bulmacaları & Tablo Kurma) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap E çıkar."
-            },
-            {
-              "id": "q_59461",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (8. Sözel Mantık Bulmacaları & Tablo Kurma) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Metindeki duygu ve düşünceleri yazarın bakış açısıyla nesnel yorumlamak",
+                "B) Kendi kişisel fikirlerini metne dahil ederek sonuca varmak",
+                "C) Sadece ilk cümleyi okuyup şıkları işaretlemek",
+                "D) Metinde geçmeyen genellemeleri doğru kabul etmek",
+                "E) Dil kurallarını göz ardı etmek"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap A çıkar."
+              "solution": "Türkçe testinde ana fikir ve anlam sorularında adayın kendi yorumunu değil, parçada yazarın iletmek istediği ana mesajı bulması esastır."
             },
             {
-              "id": "q_90842",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) Bu parçada anlatılmak istenen (8. Sözel Mantık Bulmacaları & Tablo Kurma) temel düşünce nedir?",
+              "id": "turk_8_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "8. Sözel Mantık Bulmacaları & Tablo Kurma testlerinde hızlı ve doğru sonuca ulaşmak için önerilen taktik hangisidir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Önce soru kökünü okuyup ne istendiğini tespit etmek, ardından metne geçmek",
+                "B) Şıklardan başlayıp metni hiç okumamak",
+                "C) Paragrafı üç kez baştan sona okumak",
+                "D) Noktalama işaretlerine dikkat etmeden okumak",
+                "E) Uzun soruları doğrudan boş bırakmak"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap A çıkar."
+              "solution": "Soru kökünün önce okunması, beynin parçayı okurken doğrudan hedeflenen bilgiye odaklanmasını sağlar ve zaman kazandırır."
             },
             {
-              "id": "q_58660",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (8. Sözel Mantık Bulmacaları & Tablo Kurma) temel düşünce nedir?",
+              "id": "turk_8_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "8. Sözel Mantık Bulmacaları & Tablo Kurma sorularında güçlü çeldiricilerin en belirgin özelliği nedir?",
               "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
+                "A) Gerçek hayatta doğru olan fakat verilen metinde hiç bahsedilmeyen bilgileri içermesi",
+                "B) Çok kısa seçenekler olması",
+                "C) Sadece devrik cümlelerden oluşması",
+                "D) İçinde sayısal veri barındırmaması",
+                "E) Yabancı kökenli sözcükler içermesi"
               ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap E çıkar."
-            },
-            {
-              "id": "q_13025",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) Bu parçada anlatılmak istenen (8. Sözel Mantık Bulmacaları & Tablo Kurma) temel düşünce nedir?",
-              "options": [
-                "A) Toplumsal duyarlılık...",
-                "B) Bireyin içsel çatışması...",
-                "C) Geleneksel değerlerin yitimi...",
-                "D) Sanatın evrensel gücü...",
-                "E) Dilin iletişimsel işlevi..."
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Paragrafın son cümlesi ana fikri verir. Kendi yorumumuzu katmadan okuduğumuzda cevap E çıkar."
+              "correct": 0,
+              "solution": "ÖSYM'nin en tipik çeldiricisi: Günlük hayatta genel kabul gören bir doğruyu seçeneğe koyup parçada geçip geçmediğini adaya test ettirmektir (Cevap A)."
             }
           ]
         }
@@ -1825,88 +1123,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_99911",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 1. İslamiyet Öncesi Türk Tarihi Kültür ve Medeniyeti döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_1_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "İslamiyet öncesi Türk devletlerinde hükümdara yönetme yetkisinin Gök Tanrı tarafından verildiğine inanılan anlayışa ne ad verilir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Kut Anlayışı",
+                "B) İkili Teşkilat",
+                "C) Kurultay",
+                "D) Töre",
+                "E) Balbal"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "solution": "Yönetme yetkisinin Tanrısal kaynaklı olduğuna inanılmasına 'Kut' adı verilir. Bu yetki hanedanın tüm erkek üyelerinde kan bağıyla mevcuttur (Doğru cevap A)."
             },
             {
-              "id": "q_97724",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 1. İslamiyet Öncesi Türk Tarihi Kültür ve Medeniyeti döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_1_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "Maniheizm dinini kabul ederek yerleşik hayata geçen ve bu sayede ilk kez Türk mimarisini, saray ve tapınakları başlatan devlet hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Asya Hun Devleti",
+                "B) I. Göktürk Devleti",
+                "C) Uygurlar",
+                "D) Avarlar",
+                "E) Hazarlar"
+              ],
+              "correct": 2,
+              "solution": "Bögü Kağan döneminde Maniheizm'i kabul eden Uygurlar, et yemeyi ve savaşmayı yasaklayan bu inanç nedeniyle yerleşik hayata geçmiş ve mimariyi başlatmışlardır (Doğru cevap C)."
+            },
+            {
+              "id": "tar_1_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "İslamiyet öncesi Türk devletlerinde görülen 'İkili Teşkilat' uygulamasının devlet yönetiminde yarattığı EN ÖNEMLİ olumsuz sonuç hangisidir?",
+              "options": [
+                "A) Dış ticaretin tamamen durması",
+                "B) Taht kavgalarını ve devletin ikiye bölünerek hızla yıkılmasını kolaylaştırması",
+                "C) Ordunun zayıflaması",
+                "D) Töre kurallarının geçersiz kılınması",
+                "E) Kurultay meclisinin kapatılması"
               ],
               "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap B."
-            },
-            {
-              "id": "q_12926",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 1. İslamiyet Öncesi Türk Tarihi Kültür ve Medeniyeti döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap B."
-            },
-            {
-              "id": "q_71620",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 1. İslamiyet Öncesi Türk Tarihi Kültür ve Medeniyeti döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap B."
-            },
-            {
-              "id": "q_99586",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 1. İslamiyet Öncesi Türk Tarihi Kültür ve Medeniyeti döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap E."
-            },
-            {
-              "id": "q_30339",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 1. İslamiyet Öncesi Türk Tarihi Kültür ve Medeniyeti döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap B."
+              "solution": "Ülkenin doğu ve batı olarak ikiye bölünmesi merkezi otoriteyi zayıflatmış, yabguların isyanı ve taht mücadeleleriyle devletlerin kısa sürede parçalanmasına zemin hazırlamıştır (Cevap B)."
             }
           ]
         },
@@ -1924,88 +1183,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_98188",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 2. İlk Türk-İslam Devletleri & Türkiye Selçukluları döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_2_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "2. İlk Türk-İslam Devletleri & Türkiye Selçukluları dönemi incelendiğinde aşağıdakilerden hangisi temel bir tarihsel olgudur?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Meydana gelen olaylar dönemin siyasi ve sosyal koşullarıyla açıklanır.",
+                "B) Olaylar günümüz ahlak ve hukuk kurallarıyla yargılanır.",
+                "C) Tarihsel belgelere ihtiyaç duyulmaz.",
+                "D) Coğrafi konumun olaylar üzerinde etkisi yoktur.",
+                "E) Tek bir kaynağa bakılarak kesin hüküm verilebilir."
               ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap C."
+              "correct": 0,
+              "solution": "Tarih biliminin en temel yöntemi, olayları gerçekleştiği çağın şartlarına ve neden-sonuç zincirine göre incelemektir (Doğru cevap A)."
             },
             {
-              "id": "q_18678",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 2. İlk Türk-İslam Devletleri & Türkiye Selçukluları döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_2_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "2. İlk Türk-İslam Devletleri & Türkiye Selçukluları kapsamında ÖSYM'nin soru bankalarında en çok üzerinde durduğu kavram hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Devlet teşkilatlanması ve kurumların topluma olan etkileri",
+                "B) Sadece savaşların tam başlangıç ve bitiş saatleri",
+                "C) Hükümdarların şahsi servetleri",
+                "D) Destanların harfi harfine gerçek kabul edilmesi",
+                "E) Kronolojik sıranın önemsizliği"
               ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap D."
+              "correct": 0,
+              "solution": "KPSS Tarih testinde ÖSYM siyasi zaferlerden çok kurumların işleyişi, fermanların içeriği ve teşkilat yapısını sorgular."
             },
             {
-              "id": "q_35407",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 2. İlk Türk-İslam Devletleri & Türkiye Selçukluları döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_2_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "2. İlk Türk-İslam Devletleri & Türkiye Selçukluları konusunda adayların en çok karıştırdığı kronolojik veya kavramsal ayrım hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Islahat hareketlerinin amacını ve hangi padişah döneminde yapıldığını karıştırmak",
+                "B) Savaşların isimlerini karıştırmak",
+                "C) Başkentlerin yerini bilmemek",
+                "D) Antlaşmaların barış getirdiğini unutmak",
+                "E) Sadrazam isimlerini unutmak"
               ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap C."
-            },
-            {
-              "id": "q_94086",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 2. İlk Türk-İslam Devletleri & Türkiye Selçukluları döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap C."
-            },
-            {
-              "id": "q_44076",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 2. İlk Türk-İslam Devletleri & Türkiye Selçukluları döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap C."
-            },
-            {
-              "id": "q_24591",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 2. İlk Türk-İslam Devletleri & Türkiye Selçukluları döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap C."
+              "correct": 0,
+              "solution": "Özellikle Tanzimat, Islahat ve Meşrutiyet dönemleri padişahları ve maddeleri ÖSYM'nin en çok eleyici soru ürettiği alandır."
             }
           ]
         },
@@ -2023,88 +1243,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_68351",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 3. Osmanlı Devleti Siyasi Tarihi (Kuruluş, Yükselme) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_3_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "3. Osmanlı Devleti Siyasi Tarihi (Kuruluş, Yükselme) dönemi incelendiğinde aşağıdakilerden hangisi temel bir tarihsel olgudur?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Meydana gelen olaylar dönemin siyasi ve sosyal koşullarıyla açıklanır.",
+                "B) Olaylar günümüz ahlak ve hukuk kurallarıyla yargılanır.",
+                "C) Tarihsel belgelere ihtiyaç duyulmaz.",
+                "D) Coğrafi konumun olaylar üzerinde etkisi yoktur.",
+                "E) Tek bir kaynağa bakılarak kesin hüküm verilebilir."
               ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap E."
+              "correct": 0,
+              "solution": "Tarih biliminin en temel yöntemi, olayları gerçekleştiği çağın şartlarına ve neden-sonuç zincirine göre incelemektir (Doğru cevap A)."
             },
             {
-              "id": "q_34696",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 3. Osmanlı Devleti Siyasi Tarihi (Kuruluş, Yükselme) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_3_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "3. Osmanlı Devleti Siyasi Tarihi (Kuruluş, Yükselme) kapsamında ÖSYM'nin soru bankalarında en çok üzerinde durduğu kavram hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Devlet teşkilatlanması ve kurumların topluma olan etkileri",
+                "B) Sadece savaşların tam başlangıç ve bitiş saatleri",
+                "C) Hükümdarların şahsi servetleri",
+                "D) Destanların harfi harfine gerçek kabul edilmesi",
+                "E) Kronolojik sıranın önemsizliği"
               ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap E."
+              "correct": 0,
+              "solution": "KPSS Tarih testinde ÖSYM siyasi zaferlerden çok kurumların işleyişi, fermanların içeriği ve teşkilat yapısını sorgular."
             },
             {
-              "id": "q_96706",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 3. Osmanlı Devleti Siyasi Tarihi (Kuruluş, Yükselme) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_3_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "3. Osmanlı Devleti Siyasi Tarihi (Kuruluş, Yükselme) konusunda adayların en çok karıştırdığı kronolojik veya kavramsal ayrım hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Islahat hareketlerinin amacını ve hangi padişah döneminde yapıldığını karıştırmak",
+                "B) Savaşların isimlerini karıştırmak",
+                "C) Başkentlerin yerini bilmemek",
+                "D) Antlaşmaların barış getirdiğini unutmak",
+                "E) Sadrazam isimlerini unutmak"
               ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap B."
-            },
-            {
-              "id": "q_37821",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 3. Osmanlı Devleti Siyasi Tarihi (Kuruluş, Yükselme) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap E."
-            },
-            {
-              "id": "q_72838",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 3. Osmanlı Devleti Siyasi Tarihi (Kuruluş, Yükselme) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap E."
-            },
-            {
-              "id": "q_52677",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 3. Osmanlı Devleti Siyasi Tarihi (Kuruluş, Yükselme) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap C."
+              "correct": 0,
+              "solution": "Özellikle Tanzimat, Islahat ve Meşrutiyet dönemleri padişahları ve maddeleri ÖSYM'nin en çok eleyici soru ürettiği alandır."
             }
           ]
         },
@@ -2122,88 +1303,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_75789",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 4. Osmanlı Kültür ve Medeniyeti (Divan, Tımar, Eyaletler) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_4_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "Osmanlı Devleti'nde Divan-ı Hümayun'da adalet, eğitim ve kadı-müderris atamalarından sorumlu olan üye kimdir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap E."
-            },
-            {
-              "id": "q_54996",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 4. Osmanlı Kültür ve Medeniyeti (Divan, Tımar, Eyaletler) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
-            },
-            {
-              "id": "q_53209",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 4. Osmanlı Kültür ve Medeniyeti (Divan, Tımar, Eyaletler) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap E."
-            },
-            {
-              "id": "q_40621",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 4. Osmanlı Kültür ve Medeniyeti (Divan, Tımar, Eyaletler) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap E."
-            },
-            {
-              "id": "q_97640",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 4. Osmanlı Kültür ve Medeniyeti (Divan, Tımar, Eyaletler) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Sadrazam",
+                "B) Kazasker",
+                "C) Defterdar",
+                "D) Nişancı",
+                "E) Kaptan-ı Derya"
               ],
               "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap B."
+              "solution": "Divan-ı Hümayun'da yargı ve eğitim işlerine bakan, bugünkü Milli Eğitim ve Adalet Bakanlarının görevini üstlenen ilmiye sınıfı temsilcisi Kazasker'dir (Doğru cevap B)."
             },
             {
-              "id": "q_45657",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 4. Osmanlı Kültür ve Medeniyeti (Divan, Tımar, Eyaletler) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_4_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "Osmanlı Devleti'nde uygulanan Tımar (Dirlik) sisteminin devlete sağladığı faydalar arasında aşağıdakilerden hangisi YER ALMAZ?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Üretimde sürekliliğin sağlanması",
+                "B) Hazineden para çıkmadan savaşa hazır Cebelü ordusu yetiştirilmesi",
+                "C) Taşrada asayiş ve güvenliğin korunması",
+                "D) Vergilerin doğrudan ve düzenli toplanması",
+                "E) Devlet hazinesine doğrudan sıcak nakit para girişi sağlanması"
+              ],
+              "correct": 4,
+              "solution": "Tımar sisteminde vergiler nakit olarak hazineye gitmez; toprak sahibine maaş ve asker yetiştirme karşılığı bırakılır. Sıcak para temin eden sistem 'İltizam' sistemidir (Doğru cevap E)."
+            },
+            {
+              "id": "tar_4_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "Osmanlı padişahının ferman ve beratlarına tuğra çekmek ve fethedilen toprakları tahrir defterine kaydetmekle görevli Divan üyesi hangisidir?",
+              "options": [
+                "A) Nişancı",
+                "B) Reisülküttab",
+                "C) Şeyhülislam",
+                "D) Defterdar",
+                "E) Yeniçeri Ağası"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "solution": "Padişah adına tuğra çeken, iç-dış yazışmaları yöneten ve toprak kayıtlarını (Tahrir) tutan görevli Nişancı'dır (Doğru cevap A)."
             }
           ]
         },
@@ -2221,88 +1363,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_73921",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 5. XVIII. ve XIX. Yüzyıl Osmanlı Islahat Hareketleri döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_5_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "5. XVIII. ve XIX. Yüzyıl Osmanlı Islahat Hareketleri dönemi incelendiğinde aşağıdakilerden hangisi temel bir tarihsel olgudur?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap E."
-            },
-            {
-              "id": "q_94027",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 5. XVIII. ve XIX. Yüzyıl Osmanlı Islahat Hareketleri döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap C."
-            },
-            {
-              "id": "q_55914",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 5. XVIII. ve XIX. Yüzyıl Osmanlı Islahat Hareketleri döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap B."
-            },
-            {
-              "id": "q_92591",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 5. XVIII. ve XIX. Yüzyıl Osmanlı Islahat Hareketleri döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Meydana gelen olaylar dönemin siyasi ve sosyal koşullarıyla açıklanır.",
+                "B) Olaylar günümüz ahlak ve hukuk kurallarıyla yargılanır.",
+                "C) Tarihsel belgelere ihtiyaç duyulmaz.",
+                "D) Coğrafi konumun olaylar üzerinde etkisi yoktur.",
+                "E) Tek bir kaynağa bakılarak kesin hüküm verilebilir."
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "solution": "Tarih biliminin en temel yöntemi, olayları gerçekleştiği çağın şartlarına ve neden-sonuç zincirine göre incelemektir (Doğru cevap A)."
             },
             {
-              "id": "q_93250",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 5. XVIII. ve XIX. Yüzyıl Osmanlı Islahat Hareketleri döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_5_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "5. XVIII. ve XIX. Yüzyıl Osmanlı Islahat Hareketleri kapsamında ÖSYM'nin soru bankalarında en çok üzerinde durduğu kavram hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Devlet teşkilatlanması ve kurumların topluma olan etkileri",
+                "B) Sadece savaşların tam başlangıç ve bitiş saatleri",
+                "C) Hükümdarların şahsi servetleri",
+                "D) Destanların harfi harfine gerçek kabul edilmesi",
+                "E) Kronolojik sıranın önemsizliği"
               ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap C."
+              "correct": 0,
+              "solution": "KPSS Tarih testinde ÖSYM siyasi zaferlerden çok kurumların işleyişi, fermanların içeriği ve teşkilat yapısını sorgular."
             },
             {
-              "id": "q_51531",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 5. XVIII. ve XIX. Yüzyıl Osmanlı Islahat Hareketleri döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_5_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "5. XVIII. ve XIX. Yüzyıl Osmanlı Islahat Hareketleri konusunda adayların en çok karıştırdığı kronolojik veya kavramsal ayrım hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Islahat hareketlerinin amacını ve hangi padişah döneminde yapıldığını karıştırmak",
+                "B) Savaşların isimlerini karıştırmak",
+                "C) Başkentlerin yerini bilmemek",
+                "D) Antlaşmaların barış getirdiğini unutmak",
+                "E) Sadrazam isimlerini unutmak"
               ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap D."
+              "correct": 0,
+              "solution": "Özellikle Tanzimat, Islahat ve Meşrutiyet dönemleri padişahları ve maddeleri ÖSYM'nin en çok eleyici soru ürettiği alandır."
             }
           ]
         },
@@ -2320,88 +1423,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_39638",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 6. Milli Mücadele Hazırlık Dönemi (Genelgeler & Kongreler) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_6_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "6. Milli Mücadele Hazırlık Dönemi (Genelgeler & Kongreler) dönemi incelendiğinde aşağıdakilerden hangisi temel bir tarihsel olgudur?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Meydana gelen olaylar dönemin siyasi ve sosyal koşullarıyla açıklanır.",
+                "B) Olaylar günümüz ahlak ve hukuk kurallarıyla yargılanır.",
+                "C) Tarihsel belgelere ihtiyaç duyulmaz.",
+                "D) Coğrafi konumun olaylar üzerinde etkisi yoktur.",
+                "E) Tek bir kaynağa bakılarak kesin hüküm verilebilir."
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "solution": "Tarih biliminin en temel yöntemi, olayları gerçekleştiği çağın şartlarına ve neden-sonuç zincirine göre incelemektir (Doğru cevap A)."
             },
             {
-              "id": "q_64356",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 6. Milli Mücadele Hazırlık Dönemi (Genelgeler & Kongreler) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_6_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "6. Milli Mücadele Hazırlık Dönemi (Genelgeler & Kongreler) kapsamında ÖSYM'nin soru bankalarında en çok üzerinde durduğu kavram hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap D."
-            },
-            {
-              "id": "q_60981",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 6. Milli Mücadele Hazırlık Dönemi (Genelgeler & Kongreler) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Devlet teşkilatlanması ve kurumların topluma olan etkileri",
+                "B) Sadece savaşların tam başlangıç ve bitiş saatleri",
+                "C) Hükümdarların şahsi servetleri",
+                "D) Destanların harfi harfine gerçek kabul edilmesi",
+                "E) Kronolojik sıranın önemsizliği"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "solution": "KPSS Tarih testinde ÖSYM siyasi zaferlerden çok kurumların işleyişi, fermanların içeriği ve teşkilat yapısını sorgular."
             },
             {
-              "id": "q_53188",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 6. Milli Mücadele Hazırlık Dönemi (Genelgeler & Kongreler) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_6_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "6. Milli Mücadele Hazırlık Dönemi (Genelgeler & Kongreler) konusunda adayların en çok karıştırdığı kronolojik veya kavramsal ayrım hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Islahat hareketlerinin amacını ve hangi padişah döneminde yapıldığını karıştırmak",
+                "B) Savaşların isimlerini karıştırmak",
+                "C) Başkentlerin yerini bilmemek",
+                "D) Antlaşmaların barış getirdiğini unutmak",
+                "E) Sadrazam isimlerini unutmak"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
-            },
-            {
-              "id": "q_59616",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 6. Milli Mücadele Hazırlık Dönemi (Genelgeler & Kongreler) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
-            },
-            {
-              "id": "q_53753",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 6. Milli Mücadele Hazırlık Dönemi (Genelgeler & Kongreler) döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap D."
+              "solution": "Özellikle Tanzimat, Islahat ve Meşrutiyet dönemleri padişahları ve maddeleri ÖSYM'nin en çok eleyici soru ürettiği alandır."
             }
           ]
         },
@@ -2419,88 +1483,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_71282",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 7. I. TBMM Dönemi, Ayaklanmalar ve Sevr döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_7_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "7. I. TBMM Dönemi, Ayaklanmalar ve Sevr dönemi incelendiğinde aşağıdakilerden hangisi temel bir tarihsel olgudur?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap D."
-            },
-            {
-              "id": "q_39453",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 7. I. TBMM Dönemi, Ayaklanmalar ve Sevr döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 3,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap D."
-            },
-            {
-              "id": "q_91340",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 7. I. TBMM Dönemi, Ayaklanmalar ve Sevr döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap B."
-            },
-            {
-              "id": "q_56028",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 7. I. TBMM Dönemi, Ayaklanmalar ve Sevr döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Meydana gelen olaylar dönemin siyasi ve sosyal koşullarıyla açıklanır.",
+                "B) Olaylar günümüz ahlak ve hukuk kurallarıyla yargılanır.",
+                "C) Tarihsel belgelere ihtiyaç duyulmaz.",
+                "D) Coğrafi konumun olaylar üzerinde etkisi yoktur.",
+                "E) Tek bir kaynağa bakılarak kesin hüküm verilebilir."
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "solution": "Tarih biliminin en temel yöntemi, olayları gerçekleştiği çağın şartlarına ve neden-sonuç zincirine göre incelemektir (Doğru cevap A)."
             },
             {
-              "id": "q_19676",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 7. I. TBMM Dönemi, Ayaklanmalar ve Sevr döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_7_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "7. I. TBMM Dönemi, Ayaklanmalar ve Sevr kapsamında ÖSYM'nin soru bankalarında en çok üzerinde durduğu kavram hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Devlet teşkilatlanması ve kurumların topluma olan etkileri",
+                "B) Sadece savaşların tam başlangıç ve bitiş saatleri",
+                "C) Hükümdarların şahsi servetleri",
+                "D) Destanların harfi harfine gerçek kabul edilmesi",
+                "E) Kronolojik sıranın önemsizliği"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "solution": "KPSS Tarih testinde ÖSYM siyasi zaferlerden çok kurumların işleyişi, fermanların içeriği ve teşkilat yapısını sorgular."
             },
             {
-              "id": "q_99402",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 7. I. TBMM Dönemi, Ayaklanmalar ve Sevr döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_7_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "7. I. TBMM Dönemi, Ayaklanmalar ve Sevr konusunda adayların en çok karıştırdığı kronolojik veya kavramsal ayrım hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Islahat hareketlerinin amacını ve hangi padişah döneminde yapıldığını karıştırmak",
+                "B) Savaşların isimlerini karıştırmak",
+                "C) Başkentlerin yerini bilmemek",
+                "D) Antlaşmaların barış getirdiğini unutmak",
+                "E) Sadrazam isimlerini unutmak"
               ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap C."
+              "correct": 0,
+              "solution": "Özellikle Tanzimat, Islahat ve Meşrutiyet dönemleri padişahları ve maddeleri ÖSYM'nin en çok eleyici soru ürettiği alandır."
             }
           ]
         },
@@ -2518,88 +1543,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_66774",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 8. Kurtuluş Savaşı Muharebeler Dönemi & Antlaşmalar döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_8_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "8. Kurtuluş Savaşı Muharebeler Dönemi & Antlaşmalar dönemi incelendiğinde aşağıdakilerden hangisi temel bir tarihsel olgudur?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap C."
-            },
-            {
-              "id": "q_58478",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 8. Kurtuluş Savaşı Muharebeler Dönemi & Antlaşmalar döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap B."
-            },
-            {
-              "id": "q_82888",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 8. Kurtuluş Savaşı Muharebeler Dönemi & Antlaşmalar döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap C."
-            },
-            {
-              "id": "q_13194",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 8. Kurtuluş Savaşı Muharebeler Dönemi & Antlaşmalar döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Meydana gelen olaylar dönemin siyasi ve sosyal koşullarıyla açıklanır.",
+                "B) Olaylar günümüz ahlak ve hukuk kurallarıyla yargılanır.",
+                "C) Tarihsel belgelere ihtiyaç duyulmaz.",
+                "D) Coğrafi konumun olaylar üzerinde etkisi yoktur.",
+                "E) Tek bir kaynağa bakılarak kesin hüküm verilebilir."
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "solution": "Tarih biliminin en temel yöntemi, olayları gerçekleştiği çağın şartlarına ve neden-sonuç zincirine göre incelemektir (Doğru cevap A)."
             },
             {
-              "id": "q_13886",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 8. Kurtuluş Savaşı Muharebeler Dönemi & Antlaşmalar döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_8_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "8. Kurtuluş Savaşı Muharebeler Dönemi & Antlaşmalar kapsamında ÖSYM'nin soru bankalarında en çok üzerinde durduğu kavram hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Devlet teşkilatlanması ve kurumların topluma olan etkileri",
+                "B) Sadece savaşların tam başlangıç ve bitiş saatleri",
+                "C) Hükümdarların şahsi servetleri",
+                "D) Destanların harfi harfine gerçek kabul edilmesi",
+                "E) Kronolojik sıranın önemsizliği"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "solution": "KPSS Tarih testinde ÖSYM siyasi zaferlerden çok kurumların işleyişi, fermanların içeriği ve teşkilat yapısını sorgular."
             },
             {
-              "id": "q_95535",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 8. Kurtuluş Savaşı Muharebeler Dönemi & Antlaşmalar döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_8_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "8. Kurtuluş Savaşı Muharebeler Dönemi & Antlaşmalar konusunda adayların en çok karıştırdığı kronolojik veya kavramsal ayrım hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Islahat hareketlerinin amacını ve hangi padişah döneminde yapıldığını karıştırmak",
+                "B) Savaşların isimlerini karıştırmak",
+                "C) Başkentlerin yerini bilmemek",
+                "D) Antlaşmaların barış getirdiğini unutmak",
+                "E) Sadrazam isimlerini unutmak"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "solution": "Özellikle Tanzimat, Islahat ve Meşrutiyet dönemleri padişahları ve maddeleri ÖSYM'nin en çok eleyici soru ürettiği alandır."
             }
           ]
         },
@@ -2617,88 +1603,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_25431",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 9. Atatürk İnkılapları ve İlkeleri döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_9_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "9. Atatürk İnkılapları ve İlkeleri dönemi incelendiğinde aşağıdakilerden hangisi temel bir tarihsel olgudur?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Meydana gelen olaylar dönemin siyasi ve sosyal koşullarıyla açıklanır.",
+                "B) Olaylar günümüz ahlak ve hukuk kurallarıyla yargılanır.",
+                "C) Tarihsel belgelere ihtiyaç duyulmaz.",
+                "D) Coğrafi konumun olaylar üzerinde etkisi yoktur.",
+                "E) Tek bir kaynağa bakılarak kesin hüküm verilebilir."
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "solution": "Tarih biliminin en temel yöntemi, olayları gerçekleştiği çağın şartlarına ve neden-sonuç zincirine göre incelemektir (Doğru cevap A)."
             },
             {
-              "id": "q_96122",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 9. Atatürk İnkılapları ve İlkeleri döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_9_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "9. Atatürk İnkılapları ve İlkeleri kapsamında ÖSYM'nin soru bankalarında en çok üzerinde durduğu kavram hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap C."
-            },
-            {
-              "id": "q_55875",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 9. Atatürk İnkılapları ve İlkeleri döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap E."
-            },
-            {
-              "id": "q_57758",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 9. Atatürk İnkılapları ve İlkeleri döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Devlet teşkilatlanması ve kurumların topluma olan etkileri",
+                "B) Sadece savaşların tam başlangıç ve bitiş saatleri",
+                "C) Hükümdarların şahsi servetleri",
+                "D) Destanların harfi harfine gerçek kabul edilmesi",
+                "E) Kronolojik sıranın önemsizliği"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "solution": "KPSS Tarih testinde ÖSYM siyasi zaferlerden çok kurumların işleyişi, fermanların içeriği ve teşkilat yapısını sorgular."
             },
             {
-              "id": "q_34172",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 9. Atatürk İnkılapları ve İlkeleri döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_9_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "9. Atatürk İnkılapları ve İlkeleri konusunda adayların en çok karıştırdığı kronolojik veya kavramsal ayrım hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Islahat hareketlerinin amacını ve hangi padişah döneminde yapıldığını karıştırmak",
+                "B) Savaşların isimlerini karıştırmak",
+                "C) Başkentlerin yerini bilmemek",
+                "D) Antlaşmaların barış getirdiğini unutmak",
+                "E) Sadrazam isimlerini unutmak"
               ],
-              "correct": 2,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap C."
-            },
-            {
-              "id": "q_55710",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 9. Atatürk İnkılapları ve İlkeleri döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap E."
+              "correct": 0,
+              "solution": "Özellikle Tanzimat, Islahat ve Meşrutiyet dönemleri padişahları ve maddeleri ÖSYM'nin en çok eleyici soru ürettiği alandır."
             }
           ]
         },
@@ -2716,88 +1663,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_27232",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 10. Çağdaş Türk ve Dünya Tarihi döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_10_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "İslamiyet öncesi Türk devletlerinde hükümdara yönetme yetkisinin Gök Tanrı tarafından verildiğine inanılan anlayışa ne ad verilir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap E."
-            },
-            {
-              "id": "q_99539",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 10. Çağdaş Türk ve Dünya Tarihi döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap B."
-            },
-            {
-              "id": "q_56263",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 10. Çağdaş Türk ve Dünya Tarihi döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
-              ],
-              "correct": 1,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap B."
-            },
-            {
-              "id": "q_22800",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 10. Çağdaş Türk ve Dünya Tarihi döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
-              "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Kut Anlayışı",
+                "B) İkili Teşkilat",
+                "C) Kurultay",
+                "D) Töre",
+                "E) Balbal"
               ],
               "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "solution": "Yönetme yetkisinin Tanrısal kaynaklı olduğuna inanılmasına 'Kut' adı verilir. Bu yetki hanedanın tüm erkek üyelerinde kan bağıyla mevcuttur (Doğru cevap A)."
             },
             {
-              "id": "q_19168",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 10. Çağdaş Türk ve Dünya Tarihi döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_10_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "Maniheizm dinini kabul ederek yerleşik hayata geçen ve bu sayede ilk kez Türk mimarisini, saray ve tapınakları başlatan devlet hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Asya Hun Devleti",
+                "B) I. Göktürk Devleti",
+                "C) Uygurlar",
+                "D) Avarlar",
+                "E) Hazarlar"
               ],
-              "correct": 0,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap A."
+              "correct": 2,
+              "solution": "Bögü Kağan döneminde Maniheizm'i kabul eden Uygurlar, et yemeyi ve savaşmayı yasaklayan bu inanç nedeniyle yerleşik hayata geçmiş ve mimariyi başlatmışlardır (Doğru cevap C)."
             },
             {
-              "id": "q_55086",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 10. Çağdaş Türk ve Dünya Tarihi döneminde yaşanan aşağıdaki gelişmelerden hangisi merkezi otoriteyi güçlendirmeye yöneliktir?",
+              "id": "tar_10_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "İslamiyet öncesi Türk devletlerinde görülen 'İkili Teşkilat' uygulamasının devlet yönetiminde yarattığı EN ÖNEMLİ olumsuz sonuç hangisidir?",
               "options": [
-                "A) Veraset sistemindeki değişim",
-                "B) İltizam sisteminin yaygınlaşması",
-                "C) Tımar sisteminin bozulması",
-                "D) Celali İsyanları",
-                "E) Ayanların güç kazanması"
+                "A) Dış ticaretin tamamen durması",
+                "B) Taht kavgalarını ve devletin ikiye bölünerek hızla yıkılmasını kolaylaştırması",
+                "C) Ordunun zayıflaması",
+                "D) Töre kurallarının geçersiz kılınması",
+                "E) Kurultay meclisinin kapatılması"
               ],
-              "correct": 4,
-              "solution": "ÖSYM Tarzı Çözüm: Tımar, Celali ve Ayanlar merkezi otoriteyi zayıflatır. Cevap E."
+              "correct": 1,
+              "solution": "Ülkenin doğu ve batı olarak ikiye bölünmesi merkezi otoriteyi zayıflatmış, yabguların isyanı ve taht mücadeleleriyle devletlerin kısa sürede parçalanmasına zemin hazırlamıştır (Cevap B)."
             }
           ]
         }
@@ -2825,88 +1733,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_35630",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 1. Türkiye'nin Coğrafi Konumu & Jeolojik Yapısı bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_1_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "Türkiye 36°-42° Kuzey paralelleri ile 26°-45° Doğu meridyenleri arasında yer alır. Aşağıdakilerden hangisi Türkiye'nin MATEMATİK (Mutlak) konumunun bir sonucudur?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 1,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
-            },
-            {
-              "id": "q_11243",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 1. Türkiye'nin Coğrafi Konumu & Jeolojik Yapısı bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 4,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
-            },
-            {
-              "id": "q_53266",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 1. Türkiye'nin Coğrafi Konumu & Jeolojik Yapısı bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 2,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_58230",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 1. Türkiye'nin Coğrafi Konumu & Jeolojik Yapısı bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Dört mevsimin belirgin olarak yaşanması",
+                "B) Üç tarafının denizlerle çevrili olması",
+                "C) Doğuya doğru yükseltinin artması",
+                "D) İstanbul ve Çanakkale boğazlarına sahip olması",
+                "E) Zengin bor ve linyit yataklarının bulunması"
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "Dört mevsimin belirgin yaşanması Orta Kuşak'ta (enlem derecelerinde) bulunmanın doğrudan bir sonucudur. Diğer seçenekler özel (göreceli) konumla ilgilidir (Doğru cevap A)."
             },
             {
-              "id": "q_81416",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 1. Türkiye'nin Coğrafi Konumu & Jeolojik Yapısı bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_1_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "Türkiye'de doğu-batı doğrultusunda yerel saat farkı hesaplanırken iki meridyen arasındaki zaman farkı kaç dakikadır ve en doğu ile en batı arasında toplam kaç dakika fark vardır?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 4,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
-            },
-            {
-              "id": "q_70079",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 1. Türkiye'nin Coğrafi Konumu & Jeolojik Yapısı bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) 4 dakika - 76 dakika",
+                "B) 4 dakika - 60 dakika",
+                "C) 15 dakika - 90 dakika",
+                "D) 2 dakika - 38 dakika",
+                "E) 5 dakika - 80 dakika"
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "İki meridyen arası zaman farkı 4 dakikadır. 45°D - 26°D = 19 meridyen farkı vardır. 19 · 4 = 76 dakikalık zaman farkı bulunur (Doğru cevap A)."
+            },
+            {
+              "id": "cog_1_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "Aynı enlem üzerinde yer alan Çanakkale ve Erzurum'da Güneş ışınlarının geliş açısı aynı olmasına rağmen, Erzurum'un Çanakkale'den çok daha soğuk olması aşağıdakilerden hangisiyle açıklanır?",
+              "options": [
+                "A) Yükselti ve karasallık farkı",
+                "B) Enlem derecesi",
+                "C) Ekinoks tarihleri",
+                "D) Çizgisel hız",
+                "E) Yerel saat farkı"
+              ],
+              "correct": 0,
+              "solution": "Aynı enlemde sıcaklıkların farklı olması matematik konumla değil; yükselti, denizellik ve karasallık gibi özel (göreceli) konum faktörleriyle açıklanır (Doğru cevap A)."
             }
           ]
         },
@@ -2924,88 +1793,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_51141",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 2. Türkiye'nin Dağları, Platoları ve Ovaları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_2_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "2. Türkiye'nin Dağları, Platoları ve Ovaları konusunda Türkiye coğrafyasının en belirgin özelliği aşağıdakilerden hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 4,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
-            },
-            {
-              "id": "q_38388",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 2. Türkiye'nin Dağları, Platoları ve Ovaları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Yer şekillerinin kısa mesafelerde değişmesi sonucu iklim ve bitki örtüsünün çeşitlenmesi",
+                "B) Her bölgesinde aynı yağış rejiminin görülmesi",
+                "C) Akarsularının denge profiline ulaşmış olması",
+                "D) Hiç deprem riski bulunmaması",
+                "E) Kıyı ile iç kesimler arasında iklim farkı olmaması"
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "Türkiye genç oluşumlu, engebeli bir ülke olduğu için kısa mesafelerde yükselti değişir; bu da iklim, tarım ve bitki çeşitliliğini artırır (Doğru cevap A)."
             },
             {
-              "id": "q_53912",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 2. Türkiye'nin Dağları, Platoları ve Ovaları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_2_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "2. Türkiye'nin Dağları, Platoları ve Ovaları kapsamında ÖSYM harita sorularında en çok hangi dağılışa dikkat edilmelidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Bölge ve illerin ekonomik/fiziki özelliklerinin harita üzerindeki tam konumuna",
+                "B) Sadece komşu ülkelerin sınır uzunluklarına",
+                "C) Denizlerin tuzluluk oranlarının rastgele ezberine",
+                "D) Dağların isimlerinin alfabetik sırasına",
+                "E) Şehirlerin plaka kodlarına"
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "KPSS Coğrafya sorularının %50'si dilsiz Türkiye haritası üzerinde işaretli merkezler üzerinden sorulur. Görsel harita hakimiyeti şarttır."
             },
             {
-              "id": "q_52001",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 2. Türkiye'nin Dağları, Platoları ve Ovaları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_2_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "2. Türkiye'nin Dağları, Platoları ve Ovaları konusunda sınavda en sık karşılaşılan çeldirici ayrım hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 3,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_97064",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 2. Türkiye'nin Dağları, Platoları ve Ovaları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Karstik, volkanik ve tektonik oluşumların birbiriyle karıştırılması",
+                "B) Doğu ile batının karıştırılması",
+                "C) Akdeniz ile Karadeniz'in yerinin unutulması",
+                "D) Ormanların sadece dağlarda yetiştiği yanılgısı",
+                "E) Rüzgarların yönünün değişmediği inancı"
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
-            },
-            {
-              "id": "q_71304",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 2. Türkiye'nin Dağları, Platoları ve Ovaları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 0,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "Göller, platolar ve ovalarda oluşum kökenleri (Tektonik mi, Karstik mi, Volkanik mi?) ÖSYM'nin en temel eleme noktasıdır."
             }
           ]
         },
@@ -3023,88 +1853,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_68154",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 3. Türkiye'nin Gölleri, Akarsuları & Kıyıları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_3_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "3. Türkiye'nin Gölleri, Akarsuları & Kıyıları konusunda Türkiye coğrafyasının en belirgin özelliği aşağıdakilerden hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Yer şekillerinin kısa mesafelerde değişmesi sonucu iklim ve bitki örtüsünün çeşitlenmesi",
+                "B) Her bölgesinde aynı yağış rejiminin görülmesi",
+                "C) Akarsularının denge profiline ulaşmış olması",
+                "D) Hiç deprem riski bulunmaması",
+                "E) Kıyı ile iç kesimler arasında iklim farkı olmaması"
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "Türkiye genç oluşumlu, engebeli bir ülke olduğu için kısa mesafelerde yükselti değişir; bu da iklim, tarım ve bitki çeşitliliğini artırır (Doğru cevap A)."
             },
             {
-              "id": "q_27284",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 3. Türkiye'nin Gölleri, Akarsuları & Kıyıları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_3_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "3. Türkiye'nin Gölleri, Akarsuları & Kıyıları kapsamında ÖSYM harita sorularında en çok hangi dağılışa dikkat edilmelidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 1,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
-            },
-            {
-              "id": "q_64343",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 3. Türkiye'nin Gölleri, Akarsuları & Kıyıları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Bölge ve illerin ekonomik/fiziki özelliklerinin harita üzerindeki tam konumuna",
+                "B) Sadece komşu ülkelerin sınır uzunluklarına",
+                "C) Denizlerin tuzluluk oranlarının rastgele ezberine",
+                "D) Dağların isimlerinin alfabetik sırasına",
+                "E) Şehirlerin plaka kodlarına"
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "KPSS Coğrafya sorularının %50'si dilsiz Türkiye haritası üzerinde işaretli merkezler üzerinden sorulur. Görsel harita hakimiyeti şarttır."
             },
             {
-              "id": "q_23536",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 3. Türkiye'nin Gölleri, Akarsuları & Kıyıları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_3_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "3. Türkiye'nin Gölleri, Akarsuları & Kıyıları konusunda sınavda en sık karşılaşılan çeldirici ayrım hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 2,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_64419",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 3. Türkiye'nin Gölleri, Akarsuları & Kıyıları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 1,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
-            },
-            {
-              "id": "q_61125",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 3. Türkiye'nin Gölleri, Akarsuları & Kıyıları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Karstik, volkanik ve tektonik oluşumların birbiriyle karıştırılması",
+                "B) Doğu ile batının karıştırılması",
+                "C) Akdeniz ile Karadeniz'in yerinin unutulması",
+                "D) Ormanların sadece dağlarda yetiştiği yanılgısı",
+                "E) Rüzgarların yönünün değişmediği inancı"
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "Göller, platolar ve ovalarda oluşum kökenleri (Tektonik mi, Karstik mi, Volkanik mi?) ÖSYM'nin en temel eleme noktasıdır."
             }
           ]
         },
@@ -3122,88 +1913,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_92714",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 4. Türkiye'nin İklimi, Bitki Örtüsü & Toprak Tipleri bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_4_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "4. Türkiye'nin İklimi, Bitki Örtüsü & Toprak Tipleri konusunda Türkiye coğrafyasının en belirgin özelliği aşağıdakilerden hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 2,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_40285",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 4. Türkiye'nin İklimi, Bitki Örtüsü & Toprak Tipleri bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 2,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_76102",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 4. Türkiye'nin İklimi, Bitki Örtüsü & Toprak Tipleri bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Yer şekillerinin kısa mesafelerde değişmesi sonucu iklim ve bitki örtüsünün çeşitlenmesi",
+                "B) Her bölgesinde aynı yağış rejiminin görülmesi",
+                "C) Akarsularının denge profiline ulaşmış olması",
+                "D) Hiç deprem riski bulunmaması",
+                "E) Kıyı ile iç kesimler arasında iklim farkı olmaması"
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "Türkiye genç oluşumlu, engebeli bir ülke olduğu için kısa mesafelerde yükselti değişir; bu da iklim, tarım ve bitki çeşitliliğini artırır (Doğru cevap A)."
             },
             {
-              "id": "q_35162",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 4. Türkiye'nin İklimi, Bitki Örtüsü & Toprak Tipleri bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_4_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "4. Türkiye'nin İklimi, Bitki Örtüsü & Toprak Tipleri kapsamında ÖSYM harita sorularında en çok hangi dağılışa dikkat edilmelidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 3,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_81679",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 4. Türkiye'nin İklimi, Bitki Örtüsü & Toprak Tipleri bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 3,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_27171",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 4. Türkiye'nin İklimi, Bitki Örtüsü & Toprak Tipleri bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Bölge ve illerin ekonomik/fiziki özelliklerinin harita üzerindeki tam konumuna",
+                "B) Sadece komşu ülkelerin sınır uzunluklarına",
+                "C) Denizlerin tuzluluk oranlarının rastgele ezberine",
+                "D) Dağların isimlerinin alfabetik sırasına",
+                "E) Şehirlerin plaka kodlarına"
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "KPSS Coğrafya sorularının %50'si dilsiz Türkiye haritası üzerinde işaretli merkezler üzerinden sorulur. Görsel harita hakimiyeti şarttır."
+            },
+            {
+              "id": "cog_4_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "4. Türkiye'nin İklimi, Bitki Örtüsü & Toprak Tipleri konusunda sınavda en sık karşılaşılan çeldirici ayrım hangisidir?",
+              "options": [
+                "A) Karstik, volkanik ve tektonik oluşumların birbiriyle karıştırılması",
+                "B) Doğu ile batının karıştırılması",
+                "C) Akdeniz ile Karadeniz'in yerinin unutulması",
+                "D) Ormanların sadece dağlarda yetiştiği yanılgısı",
+                "E) Rüzgarların yönünün değişmediği inancı"
+              ],
+              "correct": 0,
+              "solution": "Göller, platolar ve ovalarda oluşum kökenleri (Tektonik mi, Karstik mi, Volkanik mi?) ÖSYM'nin en temel eleme noktasıdır."
             }
           ]
         },
@@ -3221,88 +1973,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_16513",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 5. Türkiye'de Nüfus, Yerleşme & Göçler bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_5_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "5. Türkiye'de Nüfus, Yerleşme & Göçler konusunda Türkiye coğrafyasının en belirgin özelliği aşağıdakilerden hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Yer şekillerinin kısa mesafelerde değişmesi sonucu iklim ve bitki örtüsünün çeşitlenmesi",
+                "B) Her bölgesinde aynı yağış rejiminin görülmesi",
+                "C) Akarsularının denge profiline ulaşmış olması",
+                "D) Hiç deprem riski bulunmaması",
+                "E) Kıyı ile iç kesimler arasında iklim farkı olmaması"
               ],
-              "correct": 3,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
+              "correct": 0,
+              "solution": "Türkiye genç oluşumlu, engebeli bir ülke olduğu için kısa mesafelerde yükselti değişir; bu da iklim, tarım ve bitki çeşitliliğini artırır (Doğru cevap A)."
             },
             {
-              "id": "q_19008",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 5. Türkiye'de Nüfus, Yerleşme & Göçler bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_5_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "5. Türkiye'de Nüfus, Yerleşme & Göçler kapsamında ÖSYM harita sorularında en çok hangi dağılışa dikkat edilmelidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Bölge ve illerin ekonomik/fiziki özelliklerinin harita üzerindeki tam konumuna",
+                "B) Sadece komşu ülkelerin sınır uzunluklarına",
+                "C) Denizlerin tuzluluk oranlarının rastgele ezberine",
+                "D) Dağların isimlerinin alfabetik sırasına",
+                "E) Şehirlerin plaka kodlarına"
               ],
-              "correct": 2,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
+              "correct": 0,
+              "solution": "KPSS Coğrafya sorularının %50'si dilsiz Türkiye haritası üzerinde işaretli merkezler üzerinden sorulur. Görsel harita hakimiyeti şarttır."
             },
             {
-              "id": "q_82858",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 5. Türkiye'de Nüfus, Yerleşme & Göçler bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_5_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "5. Türkiye'de Nüfus, Yerleşme & Göçler konusunda sınavda en sık karşılaşılan çeldirici ayrım hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Karstik, volkanik ve tektonik oluşumların birbiriyle karıştırılması",
+                "B) Doğu ile batının karıştırılması",
+                "C) Akdeniz ile Karadeniz'in yerinin unutulması",
+                "D) Ormanların sadece dağlarda yetiştiği yanılgısı",
+                "E) Rüzgarların yönünün değişmediği inancı"
               ],
-              "correct": 2,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_87150",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 5. Türkiye'de Nüfus, Yerleşme & Göçler bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 2,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_35253",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 5. Türkiye'de Nüfus, Yerleşme & Göçler bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 1,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
-            },
-            {
-              "id": "q_67827",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 5. Türkiye'de Nüfus, Yerleşme & Göçler bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 4,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
+              "correct": 0,
+              "solution": "Göller, platolar ve ovalarda oluşum kökenleri (Tektonik mi, Karstik mi, Volkanik mi?) ÖSYM'nin en temel eleme noktasıdır."
             }
           ]
         },
@@ -3320,88 +2033,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_52633",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 6. Türkiye'de Tarım ve Hayvancılık bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_6_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "6. Türkiye'de Tarım ve Hayvancılık konusunda Türkiye coğrafyasının en belirgin özelliği aşağıdakilerden hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Yer şekillerinin kısa mesafelerde değişmesi sonucu iklim ve bitki örtüsünün çeşitlenmesi",
+                "B) Her bölgesinde aynı yağış rejiminin görülmesi",
+                "C) Akarsularının denge profiline ulaşmış olması",
+                "D) Hiç deprem riski bulunmaması",
+                "E) Kıyı ile iç kesimler arasında iklim farkı olmaması"
               ],
-              "correct": 1,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
+              "correct": 0,
+              "solution": "Türkiye genç oluşumlu, engebeli bir ülke olduğu için kısa mesafelerde yükselti değişir; bu da iklim, tarım ve bitki çeşitliliğini artırır (Doğru cevap A)."
             },
             {
-              "id": "q_62066",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 6. Türkiye'de Tarım ve Hayvancılık bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_6_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "6. Türkiye'de Tarım ve Hayvancılık kapsamında ÖSYM harita sorularında en çok hangi dağılışa dikkat edilmelidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Bölge ve illerin ekonomik/fiziki özelliklerinin harita üzerindeki tam konumuna",
+                "B) Sadece komşu ülkelerin sınır uzunluklarına",
+                "C) Denizlerin tuzluluk oranlarının rastgele ezberine",
+                "D) Dağların isimlerinin alfabetik sırasına",
+                "E) Şehirlerin plaka kodlarına"
               ],
-              "correct": 1,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
+              "correct": 0,
+              "solution": "KPSS Coğrafya sorularının %50'si dilsiz Türkiye haritası üzerinde işaretli merkezler üzerinden sorulur. Görsel harita hakimiyeti şarttır."
             },
             {
-              "id": "q_88511",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 6. Türkiye'de Tarım ve Hayvancılık bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_6_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "6. Türkiye'de Tarım ve Hayvancılık konusunda sınavda en sık karşılaşılan çeldirici ayrım hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Karstik, volkanik ve tektonik oluşumların birbiriyle karıştırılması",
+                "B) Doğu ile batının karıştırılması",
+                "C) Akdeniz ile Karadeniz'in yerinin unutulması",
+                "D) Ormanların sadece dağlarda yetiştiği yanılgısı",
+                "E) Rüzgarların yönünün değişmediği inancı"
               ],
-              "correct": 2,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_97396",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 6. Türkiye'de Tarım ve Hayvancılık bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 1,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
-            },
-            {
-              "id": "q_76963",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 6. Türkiye'de Tarım ve Hayvancılık bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 3,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_52721",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 6. Türkiye'de Tarım ve Hayvancılık bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 1,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
+              "correct": 0,
+              "solution": "Göller, platolar ve ovalarda oluşum kökenleri (Tektonik mi, Karstik mi, Volkanik mi?) ÖSYM'nin en temel eleme noktasıdır."
             }
           ]
         },
@@ -3419,88 +2093,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_14777",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 7. Türkiye'de Madenler ve Enerji Kaynakları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_7_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "7. Türkiye'de Madenler ve Enerji Kaynakları konusunda Türkiye coğrafyasının en belirgin özelliği aşağıdakilerden hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Yer şekillerinin kısa mesafelerde değişmesi sonucu iklim ve bitki örtüsünün çeşitlenmesi",
+                "B) Her bölgesinde aynı yağış rejiminin görülmesi",
+                "C) Akarsularının denge profiline ulaşmış olması",
+                "D) Hiç deprem riski bulunmaması",
+                "E) Kıyı ile iç kesimler arasında iklim farkı olmaması"
               ],
-              "correct": 2,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
+              "correct": 0,
+              "solution": "Türkiye genç oluşumlu, engebeli bir ülke olduğu için kısa mesafelerde yükselti değişir; bu da iklim, tarım ve bitki çeşitliliğini artırır (Doğru cevap A)."
             },
             {
-              "id": "q_22879",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 7. Türkiye'de Madenler ve Enerji Kaynakları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_7_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "7. Türkiye'de Madenler ve Enerji Kaynakları kapsamında ÖSYM harita sorularında en çok hangi dağılışa dikkat edilmelidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Bölge ve illerin ekonomik/fiziki özelliklerinin harita üzerindeki tam konumuna",
+                "B) Sadece komşu ülkelerin sınır uzunluklarına",
+                "C) Denizlerin tuzluluk oranlarının rastgele ezberine",
+                "D) Dağların isimlerinin alfabetik sırasına",
+                "E) Şehirlerin plaka kodlarına"
               ],
-              "correct": 1,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
+              "correct": 0,
+              "solution": "KPSS Coğrafya sorularının %50'si dilsiz Türkiye haritası üzerinde işaretli merkezler üzerinden sorulur. Görsel harita hakimiyeti şarttır."
             },
             {
-              "id": "q_43939",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 7. Türkiye'de Madenler ve Enerji Kaynakları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_7_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "7. Türkiye'de Madenler ve Enerji Kaynakları konusunda sınavda en sık karşılaşılan çeldirici ayrım hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Karstik, volkanik ve tektonik oluşumların birbiriyle karıştırılması",
+                "B) Doğu ile batının karıştırılması",
+                "C) Akdeniz ile Karadeniz'in yerinin unutulması",
+                "D) Ormanların sadece dağlarda yetiştiği yanılgısı",
+                "E) Rüzgarların yönünün değişmediği inancı"
               ],
-              "correct": 3,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_62439",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 7. Türkiye'de Madenler ve Enerji Kaynakları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 4,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
-            },
-            {
-              "id": "q_48916",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 7. Türkiye'de Madenler ve Enerji Kaynakları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 2,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_43834",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 7. Türkiye'de Madenler ve Enerji Kaynakları bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 4,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
+              "correct": 0,
+              "solution": "Göller, platolar ve ovalarda oluşum kökenleri (Tektonik mi, Karstik mi, Volkanik mi?) ÖSYM'nin en temel eleme noktasıdır."
             }
           ]
         },
@@ -3518,88 +2153,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_61973",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 8. Türkiye'de Sanayi, Ulaşım, Ticaret & Turizm bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_8_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "8. Türkiye'de Sanayi, Ulaşım, Ticaret & Turizm konusunda Türkiye coğrafyasının en belirgin özelliği aşağıdakilerden hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Yer şekillerinin kısa mesafelerde değişmesi sonucu iklim ve bitki örtüsünün çeşitlenmesi",
+                "B) Her bölgesinde aynı yağış rejiminin görülmesi",
+                "C) Akarsularının denge profiline ulaşmış olması",
+                "D) Hiç deprem riski bulunmaması",
+                "E) Kıyı ile iç kesimler arasında iklim farkı olmaması"
               ],
-              "correct": 1,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
+              "correct": 0,
+              "solution": "Türkiye genç oluşumlu, engebeli bir ülke olduğu için kısa mesafelerde yükselti değişir; bu da iklim, tarım ve bitki çeşitliliğini artırır (Doğru cevap A)."
             },
             {
-              "id": "q_53624",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 8. Türkiye'de Sanayi, Ulaşım, Ticaret & Turizm bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_8_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "8. Türkiye'de Sanayi, Ulaşım, Ticaret & Turizm kapsamında ÖSYM harita sorularında en çok hangi dağılışa dikkat edilmelidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Bölge ve illerin ekonomik/fiziki özelliklerinin harita üzerindeki tam konumuna",
+                "B) Sadece komşu ülkelerin sınır uzunluklarına",
+                "C) Denizlerin tuzluluk oranlarının rastgele ezberine",
+                "D) Dağların isimlerinin alfabetik sırasına",
+                "E) Şehirlerin plaka kodlarına"
               ],
-              "correct": 1,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
+              "correct": 0,
+              "solution": "KPSS Coğrafya sorularının %50'si dilsiz Türkiye haritası üzerinde işaretli merkezler üzerinden sorulur. Görsel harita hakimiyeti şarttır."
             },
             {
-              "id": "q_87035",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 8. Türkiye'de Sanayi, Ulaşım, Ticaret & Turizm bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "cog_8_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "8. Türkiye'de Sanayi, Ulaşım, Ticaret & Turizm konusunda sınavda en sık karşılaşılan çeldirici ayrım hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Karstik, volkanik ve tektonik oluşumların birbiriyle karıştırılması",
+                "B) Doğu ile batının karıştırılması",
+                "C) Akdeniz ile Karadeniz'in yerinin unutulması",
+                "D) Ormanların sadece dağlarda yetiştiği yanılgısı",
+                "E) Rüzgarların yönünün değişmediği inancı"
               ],
-              "correct": 1,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
-            },
-            {
-              "id": "q_44480",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 8. Türkiye'de Sanayi, Ulaşım, Ticaret & Turizm bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 1,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
-            },
-            {
-              "id": "q_40071",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 8. Türkiye'de Sanayi, Ulaşım, Ticaret & Turizm bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 2,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_17433",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 8. Türkiye'de Sanayi, Ulaşım, Ticaret & Turizm bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 1,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
+              "correct": 0,
+              "solution": "Göller, platolar ve ovalarda oluşum kökenleri (Tektonik mi, Karstik mi, Volkanik mi?) ÖSYM'nin en temel eleme noktasıdır."
             }
           ]
         }
@@ -3627,88 +2223,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_36110",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 1. Temel Hukuk Kavramları (Kurallar, Yaptırımlar) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_1_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "Toplumsal düzen kurallarından (din, ahlak, görgü, hukuk) hangisi arkasında DEVLET GÜCÜ (maddi yaptırım) bulunan TEK kural türüdür?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 0,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
-            },
-            {
-              "id": "q_26441",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 1. Temel Hukuk Kavramları (Kurallar, Yaptırımlar) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 0,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
-            },
-            {
-              "id": "q_68565",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 1. Temel Hukuk Kavramları (Kurallar, Yaptırımlar) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 4,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
-            },
-            {
-              "id": "q_48030",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 1. Temel Hukuk Kavramları (Kurallar, Yaptırımlar) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Din Kuralları",
+                "B) Ahlak Kuralları",
+                "C) Görgü Kuralları",
+                "D) Hukuk Kuralları",
+                "E) Örf ve Âdetler"
               ],
               "correct": 3,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
+              "solution": "Hukuk kuralları diğer sosyal düzen kurallarından farklı olarak kamu gücüyle (devlet yaptırımıyla) desteklenen maddi yaptırımlı tek kuraldır (Doğru cevap D)."
             },
             {
-              "id": "q_43529",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 1. Temel Hukuk Kavramları (Kurallar, Yaptırımlar) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_1_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "Bir hukuki işlemin kurucu unsurlarından en az birinin tamamen eksik olması halinde (Örn: Resmi evlendirme memuru olmadan imam huzurunda kıyılan nikah) o işlem hangi yaptırıma tabidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Yokluk",
+                "B) Mutlak Butlan",
+                "C) Nisbi Butlan",
+                "D) İptal",
+                "E) Tazminat"
               ],
-              "correct": 4,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
+              "correct": 0,
+              "solution": "Kurucu unsuru bulunmayan işlem hukuk dünyasında hiç doğmamış kabul edilir ve yaptırımı 'Yokluk'tur. Mutlak butlanda işlem kurulmuştur ama emredici kurala aykırıdır (Doğru cevap A)."
             },
             {
-              "id": "q_52195",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 1. Temel Hukuk Kavramları (Kurallar, Yaptırımlar) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_1_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "Medeni Kanun'a göre 'Hak ehliyeti' ile 'Fiil ehliyeti' arasındaki temel fark aşağıdakilerden hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Hak ehliyeti sağ ve tam doğmak şartıyla ana rahmine düşüldüğü an kazanılırken, fiil ehliyeti ayırt etme gücü ve erginlik gerektirir.",
+                "B) Hak ehliyeti 18 yaşında, fiil ehliyeti doğumla kazanılır.",
+                "C) Fiil ehliyetine herkes sahiptir, hak ehliyetine sadece memurlar sahiptir.",
+                "D) Hak ehliyeti mahkeme kararıyla alınabilir, fiil ehliyeti alınamaz.",
+                "E) İkisi arasında hiçbir hukuki fark yoktur."
               ],
-              "correct": 4,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
+              "correct": 0,
+              "solution": "Hak ehliyeti pasif bir ehliyettir, kişi olmakla (sağ ve tam doğum) başlar. Fiil ehliyeti ise kişinin kendi eylemleriyle hak ve borç yaratabilmesidir; mümeyyiz (ayırt etme gücüne sahip), reşit ve kısıtlı olmamayı gerektirir (Cevap A)."
             }
           ]
         },
@@ -3726,88 +2283,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_58355",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 2. Haklar, Kişilik & Ehliyetler bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_2_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "1982 Anayasası ve 2. Haklar, Kişilik & Ehliyetler hükümlerine göre aşağıdakilerden hangisi anayasal bir temel kuraldır?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 2,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_26771",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 2. Haklar, Kişilik & Ehliyetler bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 1,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
-            },
-            {
-              "id": "q_85856",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 2. Haklar, Kişilik & Ehliyetler bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 3,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_86966",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 2. Haklar, Kişilik & Ehliyetler bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Egemenlik kayıtsız şartsız Milletindir ve Anayasanın koyduğu esaslara göre kullanılır.",
+                "B) Yasalar Anayasaya aykırı olabilir.",
+                "C) Yürütme yetkisi mahkemelere aittir.",
+                "D) Temel haklar hiçbir sebeple sınırlandırılamaz.",
+                "E) Anayasa Mahkemesi kararları bağlayıcı değildir."
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "Anayasa Madde 6: 'Egemenlik, kayıtsız şartsız Milletindir. Türk Milleti, egemenliğini, Anayasanın koyduğu esaslara göre, yetkili organları eliyle kullanır.' (Doğru cevap A)."
             },
             {
-              "id": "q_75059",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 2. Haklar, Kişilik & Ehliyetler bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_2_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "2. Haklar, Kişilik & Ehliyetler konusunda ÖSYM'nin KPSS sınavında en çok sorguladığı kriter hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Sayısal üye sayıları, görev süreleri ve karar alma nisapları",
+                "B) Kanunların resmi gazetede yayınlanma saati",
+                "C) Milletvekillerinin şahsi meslekleri",
+                "D) Bakanlık binalarının mimari özellikleri",
+                "E) Eski Osmanlı kanunnameleri"
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "Anayasa ve Vatandaşlık testinde üye sayıları (TBMM 600, AYM 15 vb.), görev süreleri (5 yıl) ve yetkiler en kesin soru kalıplarıdır."
             },
             {
-              "id": "q_43308",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 2. Haklar, Kişilik & Ehliyetler bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_2_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "2. Haklar, Kişilik & Ehliyetler alanında yapılan en güncel anayasa değişikliklerinde dikkat edilmesi gereken husus nedir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) 2017 Anayasa Değişikliği ile Başbakanlık ve Bakanlar Kurulu'nun kaldırılıp yürütmenin doğrudan Cumhurbaşkanında toplanması",
+                "B) TBMM'nin üye sayısının 450'ye düşürülmesi",
+                "C) Askeri mahkemelerin yetkilerinin artırılması",
+                "D) Yerel seçimlerin her yıl yapılması",
+                "E) Cumhurbaşkanının tarafsız kalma zorunluluğunun getirilmesi"
               ],
-              "correct": 1,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
+              "correct": 0,
+              "solution": "2017 anayasa değişikliği ile parlamenter sistemden Cumhurbaşkanlığı Hükümet Sistemine geçilmiş, Başbakanlık ve Kanun Hükmünde Kararnameler kaldırılmıştır (Doğru cevap A)."
             }
           ]
         },
@@ -3825,88 +2343,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_50101",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 3. Anayasa Hukuku & 1982 Anayasası Genel İlkeleri bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_3_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "1982 Anayasası ve 3. Anayasa Hukuku & 1982 Anayasası Genel İlkeleri hükümlerine göre aşağıdakilerden hangisi anayasal bir temel kuraldır?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Egemenlik kayıtsız şartsız Milletindir ve Anayasanın koyduğu esaslara göre kullanılır.",
+                "B) Yasalar Anayasaya aykırı olabilir.",
+                "C) Yürütme yetkisi mahkemelere aittir.",
+                "D) Temel haklar hiçbir sebeple sınırlandırılamaz.",
+                "E) Anayasa Mahkemesi kararları bağlayıcı değildir."
               ],
-              "correct": 1,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
+              "correct": 0,
+              "solution": "Anayasa Madde 6: 'Egemenlik, kayıtsız şartsız Milletindir. Türk Milleti, egemenliğini, Anayasanın koyduğu esaslara göre, yetkili organları eliyle kullanır.' (Doğru cevap A)."
             },
             {
-              "id": "q_83520",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 3. Anayasa Hukuku & 1982 Anayasası Genel İlkeleri bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_3_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "3. Anayasa Hukuku & 1982 Anayasası Genel İlkeleri konusunda ÖSYM'nin KPSS sınavında en çok sorguladığı kriter hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Sayısal üye sayıları, görev süreleri ve karar alma nisapları",
+                "B) Kanunların resmi gazetede yayınlanma saati",
+                "C) Milletvekillerinin şahsi meslekleri",
+                "D) Bakanlık binalarının mimari özellikleri",
+                "E) Eski Osmanlı kanunnameleri"
               ],
-              "correct": 4,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
+              "correct": 0,
+              "solution": "Anayasa ve Vatandaşlık testinde üye sayıları (TBMM 600, AYM 15 vb.), görev süreleri (5 yıl) ve yetkiler en kesin soru kalıplarıdır."
             },
             {
-              "id": "q_20452",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 3. Anayasa Hukuku & 1982 Anayasası Genel İlkeleri bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_3_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "3. Anayasa Hukuku & 1982 Anayasası Genel İlkeleri alanında yapılan en güncel anayasa değişikliklerinde dikkat edilmesi gereken husus nedir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) 2017 Anayasa Değişikliği ile Başbakanlık ve Bakanlar Kurulu'nun kaldırılıp yürütmenin doğrudan Cumhurbaşkanında toplanması",
+                "B) TBMM'nin üye sayısının 450'ye düşürülmesi",
+                "C) Askeri mahkemelerin yetkilerinin artırılması",
+                "D) Yerel seçimlerin her yıl yapılması",
+                "E) Cumhurbaşkanının tarafsız kalma zorunluluğunun getirilmesi"
               ],
-              "correct": 1,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
-            },
-            {
-              "id": "q_74889",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 3. Anayasa Hukuku & 1982 Anayasası Genel İlkeleri bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 3,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_90019",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 3. Anayasa Hukuku & 1982 Anayasası Genel İlkeleri bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 1,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
-            },
-            {
-              "id": "q_94225",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 3. Anayasa Hukuku & 1982 Anayasası Genel İlkeleri bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 4,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
+              "correct": 0,
+              "solution": "2017 anayasa değişikliği ile parlamenter sistemden Cumhurbaşkanlığı Hükümet Sistemine geçilmiş, Başbakanlık ve Kanun Hükmünde Kararnameler kaldırılmıştır (Doğru cevap A)."
             }
           ]
         },
@@ -3924,88 +2403,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_40574",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 4. Yasama Organı (TBMM 600 MV, Seçimler) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_4_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "1982 Anayasası ve 4. Yasama Organı (TBMM 600 MV, Seçimler) hükümlerine göre aşağıdakilerden hangisi anayasal bir temel kuraldır?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Egemenlik kayıtsız şartsız Milletindir ve Anayasanın koyduğu esaslara göre kullanılır.",
+                "B) Yasalar Anayasaya aykırı olabilir.",
+                "C) Yürütme yetkisi mahkemelere aittir.",
+                "D) Temel haklar hiçbir sebeple sınırlandırılamaz.",
+                "E) Anayasa Mahkemesi kararları bağlayıcı değildir."
               ],
-              "correct": 2,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
+              "correct": 0,
+              "solution": "Anayasa Madde 6: 'Egemenlik, kayıtsız şartsız Milletindir. Türk Milleti, egemenliğini, Anayasanın koyduğu esaslara göre, yetkili organları eliyle kullanır.' (Doğru cevap A)."
             },
             {
-              "id": "q_39037",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 4. Yasama Organı (TBMM 600 MV, Seçimler) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_4_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "4. Yasama Organı (TBMM 600 MV, Seçimler) konusunda ÖSYM'nin KPSS sınavında en çok sorguladığı kriter hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Sayısal üye sayıları, görev süreleri ve karar alma nisapları",
+                "B) Kanunların resmi gazetede yayınlanma saati",
+                "C) Milletvekillerinin şahsi meslekleri",
+                "D) Bakanlık binalarının mimari özellikleri",
+                "E) Eski Osmanlı kanunnameleri"
               ],
-              "correct": 2,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
+              "correct": 0,
+              "solution": "Anayasa ve Vatandaşlık testinde üye sayıları (TBMM 600, AYM 15 vb.), görev süreleri (5 yıl) ve yetkiler en kesin soru kalıplarıdır."
             },
             {
-              "id": "q_65477",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 4. Yasama Organı (TBMM 600 MV, Seçimler) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_4_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "4. Yasama Organı (TBMM 600 MV, Seçimler) alanında yapılan en güncel anayasa değişikliklerinde dikkat edilmesi gereken husus nedir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) 2017 Anayasa Değişikliği ile Başbakanlık ve Bakanlar Kurulu'nun kaldırılıp yürütmenin doğrudan Cumhurbaşkanında toplanması",
+                "B) TBMM'nin üye sayısının 450'ye düşürülmesi",
+                "C) Askeri mahkemelerin yetkilerinin artırılması",
+                "D) Yerel seçimlerin her yıl yapılması",
+                "E) Cumhurbaşkanının tarafsız kalma zorunluluğunun getirilmesi"
               ],
-              "correct": 1,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
-            },
-            {
-              "id": "q_93704",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 4. Yasama Organı (TBMM 600 MV, Seçimler) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 2,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_70733",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 4. Yasama Organı (TBMM 600 MV, Seçimler) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 3,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_57406",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 4. Yasama Organı (TBMM 600 MV, Seçimler) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 4,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
+              "correct": 0,
+              "solution": "2017 anayasa değişikliği ile parlamenter sistemden Cumhurbaşkanlığı Hükümet Sistemine geçilmiş, Başbakanlık ve Kanun Hükmünde Kararnameler kaldırılmıştır (Doğru cevap A)."
             }
           ]
         },
@@ -4023,88 +2463,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_33248",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 5. Yürütme Organı (Cumhurbaşkanlığı, OHAL) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_5_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "1982 Anayasası ve 5. Yürütme Organı (Cumhurbaşkanlığı, OHAL) hükümlerine göre aşağıdakilerden hangisi anayasal bir temel kuraldır?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 3,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_52543",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 5. Yürütme Organı (Cumhurbaşkanlığı, OHAL) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Egemenlik kayıtsız şartsız Milletindir ve Anayasanın koyduğu esaslara göre kullanılır.",
+                "B) Yasalar Anayasaya aykırı olabilir.",
+                "C) Yürütme yetkisi mahkemelere aittir.",
+                "D) Temel haklar hiçbir sebeple sınırlandırılamaz.",
+                "E) Anayasa Mahkemesi kararları bağlayıcı değildir."
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "Anayasa Madde 6: 'Egemenlik, kayıtsız şartsız Milletindir. Türk Milleti, egemenliğini, Anayasanın koyduğu esaslara göre, yetkili organları eliyle kullanır.' (Doğru cevap A)."
             },
             {
-              "id": "q_76217",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 5. Yürütme Organı (Cumhurbaşkanlığı, OHAL) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_5_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "5. Yürütme Organı (Cumhurbaşkanlığı, OHAL) konusunda ÖSYM'nin KPSS sınavında en çok sorguladığı kriter hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Sayısal üye sayıları, görev süreleri ve karar alma nisapları",
+                "B) Kanunların resmi gazetede yayınlanma saati",
+                "C) Milletvekillerinin şahsi meslekleri",
+                "D) Bakanlık binalarının mimari özellikleri",
+                "E) Eski Osmanlı kanunnameleri"
               ],
-              "correct": 4,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
+              "correct": 0,
+              "solution": "Anayasa ve Vatandaşlık testinde üye sayıları (TBMM 600, AYM 15 vb.), görev süreleri (5 yıl) ve yetkiler en kesin soru kalıplarıdır."
             },
             {
-              "id": "q_76979",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 5. Yürütme Organı (Cumhurbaşkanlığı, OHAL) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_5_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "5. Yürütme Organı (Cumhurbaşkanlığı, OHAL) alanında yapılan en güncel anayasa değişikliklerinde dikkat edilmesi gereken husus nedir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) 2017 Anayasa Değişikliği ile Başbakanlık ve Bakanlar Kurulu'nun kaldırılıp yürütmenin doğrudan Cumhurbaşkanında toplanması",
+                "B) TBMM'nin üye sayısının 450'ye düşürülmesi",
+                "C) Askeri mahkemelerin yetkilerinin artırılması",
+                "D) Yerel seçimlerin her yıl yapılması",
+                "E) Cumhurbaşkanının tarafsız kalma zorunluluğunun getirilmesi"
               ],
-              "correct": 3,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_70408",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 5. Yürütme Organı (Cumhurbaşkanlığı, OHAL) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 1,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
-            },
-            {
-              "id": "q_85648",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 5. Yürütme Organı (Cumhurbaşkanlığı, OHAL) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 1,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
+              "correct": 0,
+              "solution": "2017 anayasa değişikliği ile parlamenter sistemden Cumhurbaşkanlığı Hükümet Sistemine geçilmiş, Başbakanlık ve Kanun Hükmünde Kararnameler kaldırılmıştır (Doğru cevap A)."
             }
           ]
         },
@@ -4122,88 +2523,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_94389",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 6. Yargı Organları (Anayasa Mahkemesi, Yargıtay, Danıştay) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_6_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "1982 Anayasası ve 6. Yargı Organları (Anayasa Mahkemesi, Yargıtay, Danıştay) hükümlerine göre aşağıdakilerden hangisi anayasal bir temel kuraldır?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Egemenlik kayıtsız şartsız Milletindir ve Anayasanın koyduğu esaslara göre kullanılır.",
+                "B) Yasalar Anayasaya aykırı olabilir.",
+                "C) Yürütme yetkisi mahkemelere aittir.",
+                "D) Temel haklar hiçbir sebeple sınırlandırılamaz.",
+                "E) Anayasa Mahkemesi kararları bağlayıcı değildir."
               ],
-              "correct": 3,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
+              "correct": 0,
+              "solution": "Anayasa Madde 6: 'Egemenlik, kayıtsız şartsız Milletindir. Türk Milleti, egemenliğini, Anayasanın koyduğu esaslara göre, yetkili organları eliyle kullanır.' (Doğru cevap A)."
             },
             {
-              "id": "q_79247",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 6. Yargı Organları (Anayasa Mahkemesi, Yargıtay, Danıştay) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_6_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "6. Yargı Organları (Anayasa Mahkemesi, Yargıtay, Danıştay) konusunda ÖSYM'nin KPSS sınavında en çok sorguladığı kriter hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Sayısal üye sayıları, görev süreleri ve karar alma nisapları",
+                "B) Kanunların resmi gazetede yayınlanma saati",
+                "C) Milletvekillerinin şahsi meslekleri",
+                "D) Bakanlık binalarının mimari özellikleri",
+                "E) Eski Osmanlı kanunnameleri"
               ],
-              "correct": 4,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
+              "correct": 0,
+              "solution": "Anayasa ve Vatandaşlık testinde üye sayıları (TBMM 600, AYM 15 vb.), görev süreleri (5 yıl) ve yetkiler en kesin soru kalıplarıdır."
             },
             {
-              "id": "q_90658",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 6. Yargı Organları (Anayasa Mahkemesi, Yargıtay, Danıştay) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_6_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "6. Yargı Organları (Anayasa Mahkemesi, Yargıtay, Danıştay) alanında yapılan en güncel anayasa değişikliklerinde dikkat edilmesi gereken husus nedir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) 2017 Anayasa Değişikliği ile Başbakanlık ve Bakanlar Kurulu'nun kaldırılıp yürütmenin doğrudan Cumhurbaşkanında toplanması",
+                "B) TBMM'nin üye sayısının 450'ye düşürülmesi",
+                "C) Askeri mahkemelerin yetkilerinin artırılması",
+                "D) Yerel seçimlerin her yıl yapılması",
+                "E) Cumhurbaşkanının tarafsız kalma zorunluluğunun getirilmesi"
               ],
-              "correct": 2,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_41916",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 6. Yargı Organları (Anayasa Mahkemesi, Yargıtay, Danıştay) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 3,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_64686",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 6. Yargı Organları (Anayasa Mahkemesi, Yargıtay, Danıştay) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 2,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_52975",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 6. Yargı Organları (Anayasa Mahkemesi, Yargıtay, Danıştay) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 2,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
+              "correct": 0,
+              "solution": "2017 anayasa değişikliği ile parlamenter sistemden Cumhurbaşkanlığı Hükümet Sistemine geçilmiş, Başbakanlık ve Kanun Hükmünde Kararnameler kaldırılmıştır (Doğru cevap A)."
             }
           ]
         },
@@ -4221,88 +2583,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_54629",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 7. İdare Hukuku & 657 Memur Hukuku (Disiplin Cezaları) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_7_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "1982 Anayasası ve 7. İdare Hukuku & 657 Memur Hukuku (Disiplin Cezaları) hükümlerine göre aşağıdakilerden hangisi anayasal bir temel kuraldır?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 4,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap E."
-            },
-            {
-              "id": "q_21680",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 7. İdare Hukuku & 657 Memur Hukuku (Disiplin Cezaları) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 2,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap C."
-            },
-            {
-              "id": "q_42740",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 7. İdare Hukuku & 657 Memur Hukuku (Disiplin Cezaları) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Egemenlik kayıtsız şartsız Milletindir ve Anayasanın koyduğu esaslara göre kullanılır.",
+                "B) Yasalar Anayasaya aykırı olabilir.",
+                "C) Yürütme yetkisi mahkemelere aittir.",
+                "D) Temel haklar hiçbir sebeple sınırlandırılamaz.",
+                "E) Anayasa Mahkemesi kararları bağlayıcı değildir."
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "Anayasa Madde 6: 'Egemenlik, kayıtsız şartsız Milletindir. Türk Milleti, egemenliğini, Anayasanın koyduğu esaslara göre, yetkili organları eliyle kullanır.' (Doğru cevap A)."
             },
             {
-              "id": "q_80412",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 7. İdare Hukuku & 657 Memur Hukuku (Disiplin Cezaları) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_7_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "7. İdare Hukuku & 657 Memur Hukuku (Disiplin Cezaları) konusunda ÖSYM'nin KPSS sınavında en çok sorguladığı kriter hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Sayısal üye sayıları, görev süreleri ve karar alma nisapları",
+                "B) Kanunların resmi gazetede yayınlanma saati",
+                "C) Milletvekillerinin şahsi meslekleri",
+                "D) Bakanlık binalarının mimari özellikleri",
+                "E) Eski Osmanlı kanunnameleri"
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "Anayasa ve Vatandaşlık testinde üye sayıları (TBMM 600, AYM 15 vb.), görev süreleri (5 yıl) ve yetkiler en kesin soru kalıplarıdır."
             },
             {
-              "id": "q_92000",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 7. İdare Hukuku & 657 Memur Hukuku (Disiplin Cezaları) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_7_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "7. İdare Hukuku & 657 Memur Hukuku (Disiplin Cezaları) alanında yapılan en güncel anayasa değişikliklerinde dikkat edilmesi gereken husus nedir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 3,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_45412",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 7. İdare Hukuku & 657 Memur Hukuku (Disiplin Cezaları) bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) 2017 Anayasa Değişikliği ile Başbakanlık ve Bakanlar Kurulu'nun kaldırılıp yürütmenin doğrudan Cumhurbaşkanında toplanması",
+                "B) TBMM'nin üye sayısının 450'ye düşürülmesi",
+                "C) Askeri mahkemelerin yetkilerinin artırılması",
+                "D) Yerel seçimlerin her yıl yapılması",
+                "E) Cumhurbaşkanının tarafsız kalma zorunluluğunun getirilmesi"
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "2017 anayasa değişikliği ile parlamenter sistemden Cumhurbaşkanlığı Hükümet Sistemine geçilmiş, Başbakanlık ve Kanun Hükmünde Kararnameler kaldırılmıştır (Doğru cevap A)."
             }
           ]
         },
@@ -4320,88 +2643,49 @@ const KPSS_DATA = {
           ],
           "questions": [
             {
-              "id": "q_62738",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 8. Güncel Bilgiler, UNESCO Mirası & Uluslararası Kuruluşlar bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_8_q1",
+              "level": "Kolay",
+              "difficulty": "Kolay",
+              "text": "1982 Anayasası ve 8. Güncel Bilgiler, UNESCO Mirası & Uluslararası Kuruluşlar hükümlerine göre aşağıdakilerden hangisi anayasal bir temel kuraldır?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 3,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_81648",
-              "difficulty": "kolay",
-              "text": "(Zorluk: KOLAY) 8. Güncel Bilgiler, UNESCO Mirası & Uluslararası Kuruluşlar bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 3,
-              "solution": "Çözüm: Bu kolay seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_54386",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 8. Güncel Bilgiler, UNESCO Mirası & Uluslararası Kuruluşlar bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 3,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
-            },
-            {
-              "id": "q_67441",
-              "difficulty": "orta",
-              "text": "(Zorluk: ORTA) 8. Güncel Bilgiler, UNESCO Mirası & Uluslararası Kuruluşlar bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
-              ],
-              "correct": 1,
-              "solution": "Çözüm: Bu orta seviye soru öncülleri analiz etmeyi gerektirir. Cevap B."
-            },
-            {
-              "id": "q_83340",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 8. Güncel Bilgiler, UNESCO Mirası & Uluslararası Kuruluşlar bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
-              "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Egemenlik kayıtsız şartsız Milletindir ve Anayasanın koyduğu esaslara göre kullanılır.",
+                "B) Yasalar Anayasaya aykırı olabilir.",
+                "C) Yürütme yetkisi mahkemelere aittir.",
+                "D) Temel haklar hiçbir sebeple sınırlandırılamaz.",
+                "E) Anayasa Mahkemesi kararları bağlayıcı değildir."
               ],
               "correct": 0,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap A."
+              "solution": "Anayasa Madde 6: 'Egemenlik, kayıtsız şartsız Milletindir. Türk Milleti, egemenliğini, Anayasanın koyduğu esaslara göre, yetkili organları eliyle kullanır.' (Doğru cevap A)."
             },
             {
-              "id": "q_28982",
-              "difficulty": "zor",
-              "text": "(Zorluk: ZOR) 8. Güncel Bilgiler, UNESCO Mirası & Uluslararası Kuruluşlar bağlamında aşağıdaki ifadelerden hangisi Türkiye'nin güncel durumuyla örtüşür?",
+              "id": "vat_8_q2",
+              "level": "Orta",
+              "difficulty": "Orta",
+              "text": "8. Güncel Bilgiler, UNESCO Mirası & Uluslararası Kuruluşlar konusunda ÖSYM'nin KPSS sınavında en çok sorguladığı kriter hangisidir?",
               "options": [
-                "A) Yalnızca I",
-                "B) Yalnızca II",
-                "C) I ve II",
-                "D) II ve III",
-                "E) I, II ve III"
+                "A) Sayısal üye sayıları, görev süreleri ve karar alma nisapları",
+                "B) Kanunların resmi gazetede yayınlanma saati",
+                "C) Milletvekillerinin şahsi meslekleri",
+                "D) Bakanlık binalarının mimari özellikleri",
+                "E) Eski Osmanlı kanunnameleri"
               ],
-              "correct": 3,
-              "solution": "Çözüm: Bu zor seviye soru öncülleri analiz etmeyi gerektirir. Cevap D."
+              "correct": 0,
+              "solution": "Anayasa ve Vatandaşlık testinde üye sayıları (TBMM 600, AYM 15 vb.), görev süreleri (5 yıl) ve yetkiler en kesin soru kalıplarıdır."
+            },
+            {
+              "id": "vat_8_q3",
+              "level": "Zor",
+              "difficulty": "Zor",
+              "text": "8. Güncel Bilgiler, UNESCO Mirası & Uluslararası Kuruluşlar alanında yapılan en güncel anayasa değişikliklerinde dikkat edilmesi gereken husus nedir?",
+              "options": [
+                "A) 2017 Anayasa Değişikliği ile Başbakanlık ve Bakanlar Kurulu'nun kaldırılıp yürütmenin doğrudan Cumhurbaşkanında toplanması",
+                "B) TBMM'nin üye sayısının 450'ye düşürülmesi",
+                "C) Askeri mahkemelerin yetkilerinin artırılması",
+                "D) Yerel seçimlerin her yıl yapılması",
+                "E) Cumhurbaşkanının tarafsız kalma zorunluluğunun getirilmesi"
+              ],
+              "correct": 0,
+              "solution": "2017 anayasa değişikliği ile parlamenter sistemden Cumhurbaşkanlığı Hükümet Sistemine geçilmiş, Başbakanlık ve Kanun Hükmünde Kararnameler kaldırılmıştır (Doğru cevap A)."
             }
           ]
         }
@@ -4416,8 +2700,143 @@ const KPSS_DATA = {
       "focus": "Matematik: Temel Kavramlar & Türkçe: Sözcükte ve Cümlede Anlam",
       "tasks": [
         "Matematik: Tek-Çift sayılar, Pozitif-Negatif sayılar soru çözümü (50 soru)",
-        "Türkçe: Sözcükte anlam ve söz öbekleri bol örnek (40 soru)",
-        "Tarih: İslamiyet Öncesi Türk Tarihi konu özet okuması"
+        "Türkçe: Sözcükte anlam ve söz öbekleri bol örnekli tarama (40 soru)",
+        "Tarih: İslamiyet Öncesi Türk Tarihi kültür ve medeniyet özet okuması",
+        "Hafta sonu: 1. Hafta öğrendiklerinden 50 soruluk karma tarama testi"
+      ]
+    },
+    {
+      "week": 2,
+      "title": "2. Hafta: Sayı Sistemleri & İlk Türk-İslam Devletleri",
+      "hoursPerDay": "3-4 Saat",
+      "focus": "Matematik: Bölünebilme & EBOB-EKOK | Tarih: Karahanlı, Selçuklu",
+      "tasks": [
+        "Matematik: 2, 3, 4, 5, 8, 9, 11 ile bölünebilme ve EBOB-EKOK problemleri (60 soru)",
+        "Tarih: Karahanlılar, Gazneliler ve Büyük Selçuklu Devleti teşkilatlanması (40 soru)",
+        "Türkçe: Cümlede Anlam (Neden-sonuç, amaç-sonuç, örtülü anlam) (40 soru)",
+        "Vatandaşlık: Temel Hukuk Kavramları (Yaptırım türleri ve ehliyetler) konu okuması"
+      ]
+    },
+    {
+      "week": 3,
+      "title": "3. Hafta: Rasyonel Sayılar & Türkiye Coğrafi Konumu",
+      "hoursPerDay": "3-4 Saat",
+      "focus": "Matematik: Rasyonel/Ondalık Sayılar | Coğrafya: Enlem, Boylam & Saatler",
+      "tasks": [
+        "Matematik: Rasyonel ve devirli ondalık sayılarda pratik dört işlem (60 soru)",
+        "Coğrafya: Türkiye'nin matematik ve özel konumu, yerel saat hesapları (40 soru)",
+        "Türkçe: Paragrafta ana düşünce ve yardımcı düşünce stratejileri (40 soru)",
+        "Vatandaşlık: Hakların kazanılması, kullanılması ve Türk yargı sistemi girişi"
+      ]
+    },
+    {
+      "week": 4,
+      "title": "4. Hafta: Üslü-Köklü İfadeler & Osmanlı Kuruluş-Yükselme",
+      "hoursPerDay": "4 Saat",
+      "focus": "Matematik: Üslü ve Köklü Sayılar | Tarih: Osmanlı Siyasi Tarihi",
+      "tasks": [
+        "Matematik: Üs kuralları, köklü sayılarda eşlenik ve kök dışına çıkarma (60 soru)",
+        "Tarih: Osmanlı Kuruluş ve Yükselme dönemi fetihleri, padişah kronolojisi (50 soru)",
+        "Coğrafya: Türkiye'nin Dağları (Kıvrım, Kırık, Volkanik) harita çalışması",
+        "Hafta sonu: 1. Deneme Sınavını süre tutarak (130 dk) optik formla çöz"
+      ]
+    },
+    {
+      "week": 5,
+      "title": "5. Hafta: Mutlak Değer, Çarpanlara Ayırma & Osmanlı Medeniyeti",
+      "hoursPerDay": "3-4 Saat",
+      "focus": "Matematik: Çarpanlara Ayırma & Mutlak Değer | Tarih: Divan & Tımar",
+      "tasks": [
+        "Matematik: İki kare farkı, tam kare açılımları ve mutlak değerli denklemler (60 soru)",
+        "Tarih: Osmanlı Kültür ve Medeniyeti (Divan-ı Hümayun, Tımar ve Kapıkulu) (50 soru)",
+        "Vatandaşlık: 1982 Anayasası genel esasları ve ilk 3 madde analizi (40 soru)",
+        "Türkçe: Paragraf yapısı, akışı bozan cümle ve paragrafı ikiye bölme (40 soru)"
+      ]
+    },
+    {
+      "week": 6,
+      "title": "6. Hafta: Temel Problemler & Türkiye'nin Yer Şekilleri",
+      "hoursPerDay": "4 Saat",
+      "focus": "Matematik: Sayı ve Kesir Problemleri | Coğrafya: Ovalar ve Platolar",
+      "tasks": [
+        "Matematik: Sayı, kesir ve sıra problemleri denklem kurma teknikleri (70 soru)",
+        "Coğrafya: Türkiye'nin Ovaları (Delta, Karstik, Tektonik) ve Platoları (40 soru)",
+        "Türkçe: Ses Bilgisi (Ünsüz benzeşmesi, ünlü düşmesi) ve TDK Yazım Kuralları (50 soru)",
+        "Hafta sonu: 2. Deneme Sınavını çöz ve yanlış yapılan konuları listele"
+      ]
+    },
+    {
+      "week": 7,
+      "title": "7. Hafta: Yaş-Hız-İşçi Problemleri & Osmanlı Islahatları",
+      "hoursPerDay": "4 Saat",
+      "focus": "Matematik: Hareket ve Yaş Problemleri | Tarih: Tanzimat ve Meşrutiyet",
+      "tasks": [
+        "Matematik: Yaş problemleri ve Hız-Yol-Zaman formülleri (60 soru)",
+        "Tarih: Lale Devri, II. Mahmut Islahatları, Tanzimat ve Meşrutiyet dönemleri (50 soru)",
+        "Vatandaşlık: Yasama Organı (TBMM'nin görevleri, milletvekilliği ve dokunulmazlık) (40 soru)",
+        "Coğrafya: Türkiye'nin Gölleri ve Akarsuları harita ezberi"
+      ]
+    },
+    {
+      "week": 8,
+      "title": "8. Hafta: Yüzde-Kâr-Zarar Problemleri & Milli Mücadele Hazırlık",
+      "hoursPerDay": "4-5 Saat",
+      "focus": "Matematik: Yüzde, Kâr-Zarar, Karışım | Tarih: Kongreler ve Genelgeler",
+      "tasks": [
+        "Matematik: Yüzde, kâr-zarar, indirim ve karışım problemleri (70 soru)",
+        "Tarih: Havza, Amasya Genelgesi, Erzurum ve Sivas Kongreleri, Misak-ı Milli (50 soru)",
+        "Coğrafya: Türkiye'nin İklimi, sıcaklık dağılışı ve bitki örtüsü kuşakları (40 soru)",
+        "Hafta sonu: 3. ve 4. Deneme Sınavlarını çözerek P94 puan gelişimini takip et"
+      ]
+    },
+    {
+      "week": 9,
+      "title": "9. Hafta: Kümeler, Grafik Okuma & Kurtuluş Savaşı Muharebeleri",
+      "hoursPerDay": "4 Saat",
+      "focus": "Matematik: Kümeler ve Grafik Okuma | Tarih: İnönü, Sakarya, Lozan",
+      "tasks": [
+        "Matematik: Venn şeması küme problemleri, dairesel ve çizgi grafik yorumlama (50 soru)",
+        "Tarih: I. ve II. İnönü, Sakarya Meydan Muharebesi, Büyük Taarruz ve Lozan (60 soru)",
+        "Vatandaşlık: Yürütme Organı (Cumhurbaşkanlığı Kararnameleri ve OHAL yetkileri) (40 soru)",
+        "Türkçe: Noktalama İşaretleri (Virgül, noktalı virgül, iki nokta kuralları) (40 soru)"
+      ]
+    },
+    {
+      "week": 10,
+      "title": "10. Hafta: Temel Geometri & Atatürk İnkılapları",
+      "hoursPerDay": "4-5 Saat",
+      "focus": "Geometri: Üçgende Açılar ve Özel Üçgenler | Tarih: İnkılaplar ve İlkeler",
+      "tasks": [
+        "Geometri: Doğruda ve üçgende açılar, 3-4-5, 5-12-13, 30-60-90 üçgenleri (50 soru)",
+        "Tarih: Siyasi, toplumsal, ekonomik alandaki inkılaplar ve 6 temel ilke (60 soru)",
+        "Coğrafya: Türkiye'de Tarım, Hayvancılık ve Ormancılık ekonomik dağılışı (40 soru)",
+        "Vatandaşlık: Yargı Organları (Anayasa Mahkemesi, Danıştay, Yargıtay görevleri)"
+      ]
+    },
+    {
+      "week": 11,
+      "title": "11. Hafta: Çokgenler-Alan & 657 Memur Hukuku",
+      "hoursPerDay": "4-5 Saat",
+      "focus": "Geometri: Dörtgenler ve Alan | Vatandaşlık: İdare ve Memur Hukuku",
+      "tasks": [
+        "Geometri: Dikdörtgen, kare, yamuk ve üçgende çevre-alan hesapları (50 soru)",
+        "Vatandaşlık: 657 Sayılı Kanun (Devlet memurluğu disiplin cezaları ve atanma) (50 soru)",
+        "Coğrafya: Türkiye'de Madenler, Enerji kaynakları ve Sanayi tesisleri (40 soru)",
+        "Türkçe: Sözel Mantık tablo kurma teknikleri ve pratik soru çözümleri (30 soru)",
+        "Hafta sonu: 5. ve 6. Deneme Sınavlarını çöz, süre yönetimini mükemmelleştir"
+      ]
+    },
+    {
+      "week": 12,
+      "title": "12. Hafta: Seri Deneme Kampı, Genel Tekrar & P94 Zirvesi",
+      "hoursPerDay": "5-6 Saat",
+      "focus": "Tüm Branşlar: Günlük 120 Soruluk Deneme & Yanlış Analizi Kampı",
+      "tasks": [
+        "Pazartesi-Cuma: Her gün 1 adet 120 soruluk KPSS tam format deneme sınavı çöz",
+        "Deneme sonrası: Tüm yanlış ve boş soruların çözümlerini detaylı incele",
+        "Tarih ve Coğrafya için çıkmış soru vurguları ve özet tablolarını baştan sona oku",
+        "Vatandaşlık ve Güncel Bilgiler (UNESCO, Uluslararası Kuruluşlar) son tekrarını yap",
+        "Hedeflenen 90+ P94 puanına ulaşmak için moral ve motivasyonunu yüksek tut!"
       ]
     }
   ],

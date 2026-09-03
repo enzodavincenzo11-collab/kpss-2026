@@ -924,3 +924,77 @@ u {
     padding: 12px 16px;
   }
 }
+/* --- MOBİL UYUMLULUK (RESPONSIVE) --- */
+@media (max-width: 768px) {
+  body { flex-direction: column; }
+  
+  /* Yan menüyü telefonlarda alt navigasyon barı (Bottom Bar) yapalım */
+  .app-sidebar { 
+    width: 100%; 
+    height: 65px; 
+    flex-direction: row; 
+    padding: 0; 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 1000; 
+    border-right: none; 
+    border-top: 1px solid #334155; 
+    justify-content: space-around;
+  }
+  
+  .brand-header { display: none; } /* Mobilde logoyu gizle, yer kaplamasın */
+  
+  .nav-menu { 
+    flex-direction: row; 
+    width: 100%; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item { margin: 0; }
+  
+  .nav-item button { 
+    flex-direction: column; 
+    padding: 5px; 
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+  }
+  
+  .nav-icon { margin-right: 0; font-size: 1.3em; }
+  .nav-text { font-size: 0.65em; margin-top: 3px; }
+  
+  /* Ana içerik alanını mobilde tam ekran yap ve alttan menü kadar boşluk bırak */
+  .app-main { 
+    width: 100%; 
+    margin-bottom: 65px; /* Alt barın yüksekliği kadar */
+    padding: 15px; 
+  }
+  
+  .deneme-cards-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .optic-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .mock-question-container { padding: 15px; font-size: 0.95em; }
+  .options-list button { padding: 10px; font-size: 0.9em; }
+  
+  /* Login Ekranı Mobil Düzeni */
+  #login-box { width: 90% !important; padding: 20px !important; }
+}
+
+/* YENİ DERS NOTU TASARIMLARI */
+.osym-kutu { background: rgba(250, 204, 21, 0.1); border-left: 4px solid #facc15; padding: 15px; margin: 15px 0; border-radius: 0 5px 5px 0; }
+.osym-baslik { color: #facc15; font-weight: bold; margin-bottom: 8px; font-size: 1.1em; display: flex; align-items: center; gap: 8px; }
+.kural-kutu { background: rgba(16, 185, 129, 0.1); border-left: 4px solid #10b981; padding: 15px; margin: 15px 0; border-radius: 0 5px 5px 0; }
+.kural-baslik { color: #10b981; font-weight: bold; margin-bottom: 8px; font-size: 1.1em; }
+.uyari-kutu { background: rgba(248, 113, 113, 0.1); border-left: 4px solid #f87171; padding: 15px; margin: 15px 0; border-radius: 0 5px 5px 0; }
+.ders-listesi li { margin-bottom: 8px; padding-left: 5px; border-left: 2px solid #475569; margin-left: 10px; }
+
+/* PDF KONU ANLATIMI TABLOLARI */
+.pdf-tablo { width: 100%; border-collapse: collapse; margin: 15px 0; background: #1e293b; border-radius: 8px; overflow: hidden; font-size: 0.95em; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+.pdf-tablo th { background: #0f172a; padding: 12px 15px; text-align: left; color: #38bdf8; border-bottom: 2px solid #334155; }
+.pdf-tablo td { padding: 12px 15px; border-bottom: 1px solid #334155; color: #e2e8f0; }
+.pdf-tablo tr:last-child td { border-bottom: none; }
+.pdf-tuzak { background: rgba(245, 158, 11, 0.1); border-left: 4px solid #f59e0b; padding: 12px 15px; margin: 15px 0; border-radius: 0 4px 4px 0; font-size: 0.9em; }
+.pdf-tuzak strong { color: #facc15; display: block; margin-bottom: 5px; font-size: 1.1em; }

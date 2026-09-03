@@ -1,3 +1,86 @@
+
+// --- PROFESYONEL KULLANICI GİRİŞ SİSTEMİ (LOCALSTORAGE YÖNLENDİRİCİSİ) ---
+const originalSetItem = localStorage.setItem;
+const originalGetItem = localStorage.getItem;
+const originalRemoveItem = localStorage.removeItem;
+
+// Aktif kullanıcıyı bul
+let currentUser = originalGetItem.call(localStorage, 'kpss_active_profile');
+
+// Kilit Nokta: Tüm localStorage işlemlerini otomatik olarak aktif kullanıcıya göre isimlendirir
+localStorage.setItem = function(key, value) {
+  if (key.startsWith('kpss_') && key !== 'kpss_active_profile' && currentUser) {
+    key = currentUser + '_' + key;
+  }
+  originalSetItem.call(this, key, value);
+};
+
+localStorage.getItem = function(key) {
+  if (key.startsWith('kpss_') && key !== 'kpss_active_profile' && currentUser) {
+    key = currentUser + '_' + key;
+  }
+  return originalGetItem.call(this, key);
+};
+
+localStorage.removeItem = function(key) {
+  if (key.startsWith('kpss_') && key !== 'kpss_active_profile' && currentUser) {
+    key = currentUser + '_' + key;
+  }
+  originalRemoveItem.call(this, key);
+};
+
+
+function attemptLogin() {
+  const user = document.getElementById('login-username').value.trim();
+  const pass = document.getElementById('login-password').value.trim();
+  const errorLabel = document.getElementById('login-error');
+  
+  if(!user || !pass) {
+    errorLabel.innerText = "Kullanıcı adı ve şifre boş bırakılamaz!";
+    errorLabel.style.display = "block";
+    return;
+  }
+  
+  // Local Şifre Kayıt ve Kontrol Sistemi
+  const savedPass = originalGetItem.call(localStorage, 'kpss_pass_' + user);
+  if(savedPass) {
+    if(savedPass !== pass) {
+      errorLabel.innerText = "Hatalı şifre girdiniz!";
+      errorLabel.style.display = "block";
+      return;
+    }
+  } else {
+    originalSetItem.call(localStorage, 'kpss_pass_' + user, pass);
+    alert("İlk girişiniz olduğu için hesabınız oluşturuldu. Bundan sonra bu şifreyle gireceksiniz.");
+  }
+  
+  loginUser(user);
+}
+
+function loginUser(username) {
+  originalSetItem.call(localStorage, 'kpss_active_profile', username);
+  window.location.reload(); // Verileri yeni kullanıcıya göre yükle
+}
+
+function logoutUser() {
+  originalRemoveItem.call(localStorage, 'kpss_active_profile');
+  window.location.reload();
+}
+
+// Sayfa yüklendiğinde giriş ekranını kontrol et
+document.addEventListener("DOMContentLoaded", () => {
+  if (currentUser) {
+    const overlay = document.getElementById('login-overlay');
+    if(overlay) overlay.style.display = 'none';
+    
+    const nameLabel = document.getElementById('active-user-name');
+    if(nameLabel) nameLabel.innerText = currentUser.charAt(0).toUpperCase() + currentUser.slice(1);
+  } else {
+    // Kullanıcı yoksa menüleri falan tıklanamaz yapabiliriz ama overlay zaten tüm ekranı kaplıyor
+  }
+});
+// -------------------------------------------------------------
+
 // KPSS 2026 Uygulama Mantığı (app.js)
 
 let currentSubjectId = "matematik";

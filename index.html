@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>KPSS 2026 Ortaöğretim - Tam Kapsamlı Hazırlık Portalı & Deneme Sınavı</title>
   <meta name="description" content="KPSS 2026 Ortaöğretim sınavına hazırlık için interaktif soru bankası, çözümlü testler, 120 soruluk deneme sınavı ve 12 haftalık kişiselleştirilmiş çalışma programı.">
-  <link rel="stylesheet" href="style.css?v=5?v=3">
+  <link rel="stylesheet" href="style.css?v=8?v=3">
 
   <!-- PWA ve Mobil Uygulama Kimliği -->
   <link rel="manifest" href="manifest.json">
@@ -368,6 +368,7 @@
               <div style="display: flex; gap: 10px;">
                 <button id="btn-start-mock" class="hero-cta" style="padding: 8px 16px; font-size: 0.85rem; background: linear-gradient(135deg, #10b981, #059669);" onclick="startMockExam()">▶️ Sınavı Başlat</button>
                 <button id="btn-pause-mock" class="btn-solution" style="display: none;" onclick="togglePauseMockExam()">⏸️ Duraklat</button>
+                <button id="btn-auto-solve" class="btn-solution" style="background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.4); font-weight: 700;" onclick="autoSolveCurrentMockExam()">⚡ 120 Soruyu Otomatik Çöz (Test)</button>
                 <button id="btn-finish-timer-bar" class="btn-solution" style="background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.4); font-weight: 700;" onclick="finishMockExam()">🏁 Sınavı Bitir</button>
                 <button id="btn-reset-mock" class="btn-solution" style="background: rgba(239, 68, 68, 0.15); color: #f87171; border-color: rgba(239, 68, 68, 0.3);" onclick="resetMockExam()">🔄 Bu Denemeyi Sıfırla</button>
               </div>
@@ -455,8 +456,8 @@
     </div>
   </div>
 
-  <script src="data.js?v=5"></script>
-  <script src="app.js?v=5"></script>
+  <script src="data.js?v=8"></script>
+  <script src="app.js?v=8"></script>
 
   <script>
     if ('serviceWorker' in navigator) {

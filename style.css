@@ -532,6 +532,7 @@ u {
   font-weight: 600;
   line-height: 1.6;
   margin-bottom: 20px;
+  white-space: pre-line;
 }
 
 .options-grid {
@@ -1334,4 +1335,18 @@ u {
     display: flex !important;
     align-items: center !important;
   }
+}
+
+
+/* Altı Çizili Sorularda Parlayan Vurgulu Stil */
+u {
+  text-decoration: underline !important;
+  text-decoration-color: #38bdf8 !important;
+  text-decoration-thickness: 3px !important;
+  text-underline-offset: 4px !important;
+  font-weight: 800 !important;
+  color: #7dd3fc !important;
+  background: rgba(56, 189, 248, 0.1) !important;
+  padding: 1px 4px !important;
+  border-radius: 4px !important;
 }

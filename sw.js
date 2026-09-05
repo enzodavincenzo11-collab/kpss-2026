@@ -1,5 +1,5 @@
-// KPSS 2026 Service Worker - v3 (cache busting)
-const CACHE_NAME = 'kpss-v8';
+// KPSS 2026 Service Worker - v12 (cache busting)
+const CACHE_NAME = 'kpss-v12';
 const ASSETS = [
   '/',
   '/index.html',
